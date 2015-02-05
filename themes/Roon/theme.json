@@ -6,7 +6,7 @@
     "page": "page.hbs",
     "post": "post.hbs",
     "tag": "tag.hbs",
-    "links": "partials/links.hbs",
+    "loop": "partials/loop.hbs",
     "footer": "partials/footer.hbs",
     "loop": "partials/loop.hbs"
   },
