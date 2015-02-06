@@ -1,0 +1,34 @@
+= HubPress: a web application to build static blog on Github gh-pages.
+:published_at: 2015-02-06
+:hp-tags: news
+
+
+*HubPress* is a web application to build static blog on Github gh-pages.
+
+ 
+
+
+I have developed a new tool based on Asciidoc and Asciidoctor.js called HubPress. 
+Like Jekyll, Octopress or Awestruct, the goal of HubPress is to build static blog on gh-pages. 
+
+My vision is that asciidoc (and asciidoctor) is underused because there isn't enough tools for average people. 
+And IMHO, the main tool for writers is a blog. 
+There's some solutions with awestruct or jekyll, but it's too technical, you need to know git, install ruby, learn a build process ... 
+
+I follow the Ghost (ghost.org) project since they started a kickstarter, i really like their vision, focus on blogging. 
+But Ghost is based on markdown. In a first time, i wanted to make a fork and add asciidoc support with asciidoctor.js, but the technical problem is always here, if you want to use Ghost, you need to install a linux server with node and ghost ... or then you pay for an hosting on the ghost plateform. 
+
+So, what could i do ? Hey, wait ... we have gh-pages, and we can build html content from an asciidoc document in the browser (asciidoctor.js powa !), we can also use the Github API in the same browser. So we can create a client side application to blog on github. 
+
+Here is HubPress ! 
+
+Hubpress will : 
+- be easy to use, without technical skills required, 
+- be free, 
+- be yours, gh-pages will expose your site and the admin interface hubpress, once your hubpress blog is installed in your gh repository, you can live alone if you want. 
+- be fun and maybe awesome ! (i hope :p ). 
+
+Actually, HubPress is in preview and i need more feedback. 
+If you want to give it a try, you're welcome https://github.com/HubPress/hubpress.io
+
+Anthonny. 
