@@ -1,17 +1,17 @@
 = HubPress: a web application to build static blog on Github gh-pages.
 :published_at: 2015-02-06
-:hp-tags: news
+:hp-tags: news 
 
-
-*HubPress* is a web application to build static blog on Github gh-pages.
-
- 
-
-
-I have developed a new tool based on Asciidoc and Asciidoctor.js called HubPress. 
 Like Jekyll, Octopress or Awestruct, the goal of HubPress is to build static blog on gh-pages. 
+These tools are really great, but we think that they are not enough user friendly and accessible for the majority of people.
+That's why we made *HubPress*.
 
-My vision is that asciidoc (and asciidoctor) is underused because there isn't enough tools for average people. 
+
+*HubPress* is tool based on http://www.methods.co.nz/asciidoc/userguide.html[Asciidoc] and http://asciidoctor.org/[Asciidoctor] in the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
+
+
+
+Our vision is that asciidoc (and asciidoctor) is underused because there isn't enough tools for average people. 
 And IMHO, the main tool for writers is a blog. 
 There's some solutions with awestruct or jekyll, but it's too technical, you need to know git, install ruby, learn a build process ... 
 
