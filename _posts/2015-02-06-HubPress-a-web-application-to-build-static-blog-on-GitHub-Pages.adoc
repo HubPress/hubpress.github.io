@@ -1,34 +1,49 @@
-= HubPress: a web application to build static blog on Github gh-pages.
+= HubPress: a web application to build static blog on GitHub Pages.
+:figure-caption!:
 :published_at: 2015-02-06
-:hp-tags: news 
+:hp-tags: news
+:url-hubpress: http://hubpress.io/
+:url-jekyll: http://jekyllrb.com/
+:url-octopress: http://octopress.org/
+:url-awestruct: http://awestruct.org/
+:url-github: https://github.com/
+:url-gh-pages: https://pages.github.com/
+:url-asciidoc:  http://www.methods.co.nz/asciidoc/userguide.html
 
-Like Jekyll, Octopress or Awestruct, the goal of HubPress is to build static blog on gh-pages. 
-These tools are really great, but we think that they are not enough user friendly and accessible for the majority of people.
-That's why we made *HubPress*.
 
 
-*HubPress* is tool based on http://www.methods.co.nz/asciidoc/userguide.html[Asciidoc] and http://asciidoctor.org/[Asciidoctor] in the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
+As {url-jekyll}[Jekyll], {url-octopress}[Octopress] or {url-awestruct}[Awestruct], the goal of {url-hubpress}[HubPress] is to build static content on {url-gh-pages}[Github Pages]. 
+
+These tools are really great, but we wanted to provide a tool more user friendly and accessible for the majority of people.
+Another point is that we love the {url-asciidoc}[Asciidoc] markup and we looked for a way to contribute to its development 
+
+That's why we made {url-hubpress}[HubPress].
 
 
+Actually, to build a blog on {url-gh-pages}[Github Pages], you need to have a minimum of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
 
-Our vision is that asciidoc (and asciidoctor) is underused because there isn't enough tools for average people. 
-And IMHO, the main tool for writers is a blog. 
-There's some solutions with awestruct or jekyll, but it's too technical, you need to know git, install ruby, learn a build process ... 
+To provide a better user experience, we made a web interface based on http://asciidoctor.org/[Asciidoctor] with the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
 
-I follow the Ghost (ghost.org) project since they started a kickstarter, i really like their vision, focus on blogging. 
-But Ghost is based on markdown. In a first time, i wanted to make a fork and add asciidoc support with asciidoctor.js, but the technical problem is always here, if you want to use Ghost, you need to install a linux server with node and ghost ... or then you pay for an hosting on the ghost plateform. 
+With HubPress, all you need is an internet connection and a {url-github}[GitHub] account, *that's all*!
 
-So, what could i do ? Hey, wait ... we have gh-pages, and we can build html content from an asciidoc document in the browser (asciidoctor.js powa !), we can also use the Github API in the same browser. So we can create a client side application to blog on github. 
 
-Here is HubPress ! 
+.HubPress editor
+image::http://hubpress.io/img/editor.png[]
 
-Hubpress will : 
-- be easy to use, without technical skills required, 
-- be free, 
-- be yours, gh-pages will expose your site and the admin interface hubpress, once your hubpress blog is installed in your gh repository, you can live alone if you want. 
-- be fun and maybe awesome ! (i hope :p ). 
+To save or publish a post, just one click is necessary. We focus on accessibility then now you can focus on writing.
 
-Actually, HubPress is in preview and i need more feedback. 
+
+{url-hubpress}[HubPress] is : 
+
+* *easy to use*, without technical skills required, 
+* *free*, no subscription, no server's rent,
+* *yours*, {url-gh-pages}[Github Pages] will expose your blog and the admin interface, once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
+
+Here's a video which shows you the publication of a blog post :
+
+video::7gP3i4tHlRM[youtube]
+
+Actually, {url-hubpress}[HubPress] is in preview and we need more feedback. 
 If you want to give it a try, you're welcome https://github.com/HubPress/hubpress.io
 
 Anthonny. 
