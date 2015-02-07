@@ -30,20 +30,20 @@ With HubPress, all you need is an internet connection and a {url-github}[GitHub]
 .HubPress editor
 image::http://hubpress.io/img/editor.png[]
 
-To save or publish a post, just one click is necessary. We focus on accessibility then now you can focus on writing.
+To save or publish a post, just one click is necessary. As we focus on accessibility, you just have to focus on writing.
 
 
 {url-hubpress}[HubPress] is : 
 
 * *easy to use*, without technical skills required, 
 * *free*, no subscription, no server's rent,
-* *yours*, {url-gh-pages}[Github Pages] will expose your blog and the admin interface, once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
+* *yours*, once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
 
-Here's a video which shows you the publication of a blog post :
+Please find here attached an "how to" video which shows you the simplicity to publish your own blog post with hubpress.
 
 video::7gP3i4tHlRM[youtube]
 
-Actually, {url-hubpress}[HubPress] is in preview and we need more feedback. 
+Reminder: Hubpress is still in preview. So your feedbacks are more than welcome.
 If you want to give it a try, you're welcome https://github.com/HubPress/hubpress.io
 
 Anthonny. 
