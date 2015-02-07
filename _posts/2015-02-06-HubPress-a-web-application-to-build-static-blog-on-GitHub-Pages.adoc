@@ -14,13 +14,13 @@
 
 As {url-jekyll}[Jekyll], {url-octopress}[Octopress] or {url-awestruct}[Awestruct], the goal of {url-hubpress}[HubPress] is to build static content on {url-gh-pages}[Github Pages]. 
 
-These tools are really great, but we wanted to provide a tool more user friendly and accessible for the majority of people.
-Another point is that we love the {url-asciidoc}[Asciidoc] markup and we looked for a way to contribute to its development 
+These tools are really great, but we wanted to provide a tool more *user-friendly* and *accessible* for the majority of people.
+Another point is that we love the {url-asciidoc}[Asciidoc] markup and we looked for a way to contribute to its development. 
 
 That's why we made {url-hubpress}[HubPress].
 
 
-Actually, to build a blog on {url-gh-pages}[Github Pages], you need to have a minimum of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
+With the usual tools, to build a blog on {url-gh-pages}[Github Pages] require a minimum of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
 
 To provide a better user experience, we made a web interface based on http://asciidoctor.org/[Asciidoctor] with the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
 
