@@ -7,7 +7,7 @@ You just have to get the embedded code of your photo :
 
 image::https://cloud.githubusercontent.com/assets/2006548/6183616/3fb62d0a-b357-11e4-9998-235d0b55ac92.png[]
 
-And then paste it in HubPress and surround it with + :
+And then paste it in HubPress and surround it with 4 + :
 
 [source, asciidoc]
 ----
