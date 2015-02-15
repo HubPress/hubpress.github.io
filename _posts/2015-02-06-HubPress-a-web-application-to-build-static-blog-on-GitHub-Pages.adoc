@@ -1,4 +1,4 @@
-= HubPress: a web application to build static blog on GitHub Pages.
+= HubPress: a web application to build static blogs on GitHub Pages.
 :figure-caption!:
 :published_at: 2015-02-06
 :hp-tags: news
@@ -14,36 +14,36 @@
 
 As {url-jekyll}[Jekyll], {url-octopress}[Octopress] or {url-awestruct}[Awestruct], the goal of {url-hubpress}[HubPress] is to build static content on {url-gh-pages}[Github Pages]. 
 
-These tools are really great, but we wanted to provide a tool more *user-friendly* and *accessible* for the majority of people.
-Another point is that we love the {url-asciidoc}[Asciidoc] markup and we looked for a way to contribute to its development. 
+These tools are really great, but we wanted to provide a tool that is more *user-friendly* and *accessible* for the average person.
+Another reason is because we love the {url-asciidoc}[Asciidoc] markup and we wanted a way to contribute to its development. 
 
 That's why we made {url-hubpress}[HubPress].
 
 
-With the usual tools, to build a blog on {url-gh-pages}[Github Pages] require a minimum of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
+With the usual tools building a blog on {url-gh-pages}[Github Pages] requires a decent amount of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
 
 To provide a better user experience, we made a web interface based on http://asciidoctor.org/[Asciidoctor] with the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
 
-With HubPress, all you need is an internet connection and a {url-github}[GitHub] account, *that's all*!
+With HubPress all you need is an internet connection and a {url-github}[GitHub] account, *that's it*!
 
 
 .HubPress editor
 image::http://hubpress.io/img/editor.png[]
 
-To save or publish a post, just one click is necessary. As we focus on accessibility, you just have to focus on writing.
+To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.
 
 
 {url-hubpress}[HubPress] is : 
 
-* *easy to use*, without technical skills required, 
-* *free*, no subscription, no server's rent,
-* *yours*, once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
+* *easy to use*: no technical skills required 
+* *free*: no subscription, you don't have to pay rent for a server
+* *yours*: once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
 
-Please find here attached an "how to" video which shows you the simplicity to publish your own blog post with hubpress.
+Please find here attached an "how to" video which shows you the simplicity of publishing your own blog post with HubPress.
 
 video::7gP3i4tHlRM[youtube]
 
-Reminder: Hubpress is still in preview. So your feedbacks are more than welcome.
-If you want to give it a try, you're welcome https://github.com/HubPress/hubpress.io
+Reminder: HubPress is still in its testing stages. So your feedback is more than welcome.
+If you want to give it a try, you're welcome to: https://github.com/HubPress/hubpress.io
 
 Anthonny. 
