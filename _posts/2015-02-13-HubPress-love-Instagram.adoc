@@ -1,13 +1,13 @@
-= HubPress love Instagram !
+= HubPress loves Instagram !
 :hp-tags: instagram, tips, video
 
-If you are an http://instagram.com[Instagram] user, you can easily add your photos in your blog post.
+If you are an http://instagram.com[Instagram] user, you can easily put your photos in your blog post.
 
-You just have to get the embedded code of your photo :
+You just have to get your photo's embed code:
 
 image::https://cloud.githubusercontent.com/assets/2006548/6183616/3fb62d0a-b357-11e4-9998-235d0b55ac92.png[]
 
-And then paste it in HubPress and surround it with 4 + :
+And then paste it in HubPress and surround it with 4 +'s as shown below.
 
 [source, asciidoc]
 ----
@@ -30,7 +30,7 @@ For example :
 ++++
 ----
 
-That's it !
+That's it!
 
 ++++
 
@@ -40,8 +40,8 @@ That's it !
 ++++
 
 
-Find here attached an "how to" video which shows you the simplicity to publish your instagram photos in a blog post made with HubPress :
+Attached below is a "how to" video which shows you the simplicity of publishing your instagram photos in a HubPress blog post:
 
 video::JRwuhusiJ6Y[youtube]
 
-Have fun with http://hubpress.io[HubPress]!
+Now go have fun with http://hubpress.io[HubPress]!
