@@ -1,9 +1,13 @@
 = The Docs Guy
 :published_at: 2015-03-18
+:hp-tags: team, presentation
 :url-jared-github: http://github.com/jaredmorgs/
 :url-jared-hubpress: http://jaredmorgs.github.io/
 :url-jared-youtube: https://youtu.be/KoaGU91qJv8
+:url-jared-photo: https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg
 :url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
+
+image::https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg[caption="", title="Jared Morgan - The Doc Guy",link={url-jared-hubpress}]
 
 {url-jared-github}[Jared Morgan] is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one {url-readme}[README] at a time. In between, he uses his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.
 
