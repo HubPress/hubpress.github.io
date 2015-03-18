@@ -4,10 +4,10 @@
 :url-hubpress: http://hubpress.io/
 :url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
 
-A new version of {url-hubpress}[HubPress] is now available! Here’s what’s new:
+An updated version of {url-hubpress}[HubPress] is now available with the following new features:
 
-== New feature : Syntax Highlighting
-Most of the users of {url-hubpress}[HubPress] are tech bloggers and find themselves writing many command-line examples in the blog posts they write. That's why Highlighting is now a feature of {url-hubpress}[HubPress].
+== New feature: Syntax Highlighting
+Most users of {url-hubpress}[HubPress] are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  {url-hubpress}[HubPress].
 
 [source, javascript,indent=0]
 ----
@@ -21,23 +21,23 @@ function copyit(theField) {
 }
 ----
 
-== New feature : Alternative Title
-If your mother tongue use no-latin characters, you can now specify an alternative title that will be use to build the url of your blog post.
+== New feature: Alternative Title
+If your native language does not use latin characters, you can now specify an alternative title that is used to build the URL of your blog post.
 
-For that, we added a new attribute *hp-alt-title*: 
+This feature is enabled through a new attribute *hp-alt-title*: 
 [source, asciidoc]
 ----
 = テストをしてください
 :hp-alt-title: Please test it
 ----
 
-The format of the url of this post will be *http://myblog.com/2015/03/15/please-test-it.html* and the title will still be *テストをしてください*
+The URL format of the post is *http://myblog.com/2015/03/15/please-test-it.html* and the title in the blog post remains as *テストをしてください*
 
-== New feature : Tags generation
-No more 404 on the tags link, the generation of the tags page is now available.
-Tags pages are build when you publish a post and are paginated
+== New feature: Tags generation
+No more 404 on the tags link! Tag page generation is now available.
+Tags pages are built when you publish a post and the site is re-paginated. It may take a short while for the tag cloud to update on your site.
 
 == Documentation
-Our documentation is now available in chinese and spanish, thanks to contributors!
+Our documentation is now available in Chinese and Spanish: thanks to our dedicated community contributors!
 
 You can find all changes in the {url-changelog}[CHANGELOG]
