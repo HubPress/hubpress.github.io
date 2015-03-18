@@ -3,6 +3,8 @@
 :url-jared-morgan: http://jaredmorgs.github.io/
 :url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
 
+
+
 {url-jared-morgan}[Jared Morgan] is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one {url-readme}[README] at a time. In between, he volunteers his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.
 
 
