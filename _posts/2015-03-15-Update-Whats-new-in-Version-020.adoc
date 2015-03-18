@@ -1,10 +1,12 @@
 = Update: What's new in Version 0.2.0
 :hp-tags: release
+:published_at: 2015-03-15
+:url-hubpress: http://hubpress.io/
 
-A new version of HubPress is now available! Here’s what’s new:
+A new version of {url-hubpress}[HubPress] is now available! Here’s what’s new:
 
 == New feature : Syntax Highlighting
-Most of the users of HubPress are tech bloggers and find themselves writing many command-line examples in the blog posts they write. That's why Highlighting is now a feature of HubPress.
+Most of the users of {url-hubpress}[HubPress] are tech bloggers and find themselves writing many command-line examples in the blog posts they write. That's why Highlighting is now a feature of {url-hubpress}[HubPress].
 
 [source, javascript,indent=0]
 ----
@@ -34,4 +36,5 @@ The format of the url of this post will be *http://myblog.com/2015/03/15/please-
 No more 404 on the tags link, the generation of the tags page is now available.
 Tags pages are build when you publish a post and are paginated
 
-== Some fixes
+== Documentation
+Our documentation is now available in chinese and spanish, thanks to contributors!
