@@ -1,0 +1,37 @@
+= Update: What's new in Version 0.2.0
+:hp-tags: release
+
+A new version of HubPress is now available! Here’s what’s new:
+
+== New feature : Syntax Highlighting
+Most of the users of HubPress are tech bloggers and find themselves writing many command-line examples in the blog posts they write. That's why Highlighting is now a feature of HubPress.
+
+[source, javascript,indent=0]
+----
+function copyit(theField) {
+  var selectedText = document.selection;
+  if (selectedText.type == 'Text') {
+    var newRange = selectedText.createRange();
+    theField.focus();
+    theField.value = newRange.text;
+  }
+}
+----
+
+== New feature : Alternative Title
+If your mother tongue use no-latin characters, you can now specify an alternative title that will be use to build the url of your blog post.
+
+For that, we added a new attribute *hp-alt-title*: 
+[source, asciidoc]
+----
+= テストをしてください
+:hp-alt-title: Please test it
+----
+
+The format of the url of this post will be *http://myblog.com/2015/03/15/please-test-it.html* and the title will still be *テストをしてください*
+
+== New feature : Tags generation
+No more 404 on the tags link, the generation of the tags page is now available.
+Tags pages are build when you publish a post and are paginated
+
+== Some fixes
