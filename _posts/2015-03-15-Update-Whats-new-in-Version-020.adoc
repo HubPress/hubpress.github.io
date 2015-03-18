@@ -2,6 +2,7 @@
 :hp-tags: release
 :published_at: 2015-03-15
 :url-hubpress: http://hubpress.io/
+:url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
 
 A new version of {url-hubpress}[HubPress] is now available! Here’s what’s new:
 
@@ -38,3 +39,5 @@ Tags pages are build when you publish a post and are paginated
 
 == Documentation
 Our documentation is now available in chinese and spanish, thanks to contributors!
+
+You can find all changes in the {url-changelog}[CHANGELOG]
