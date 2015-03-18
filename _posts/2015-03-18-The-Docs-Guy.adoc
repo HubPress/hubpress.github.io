@@ -1,10 +1,14 @@
 = The Docs Guy
 :published_at: 2015-03-18
-:url-jared-morgan: http://jaredmorgs.github.io/
+:url-jared-github: http://github.com/jaredmorgs/
+:url-jared-hubpress: http://jaredmorgs.github.io/
+:url-jared-youtube: https://youtu.be/KoaGU91qJv8
 :url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
 
+{url-jared-github}[Jared Morgan] is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one {url-readme}[README] at a time. In between, he uses his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.
 
+The story behind how I contacted Jared and how he became the docs guy is a testament to why "Defaulting to Open" when you develop software should be how all software is created. Read more about this journey in Jared's active {url-jared-hubpress}[HubPress blog]. He has also created HubPress video tutorials on his {url-jared-youtube}[YouTube channel], so check those out.  
 
-{url-jared-morgan}[Jared Morgan] is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one {url-readme}[README] at a time. In between, he volunteers his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.
+You might be surprised to learn that helping out on an Open Source software project like HubPress does not necessarily require coding experience. Developers just like me are desperate for people with excellent writing skills (not just English). Translation is *so* important for software products, and helps sole-developers like me penetrate new markets and lower the barrier of entry to new audiences.   
 
-
+If you know of another project that needs great user documentation, take a leaf out of Jared's book and create that Pull Request: who knows where it will lead you!
