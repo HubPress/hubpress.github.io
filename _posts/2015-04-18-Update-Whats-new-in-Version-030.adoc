@@ -1,1 +1,5 @@
 = Update: What's new in Version 0.3.0
+:hp-tags: release
+:published_at: 2015-04-18
+:url-hubpress: http://hubpress.io/
+:url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
