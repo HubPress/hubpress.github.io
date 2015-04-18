@@ -19,4 +19,7 @@ If you have never upgraded your instance of HubPress before, follow this tutoria
 
 video::KCylB780zSM[youtube]
 
+== Known Issues In This Release
+While testing the release, The Docs Guy found what appeared to be a rogue commit on config.json on 12 March 2015 by hanwengchen (one of the community translators) that appears in the /master branch. There's nothing to worry about: the change was reverted later in the commit for the release. You can upgrade with confidence.
+
 A full list of other notable changes can be found in the {url-changelog}[CHANGELOG].
