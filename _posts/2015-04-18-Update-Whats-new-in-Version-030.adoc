@@ -1,25 +1,24 @@
-= Update: What's new in Version 0.3.0
+= Update: What's New in Version 0.3.0
 :hp-tags: release
 :published_at: 2015-04-18
 :url-hubpress: http://hubpress.io/
 :url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
 
-The main goal of this version is to take into account the changes made on the https://developer.github.com/changes/2015-02-20-migration-period-removing-authorizations-token/[Authorization API]
+The main goal of this version is to take into account the changes made to the https://developer.github.com/changes/2015-02-20-migration-period-removing-authorizations-token/[GitHub Authorization API]
 
 IMPORTANT: You must update your version of HubPress before the 20 April 2015.
 
-== What differences does it make?
-When you login in HubPress, a personal token is created in your Github account.
+== How Does the New API Affect HubPress?
+When you logon to HubPress, a personal token is created in your GitHub account.
 
-With the version 0.3.0, we create a token by environment (browser + os) which is deleted at each login:
+With version 0.3.0, the personal token is created according to the environment (Browser and Operating System) and is deleted at each login:
 
 image::https://cloud.githubusercontent.com/assets/2006548/7214902/703f6770-e5c0-11e4-86cb-679dc4b1cd9a.png[]
 
-The consequence is that you can't open multiple tabs in the same browser to work on HubPress
+The consequence is that you can no longer have multiple tabs in the *same browser* open to work on your HubPress blog instance. You can work around this issue by starting two instances of HubPress in different browsers, or by accessing your posts through the GitHub user interface in your blog repository.
 
-You can follow this tutorial to update your HubPress blog instance :
+If you have never upgraded your instance of HubPress before, follow this tutorial to update your version before 20 April 2015.
 
 video::KCylB780zSM[youtube]
 
-
-You can find all changes in the {url-changelog}[CHANGELOG]
+A full list of other notable changes can be found in the {url-changelog}[CHANGELOG].
