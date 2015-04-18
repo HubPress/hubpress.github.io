@@ -3,3 +3,23 @@
 :published_at: 2015-04-18
 :url-hubpress: http://hubpress.io/
 :url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
+
+The main goal of this version is to take into account the changes made on the https://developer.github.com/changes/2015-02-20-migration-period-removing-authorizations-token/[Authorization API]
+
+IMPORTANT: You must update your version of HubPress before the 20 April 2015.
+
+== What differences does it make?
+When you login in HubPress, a personal token is created in your Github account.
+
+With the version 0.3.0, we create a token by environment (browser + os) which is deleted at each login:
+
+image::https://cloud.githubusercontent.com/assets/2006548/7214902/703f6770-e5c0-11e4-86cb-679dc4b1cd9a.png[]
+
+The consequence is that you can't open multiple tabs in the same browser to work on HubPress
+
+You can follow this tutorial to update your HubPress blog instance :
+
+video::KCylB780zSM[youtube]
+
+
+You can find all changes in the {url-changelog}[CHANGELOG]
