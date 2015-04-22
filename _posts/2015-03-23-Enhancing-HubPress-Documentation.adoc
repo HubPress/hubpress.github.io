@@ -1,0 +1,13 @@
+= Enhancing HubPress Documentation
+
+:published_at: 2015-03-23
+:hp-tags: team, presentation
+:url-jared-github: http://github.com/jaredmorgs/
+:url-jared-hubpress: http://jaredmorgs.github.io/
+:url-jared-youtube: https://youtu.be/KoaGU91qJv8
+:url-jared-photo: https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg
+:url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
+
+Hi, it's {url-jared-github}[The Docs Guy] here. I wanted to share some thoughts about the current HubPress Documentation, and how the community can take it to the next step.
+
+Through amazing community support, HubPress has grown considerably in popularity and features.
