@@ -7,7 +7,36 @@
 :url-jared-youtube: https://youtu.be/KoaGU91qJv8
 :url-jared-photo: https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg
 :url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
+:url-john: https://github.com/johncarl81
+:url-jaq: https://github.com/asciidoctor/jekyll-asciidoc-quickstart
 
-Hi, it's {url-jared-github}[The Docs Guy] here. I wanted to share some thoughts about the current HubPress Documentation, and how the community can take it to the next step.
+It's {url-jared-github}[The Docs Guy] here with some thoughts about the current HubPress Documentation and how it's delivery and presentation can be improved.
 
-Through amazing community support, HubPress has grown considerably in popularity and features.
+Through amazing community support, HubPress has grown considerably in popularity and features. Since starting as The Docs Guy shortly after HubPress was released, it has both surprised and delighted me just how willing community members are to contribute their time and energy translating the {url-readme}[README.adoc]. At the time of writing this post, HubPress is available in English, Simplified Chinese, Japanese, and Spanish thanks to the power of the HubPress User Community.
+
+== The Challenge
+
+As the README has grown with HubPress, I've noticed that some content (embedded videos in particular) in the README just can not be displayed nicely. This is due to some limitations in the way GitHub presents Asciidoc rendered content. To be honest, README files are really only designed to contain the most basic of instructions, which can help a new user become familiar with the resources available to them in a project. To fix this problem, HubPress needs to present the documentation in a format that is better suited to more traditional user documentation, and leave the README as a launch pad for new users.
+
+== Jekyll Asciidoc Quickstart (JAQ)
+
+I've been experimenting with {url-jaq}[JAQ], which is a continuous docs build system {url-john}[John Ericksen] and members of the http://asciidoctor.org[Asciidoctor Project] created. This forkable repository was originally created to be a quick way to set up an Asciidoc Blog without all the complexity of Jekyll. Of course, when the Asciidoctor team saw just how amazing HubPress was, we needed to think of a way to utilize the project. I approached John because I was looking for a way to easily host Asciidoc User Guides on GitHub, without having to use a PC (I am always on an Android tablet, but only use a PC for work). John made some changes to {url-jaq}[JAQ] which allowed the project to be used as a continuous build system for Documentation. To show you that it works, here is the http://goo.gl/8zGMFd[Asciidoc guide] I created voluntarily for FarSight Studios _The Pinball Arcade_ on Android.
+
+== JAQ for HubPress Docs
+
+As you can see, the presentation you get with {url-jaq}[JAQ] looks professional and is mobile-friendly. Furthermore, as a docs contributor you don't need to install anything to update a user guide except for a web browser. 
+
+This is because {url-jaq}[JAQ] uses https://travis-ci.org/jaredmorgs/Pinball_Arcade_Users_Guide_Android[Travis CI] to build the book every time a commit is detected on /master.
+
+=== Proposed Plan
+
+My plan was to fork my repo and use it to create a proper user guide for HubPress, but it isn't just me writing this any more. It would have been disrespectful of me to drop this change on the community and just have them adapt: that is poor change management.
+
+Here is the proposed plan, continuing on from what I originally captured in https://github.com/HubPress/hubpress.io/issues/153[HubPress Issue 153]:
+
+. Provision a JAQ Repo
+. Import the README
+. Make relevant Ascidoc book structural changes
+* Chunk the chapters into separate files
+* Include chapters in the root book file as "includes"
+. 
