@@ -9,6 +9,7 @@
 :url-readme: https://github.com/HubPress/hubpress.io/blob/master/README.adoc
 :url-john: https://github.com/johncarl81
 :url-jaq: https://github.com/asciidoctor/jekyll-asciidoc-quickstart
+:url-docs-bug: https://github.com/HubPress/hubpress.io/issues/153
 
 It's {url-jared-github}[The Docs Guy] here with some thoughts about the current HubPress Documentation and how it's delivery and presentation can be improved.
 
@@ -20,23 +21,41 @@ As the README has grown with HubPress, I've noticed that some content (embedded 
 
 == Jekyll Asciidoc Quickstart (JAQ)
 
-I've been experimenting with {url-jaq}[JAQ], which is a continuous docs build system {url-john}[John Ericksen] and members of the http://asciidoctor.org[Asciidoctor Project] created. This forkable repository was originally created to be a quick way to set up an Asciidoc Blog without all the complexity of Jekyll. Of course, when the Asciidoctor team saw just how amazing HubPress was, we needed to think of a way to utilize the project. I approached John because I was looking for a way to easily host Asciidoc User Guides on GitHub, without having to use a PC (I am always on an Android tablet, but only use a PC for work). John made some changes to {url-jaq}[JAQ] which allowed the project to be used as a continuous build system for Documentation. To show you that it works, here is the http://goo.gl/8zGMFd[Asciidoc guide] I created voluntarily for FarSight Studios _The Pinball Arcade_ on Android.
+I've been experimenting with {url-jaq}[JAQ], which is a continuous docs build system {url-john}[John Ericksen] and members of the http://asciidoctor.org[Asciidoctor Project] created. This forkable repository was originally created to be a quick way to set up an Asciidoc Blog without all the complexity of Jekyll. Of course, when the Asciidoctor team saw just how amazing HubPress was, we needed a way to repurpose the project. I approached John because I was looking for a way to easily host Asciidoc User Guides on GitHub, without having to use a PC (I am always on an Android tablet, but only use a PC for work). John made some changes to {url-jaq}[JAQ] which allowed the project to be used as a continuous build system for Documentation. To show you that it works, here is the http://goo.gl/8zGMFd[Asciidoc guide] I created voluntarily for FarSight Studios _The Pinball Arcade_ on Android.
 
 == JAQ for HubPress Docs
 
-As you can see, the presentation you get with {url-jaq}[JAQ] looks professional and is mobile-friendly. Furthermore, as a docs contributor you don't need to install anything to update a user guide except for a web browser. 
-
-This is because {url-jaq}[JAQ] uses https://travis-ci.org/jaredmorgs/Pinball_Arcade_Users_Guide_Android[Travis CI] to build the book every time a commit is detected on /master.
+As you can see, the presentation you get with {url-jaq}[JAQ] looks professional and is mobile-friendly. Furthermore, as a docs contributor you don't need to install anything to update a user guide except for a web browser. This is because {url-jaq}[JAQ] uses https://travis-ci.org/jaredmorgs/Pinball_Arcade_Users_Guide_Android[Travis CI] to build the book every time a commit is detected on /master.
 
 === Proposed Plan
 
-My plan was to fork my repo and use it to create a proper user guide for HubPress, but it isn't just me writing this any more. It would have been disrespectful of me to drop this change on the community and just have them adapt: that is poor change management.
+I originally captured my ideas in {url-docs-bug}[HubPress Issue 153] but didn't see a huge response to the issue. 
+Based on this response, I was just going to assume that "silence is agreement" and make the changes, but that still didn't seem right to me. Even though nobody responded initially, it would have been disrespectful of me to drop this change on the community and just have them adapt: that is poor change management, and not in the interests of Open Source collaboration.
 
-Here is the proposed plan, continuing on from what I originally captured in https://github.com/HubPress/hubpress.io/issues/153[HubPress Issue 153]:
+Therefore, here is the proposed plan for discussion:
 
-. Provision a JAQ Repo
-. Import the README
-. Make relevant Ascidoc book structural changes
+. Provision a JAQ Repo.
+. Import the README.
+. Make relevant Ascidoc book structural changes:
 * Chunk the chapters into separate files
 * Include chapters in the root book file as "includes"
-. 
+. Set up Travis.
+. Initiate the first build.
+
+=== JAQ 2.0
+
+The way JAQ is set up now, I would need to create a separate repository for each language and manually curate a landing page linking to the generated HTML for each book in each repository. I really *don't* like this structure. What I want to achieve for HubPress is to take JAQ from a static docs hub for one book to a static docs *site* for *multiple* books: 
+
+* Enable JAQ to support multiple docs folders as books:
+** Each book root folder has a folder node for
+*** en-US, 
+*** other languages as they are added.
+* Make the build script recurse down a `source` folder tree finding all the books and publishing each one when a commit is detected. 
+* Regenerate the docs landing page.
+* Generate a changelog for the book from the GitHub PRs (nice to have).
+
+Not only will this allow HubPress to have a dynamic docs site, it will allow small to medium enterprises to quickly create a docs site for their customers using the flexibility of Asciidoc and Asciidoctor.
+
+== Feedback
+
+Now you've read my ideas, go ahead and give your feedback in {url-docs-bug}[HubPress Issue 153]. This is a community effort, and no idea will be dismisses as long as it is constructive.
