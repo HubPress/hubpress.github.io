@@ -47,7 +47,7 @@ Therefore, here is the proposed plan for discussion:
 The way JAQ is set up now, I would need to create a separate repository for each language and manually curate a landing page linking to the generated HTML for each book in each repository. I really *don't* like this structure. What I want to achieve for HubPress is to take JAQ from a static docs hub for one book to a static docs *site* for *multiple* books: 
 
 * Enable JAQ to support multiple docs folders as books:
-** Each book root folder has a folder node for
+** Each book root folder has a folder node for:
 *** en-US, 
 *** other languages as they are added.
 * Make the build script recurse down a `source` folder tree finding all the books and publishing each one when a commit is detected. 
@@ -58,4 +58,4 @@ Not only will this allow HubPress to have a dynamic docs site, it will allow sma
 
 == Feedback
 
-Now you've read my ideas, go ahead and give your feedback in {url-docs-bug}[HubPress Issue 153]. This is a community effort, and no idea will be dismisses as long as it is constructive.
+Now you've read my ideas, go ahead and give your feedback in {url-docs-bug}[HubPress Issue 153]. This is a community effort, and no idea will be dismissed as long as it is constructive.
