@@ -2,11 +2,25 @@
 
 == Material design
 
-
+To give 
 
 == Development process
 
-HubPress is moving away from developing in the hubpress.io repository. To ensure the hubpress.io repository remains clean for new-adopters, development has shifted to dev.hubpress.io
+HubPress is moving away from developing in the https://github.com/HubPress/hubpress.io[hubpress.io] repository. 
+To ensure the hubpress.io repository remains clean for new-adopters, development has shifted to https://github.com/HubPress/dev.hubpress.io[dev.hubpress.io].
+
+The process to commit a change to HubPress is changed to the following:
+
+. Fork https://github.com/HubPress/dev.hubpress.io
+. If you have not done so, create an issue describing your fix.
+. Create a branch in your forked repo and make the change.
+. Open a Pull Request (PR), and summarise your changes, linking to the issue you created.
+
+Once we receive your PR, we'll review your changes and then either accept them or ask for further changes before final acceptance.
+
+The new repository is backed by Continuous Integration tasks that trigger automatically once a change to `/master` is detected.
+
+
 
 == Theme
 
