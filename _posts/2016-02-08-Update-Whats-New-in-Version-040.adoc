@@ -1,33 +1,45 @@
 = Update: What's New in Version 0.4.0
 
+It's been a year since HubPress launched. How time flies!
+
+1,976 forks.
+
+2,205 stars.
+
+Hundreds of progressive blogs using HubPress and Asciidoctor to write scaleable content, in an easy-to-use product. 
+
+Best of all, it's totally free!
+
 == Material design
 
-To give 
+To give HubPress a modern, progressive User Interface, we've redesigned it using the Material design template.
+
+This provides an even better responsive design for mobile users, and provides a clean interface for new and existing blogger.
 
 == Development process
 
 HubPress is moving away from developing in the https://github.com/HubPress/hubpress.io[hubpress.io] repository. 
-To ensure the hubpress.io repository remains clean for new-adopters, development has shifted to https://github.com/HubPress/dev.hubpress.io[dev.hubpress.io].
+To ensure the hubpress.io repository remains clean for new adopters, development has shifted to https://github.com/HubPress/dev.hubpress.io[dev.hubpress.io].
 
 The process to commit a change to HubPress is changed to the following:
 
+. Create an issue describing the change you propose.
 . Fork https://github.com/HubPress/dev.hubpress.io
-. If you have not done so, create an issue describing your fix.
 . Create a branch in your forked repo and make the change.
 . Open a Pull Request (PR), and summarise your changes, linking to the issue you created.
 
 Once we receive your PR, we'll review your changes and then either accept them or ask for further changes before final acceptance.
 
-The new repository is backed by Continuous Integration tasks that trigger automatically once a change to `/master` is detected.
+The new repository is backed by Continuous Integration tasks provisioned through Travis-CI, which trigger automatically once a change to `/master` is detected.
 
-
+It's a more scalable way to manage HubPress moving forward.
 
 == Theme
 
 HubPress uses the professional-looking Ghost themes to allow you to personalise your Blog. It's been a year since release, so it's time for a couple of new looks. 
 
 uno-zen::
-  This theme is a simplified theme you can use for a more docs-site looking blog:
+  This theme is a simplified theme you can use for a more "docs-site" looking blog:
   * Great for long-form blogs, 
   * Looks great with pinned posts.
 [theme-name]::
