@@ -45,11 +45,11 @@ uno-zen::
   * Great for long-form blogs, 
   * Looks great with pinned posts.
   
-image::https://camo.githubusercontent.com/1c8bb5db1fa3c43cce233d241907159d51e7fda8/687474703a2f2f692e696d6775722e636f6d2f4c4353423443612e6a7067[]
+image::https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97-11e5-8a55-192608c40af1.jpeg[]
 
 ghostium::
   This theme, created by https://twitter.com/oswaldoacauan[Oswaldo Acauan], is focused on content and based on Medium:
   * Focused on content, 
   * Fully responsive.
   
-image::https://camo.githubusercontent.com/a417b96865cc63d7984f9af2f5858a1b7f24b630/687474703a2f2f692e696d6775722e636f6d2f6d35566354426c2e706e67[]
+image::https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png[]
