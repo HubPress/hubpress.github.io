@@ -7,6 +7,8 @@ It's been a year since HubPress launched. How time flies!
 
 2,205 stars.
 
+An https://github.com/HubPress/hubpress.io/blob/master/README.adoc[english] README translated in https://github.com/HubPress/hubpress.io/blob/master/README-es.adoc[spanish], https://github.com/HubPress/hubpress.io/blob/master/README-zh.adoc[chinese] and https://github.com/HubPress/hubpress.io/blob/master/README-ja.adoc[japanese].
+
 Hundreds of progressive blogs using HubPress and Asciidoctor to write scaleable content, in an easy-to-use product. 
 
 Best of all, it's totally free!
@@ -15,7 +17,11 @@ Best of all, it's totally free!
 
 To give HubPress a modern, progressive User Interface, we've redesigned it using the Material design template.
 
+image::https://cloud.githubusercontent.com/assets/2006548/12898068/189d3fb8-ceab-11e5-874c-1cdfb64925ab.png[]
+
 This provides an even better responsive design for mobile users, and provides a clean interface for new and existing blogger.
+
+image::https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png[]
 
 == Development process
 
@@ -53,3 +59,6 @@ ghostium::
   * Fully responsive.
   
 image::https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png[]
+
+== Donations
+
