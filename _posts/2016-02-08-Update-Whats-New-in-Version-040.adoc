@@ -42,7 +42,7 @@ The new repository is backed by Continuous Integration tasks provisioned through
 
 It's a more scalable way to manage HubPress moving forward.
 
-== Theme
+== Themes
 
 HubPress uses the professional-looking Ghost themes to allow you to personalise your Blog. It's been a year since release, so it's time for a couple of new looks. 
 
