@@ -30,15 +30,15 @@ To ensure the hubpress.io repository remains clean for new adopters, development
 
 The process to commit a change to HubPress is changed to the following:
 
-. Create an issue describing the change you propose.
+. Create an issue on the https://github.com/HubPress/hubpress.io/issues[HubPress/hubpress.io] repository describing the change you propose.
 . Fork https://github.com/HubPress/dev.hubpress.io
 . Checkout the branch *development*
-. Create a branch in your forked repo and make the change.
+. Create a branch based on the branch *development* in your forked repo and make the change.
 . Open a Pull Request (PR), and summarise your changes, linking to the issue you created.
 
 Once we receive your PR, we'll review your changes and then either accept them or ask for further changes before final acceptance.
 
-The new repository is backed by Continuous Integration tasks provisioned through Travis-CI, which trigger automatically once a change to `/master` is detected.
+The new repository is backed by Continuous Integration tasks provisioned through Travis-CI, which trigger automatically once a change to `/development` is detected.
 
 It's a more scalable way to manage HubPress moving forward.
 
