@@ -62,7 +62,11 @@ image::https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97
 
 == Donations
 
-HubPress is now on https://gratipay.com/hubpress/[Gratipay]! It's not the only way to help
+HubPress is now on https://gratipay.com/hubpress/[Gratipay]! 
 
-image::https://cloud.githubusercontent.com/assets/2006548/12899320/ff8f7d50-ceb0-11e5-8440-6755147e8b40.png[]
+image::https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png[]
+
+It's not the only way to help us, but it is certainly a good one. Donations are for us the opportunity to have extra time to make HubPress an awesome tool.
+
+image::https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png[]
 
