@@ -2,6 +2,19 @@
 
 == Material design
 
+
+
 == Development process
 
+HubPress is moving away from developing in the hubpress.io repository. To ensure the hubpress.io repository remains clean for new-adopters, development has shifted to dev.hubpress.io
+
 == Theme
+
+HubPress uses the professional-looking Ghost themes to allow you to personalise your Blog. It's been a year since release, so it's time for a couple of new looks. 
+
+uno-zen::
+  This theme is a simplified theme you can use for a more docs-site looking blog:
+  * Great for long-form blogs, 
+  * Looks great with pinned posts.
+[theme-name]::
+  Info about this theme.
