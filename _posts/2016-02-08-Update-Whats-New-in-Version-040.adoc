@@ -1,4 +1,5 @@
 = Update: What's New in Version 0.4.0
+:hp-tags: release
 
 It's been a year since HubPress launched. How time flies!
 
@@ -25,6 +26,7 @@ The process to commit a change to HubPress is changed to the following:
 
 . Create an issue describing the change you propose.
 . Fork https://github.com/HubPress/dev.hubpress.io
+. Checkout the branch *development*
 . Create a branch in your forked repo and make the change.
 . Open a Pull Request (PR), and summarise your changes, linking to the issue you created.
 
