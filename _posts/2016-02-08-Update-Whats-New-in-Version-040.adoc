@@ -41,11 +41,11 @@ It's a more scalable way to manage HubPress moving forward.
 HubPress uses the professional-looking Ghost themes to allow you to personalise your Blog. It's been a year since release, so it's time for a couple of new looks. 
 
 uno-zen::
-  This theme, cerated by https://twitter.com/kikobeats[Kiko Beats] is a simplified theme you can use for a more "docs-site" looking blog:
+  This theme, created by https://twitter.com/kikobeats[Kiko Beats], is a simplified theme you can use for a more "docs-site" looking blog:
   * Great for long-form blogs, 
   * Looks great with pinned posts.
 
 ghostium::
-  This theme, created by https://twitter.com/oswaldoacauan[Oswaldo Acauan] is focused on content and based on Medium:
+  This theme, created by https://twitter.com/oswaldoacauan[Oswaldo Acauan], is focused on content and based on Medium:
   * Focused on content, 
   * Fully responsive.
