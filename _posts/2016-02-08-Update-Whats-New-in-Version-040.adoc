@@ -19,7 +19,7 @@ To give HubPress a modern, progressive User Interface, we've redesigned it using
 
 image::https://cloud.githubusercontent.com/assets/2006548/12898068/189d3fb8-ceab-11e5-874c-1cdfb64925ab.png[]
 
-This provides an even better responsive design for mobile users, and provides a clean interface for new and existing blogger.
+This provides an even better responsive design for mobile users, and provides a clean interface for new and existing bloggers.
 
 image::https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png[]
 
@@ -31,9 +31,12 @@ To ensure the hubpress.io repository remains clean for new adopters, development
 The process to commit a change to HubPress is changed to the following:
 
 . Create an issue on the https://github.com/HubPress/hubpress.io/issues[HubPress/hubpress.io] repository describing the change you propose.
-. Fork https://github.com/HubPress/dev.hubpress.io
-. Checkout the branch *development*
-. Create a branch based on the branch *development* in your forked repo and make the change.
+. Fork https://github.com/HubPress/dev.hubpress.io to make changes in the new development repository.
+. Switch to the `/development` branch.
+. Create a branch from `/development` in your forked repo. 
++
+NOTE: We suggest naming the branch using the format `issue-nnn` to make it easy to refer to the issue.
++
 . Open a Pull Request (PR), and summarise your changes, linking to the issue you created.
 
 Once we receive your PR, we'll review your changes and then either accept them or ask for further changes before final acceptance.
@@ -55,7 +58,7 @@ image::https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97
 
 ghostium::
   This theme, created by https://twitter.com/oswaldoacauan[Oswaldo Acauan], is focused on content and based on Medium:
-  * Focused on content, 
+  * Makes your content the star of the page 
   * Fully responsive.
   
 image::https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png[]
@@ -66,7 +69,7 @@ HubPress is now on https://gratipay.com/hubpress/[Gratipay]!
 
 image::https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png[]
 
-It's not the only way to help us, but it is certainly a good one. Donations are for us the opportunity to have extra time to make HubPress an awesome tool.
+It's not the only way you can help us, but it is certainly a welcome one. Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform.
 
 image::https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png[]
 
