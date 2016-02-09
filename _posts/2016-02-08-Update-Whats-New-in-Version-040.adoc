@@ -23,6 +23,7 @@ This provides an even better responsive design for mobile users, and provides a 
 
 image::https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png[]
 
+[[Development]]
 == Development process
 
 HubPress is moving away from developing in the https://github.com/HubPress/hubpress.io[hubpress.io] repository. 
@@ -58,10 +59,32 @@ image::https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97
 
 ghostium::
   This theme, created by https://twitter.com/oswaldoacauan[Oswaldo Acauan], is focused on content and based on Medium:
-  * Makes your content the star of the page 
+  * Makes your content the star of the page, 
   * Fully responsive.
   
 image::https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png[]
+
+== Documentation 
+
+The documentation for HubPress has undergone a bit of a face-lift as well.
+
+The README.adoc was becoming more of a User's Guide and less a terse overview about getting started with the product.
+
+For this reason, the documentation has been separated out into the following documents:
+
+https://github.com/HubPress/hubpress.io/blob/master/README.adoc[README.adoc]::
+  Just the basics of getting HubPress forked, and set up. Nothing else.
+https://github.com/HubPress/hubpress.io/blob/master/Administration.adoc[Administration.adoc]::
+  This guide helps you get your blog customised to your individual requirements.
+https://github.com/HubPress/hubpress.io/blob/master/Writers_Guide.adoc[Writers_Guide.adoc]::
+  If you are new to HubPress or AsciiDoc, this guide will help you write your first post like a professional. 
+  
+Further improvements to the HubPress documentation set are planned, including:
+
+* a Contributors guide to help theme developers and other contributors successfully develop for the platform.
+* improvements to the documentation, including incorporating community feedback.
+
+If you see an improvement to documentation that requires action, follow the <<Development>> steps above.
 
 == Donations
 
