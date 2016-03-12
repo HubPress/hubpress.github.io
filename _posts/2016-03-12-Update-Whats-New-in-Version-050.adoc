@@ -1,0 +1,60 @@
+= Update: What's New in Version 0.5.0
+:hp-tags: release
+
+It's time for a new release of HubPress, which bumps the version up to 0.5.0. 
+
+If you're looking for more information, all new features are highlighted in the docs with `0.5.0`. 
+
+A *"What's New"* video is also coming where we'll show you quickly about the changes.
+Subscribe to our new https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA[YouTube Channel] for more updates.
+
+== Themes
+
+WARNING: Breaking Change. Action required.
+
+Release 0.4.0 added two new themese: ghostium and uno-zen. 
+
+What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.
+
+In 0.5.0 *all theme names have been changed to lowercase*. This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
+Refer to the folder names in the `/themes` folder in your repository, or in the `Administration.adoc` Admin Guide. 
+
+== Multi-user Support for Post Attribution
+
+Technically, HubPress already allowed to you set a collaborator on your repo so more than one user could write posts. 
+
+What HubPress didn't do was honour the post creator (author) if the settings were changed, and the site was regenerated. 
+
+With 0.5.0, if you write a blog post, your GitHub user name will always be attached to the post. 
+
+If you create a blog post, then another blogger on your team publishes it, the person who originally created the post is credited with writing the post.
+
+In a future release, we plan on enhancing how writer attribution is handled in the post, so stay tuned.
+
+== Edit and Delete Blog Posts
+
+You no longer have to "delete" blogs posts by reusing an unwanted, unpublished blog post. 
+
+The action overflow (three dots menu) next to each of your posts now has a `Delete` button.
+
+== Documentation 
+
+The documentation for HubPress has undergone further improvements to better align the content.
+
+The Administration guide has had a content shuffle to remove information that should have been in the Writer's Guide.
+
+The Writer's Guide had some stray Administration content in it, which has now been moved into it's proper home.
+
+Check out the docs and let us know if you see room for improvement. 
+
+== Donations
+
+HubPress is now on https://gratipay.com/hubpress/[Gratipay]! 
+
+image::https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png[]
+
+It's not the only way you can help us, but it is certainly a welcome one. 
+Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform for you.
+
+image::https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png[]
+
