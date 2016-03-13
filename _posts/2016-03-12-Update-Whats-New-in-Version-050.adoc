@@ -17,6 +17,7 @@ Release 0.4.0 added two new themese: ghostium and uno-zen.
 What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.
 
 In 0.5.0 *all theme names have been changed to lowercase*. This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
+
 Refer to the folder names in the `/themes` folder in your repository, or in the `Administration.adoc` Admin Guide. 
 
 == Multi-user Support for Post Attribution
@@ -36,6 +37,14 @@ In a future release, we plan on enhancing how writer attribution is handled in t
 You no longer have to "delete" blogs posts by reusing an unwanted, unpublished blog post. 
 
 The action overflow (three dots menu) next to each of your posts now has a `Delete` button.
+
+== Editor Validation for Blog Posts
+
+In versions prior to 0.5.0, if you didn't have a level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
+
+In 0.5.0, the editor now has basic validation built into the editor, where if you don't start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to you to check your blog structure. 
+
+If you want some tips on writing successful blog posts with HubPress, check out the _Writers' Guide_ in your repository.
 
 == Documentation 
 
