@@ -1,5 +1,6 @@
 = Update: What's New in Version 0.5.0
 :hp-tags: release
+:toc: macro
 
 It's time for a new release of HubPress, which bumps the version up to 0.5.0. 
 
@@ -7,6 +8,8 @@ If you're looking for more information, all new features are highlighted in the 
 
 A *"What's New"* video is also coming where we'll show you quickly about the changes.
 Subscribe to our new https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA[YouTube Channel] for more updates.
+
+toc::[]
 
 == Themes
 
