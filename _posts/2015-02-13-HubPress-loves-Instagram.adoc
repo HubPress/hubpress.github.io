@@ -39,7 +39,6 @@ That's it!
 
 ++++
 
-
 Attached below is a "how to" video which shows you the simplicity of publishing your instagram photos in a HubPress blog post:
 
 video::JRwuhusiJ6Y[youtube]
