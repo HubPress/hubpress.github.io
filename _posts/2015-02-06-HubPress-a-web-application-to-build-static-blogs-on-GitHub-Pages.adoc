@@ -46,4 +46,4 @@ video::7gP3i4tHlRM[youtube]
 Reminder: HubPress is still in its testing stages. So your feedback is more than welcome.
 If you want to give it a try, you're welcome to: https://github.com/HubPress/hubpress.io
 
-Anthonny. 
+Anthonny.
