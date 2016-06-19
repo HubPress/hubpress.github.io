@@ -42,6 +42,16 @@ You no longer have to "delete" blogs posts by reusing an unwanted, unpublished b
 
 The action overflow (three dots menu) next to each of your posts now has a `Delete` button.
 
+NOTE: Add an image of the button
+
+== Synchronization
+
+NOTE: Add an image of the button and explain the usage
+
+== Solarized theme
+
+NOTE: Add an image of the button to switch dark/light mode and explain the usage
+
 == Editor Validation for Blog Posts
 
 In versions prior to {release}, if you didn't have a level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
