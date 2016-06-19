@@ -1,10 +1,11 @@
 = Update: What's New in Version 0.5.1
 :hp-tags: release
 :toc: macro
+:release: 0.5.1
 
-It's time for a new release of HubPress, which bumps the version up to 0.5.0. 
+It's time for a new release of HubPress, which bumps the version up to {release}. 
 
-If you're looking for more information, all new features are highlighted in the docs with `0.5.0`. 
+If you're looking for more information, all new features are highlighted in the docs with `{release}`. 
 
 A *"What's New"* video is also coming where we'll show you quickly about the changes.
 Subscribe to our new https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA[YouTube Channel] for more updates.
@@ -19,7 +20,7 @@ Release 0.4.0 added two new themese: ghostium and uno-zen.
 
 What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.
 
-In 0.5.0 *all theme names have been changed to lowercase*. This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
+In {release} *all theme names have been changed to lowercase*. This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
 
 Refer to the folder names in the `/themes` folder in your repository, or in the `Administration.adoc` Admin Guide. 
 
@@ -29,7 +30,7 @@ Technically, HubPress already allowed to you set a collaborator on your repo so 
 
 What HubPress didn't do was honour the post creator (author) if the settings were changed, and the site was regenerated. 
 
-With 0.5.0, if you write a blog post, your GitHub user name will always be attached to the post. 
+With {release}, if you write a blog post, your GitHub user name will always be attached to the post. 
 
 If you create a blog post, then another blogger on your team publishes it, the person who originally created the post is credited with writing the post.
 
@@ -43,9 +44,9 @@ The action overflow (three dots menu) next to each of your posts now has a `Dele
 
 == Editor Validation for Blog Posts
 
-In versions prior to 0.5.0, if you didn't have a level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
+In versions prior to {release}, if you didn't have a level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
 
-In 0.5.0, the editor now has basic validation built into the editor, where if you don't start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to you to check your blog structure. 
+In {release}, the editor now has basic validation built into the editor, where if you don't start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to you to check your blog structure. 
 
 If you want some tips on writing successful blog posts with HubPress, check out the _Writers' Guide_ in your repository.
 
