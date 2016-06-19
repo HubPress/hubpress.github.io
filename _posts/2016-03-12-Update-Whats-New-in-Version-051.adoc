@@ -1,4 +1,4 @@
-= Update: What's New in Version 0.5.0
+= Update: What's New in Version 0.5.1
 :hp-tags: release
 :toc: macro
 
