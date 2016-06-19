@@ -36,6 +36,16 @@ If you create a blog post, then another blogger on your team publishes it, the p
 
 In a future release, we plan on enhancing how writer attribution is handled in the post, so stay tuned.
 
+== Author page
+
+With the *{release}* the author page is now available!
+
+The author page regroups all the posts for a specific author, here is an example from our blog:
+
+image::https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png[]
+
+NOTE: Add an image of an author page and explain the usage
+
 == Edit and Delete Blog Posts
 
 You no longer have to "delete" blogs posts by reusing an unwanted, unpublished blog post. 
