@@ -55,6 +55,12 @@ image::https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a
 
 == Synchronization
 
+In the previous version, to synchronize your local content you had relog in the HubPress administration.
+
+With the {release} comes the *Synchronize button*:
+
+image::https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif[]
+
 NOTE: Add an image of the button and explain the usage
 
 == Solarized theme
