@@ -12,6 +12,29 @@ Subscribe to our new https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA[Yo
 
 toc::[]
 
+== Upgrade your instance
+
+To upgrade your instance you have to create a pull request on your repository.
+Go to:
+
+```shell
+https://github.com/<username>/<repository-name>/compare/<branch>...HubPress:<branch>
+```
+
+For example for our blog, the username is *HubPress*, the repository name is *blog.hubpress.io* and we use the branch *gh-pages*, so the url is:
+
+```shell
+https://github.com/HubPress/blog.hubpress.io/compare/gh-pages...HubPress:gh-pages
+```
+
+If you use the branch master like Jared does (his username is *jaredmorgs*, the repository name is *jaredmorgs.github.io*):
+
+```shell
+https://github.com/jaredmorgs/jaredmorgs.github.io/compare/master...HubPress:master
+```
+
+Then you have to create a pull request with the listed changes and merge it.
+
 == Themes
 
 WARNING: Breaking Change. Action required.
