@@ -88,7 +88,9 @@ image::https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661
 
 == Solarized theme
 
-NOTE: Add an image of the button to switch dark/light mode and explain the usage
+Solarized is now the default theme for the editor, you can switch easily between light and dark with one button:
+
+image::https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b-11e6-8551-470443375de8.gif[]
 
 == Includes
 
