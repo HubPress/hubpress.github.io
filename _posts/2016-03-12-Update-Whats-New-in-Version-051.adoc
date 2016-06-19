@@ -35,6 +35,8 @@ https://github.com/jaredmorgs/jaredmorgs.github.io/compare/master...HubPress:mas
 
 Then you have to create a pull request with the listed changes and merge it.
 
+THe last action is to log in your HubPress administration, go to the *Settings* page and *Save*, it will rebuild all your blog with the last changes. And voilà!
+
 == Themes
 
 WARNING: Breaking Change. Action required.
