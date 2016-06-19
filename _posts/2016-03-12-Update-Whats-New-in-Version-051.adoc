@@ -61,8 +61,6 @@ With the {release} comes the *Synchronize button*:
 
 image::https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif[]
 
-NOTE: Add an image of the button and explain the usage
-
 == Solarized theme
 
 NOTE: Add an image of the button to switch dark/light mode and explain the usage
