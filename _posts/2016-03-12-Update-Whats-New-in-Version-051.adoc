@@ -44,7 +44,6 @@ The author page regroups all the posts for a specific author, here is an example
 
 image::https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png[]
 
-NOTE: Add an image of an author page and explain the usage
 
 == Edit and Delete Blog Posts
 
@@ -52,7 +51,7 @@ You no longer have to "delete" blogs posts by reusing an unwanted, unpublished b
 
 The action overflow (three dots menu) next to each of your posts now has a `Delete` button.
 
-NOTE: Add an image of the button
+image::https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a-11e6-8461-425fa0908f25.gif[]
 
 == Synchronization
 
