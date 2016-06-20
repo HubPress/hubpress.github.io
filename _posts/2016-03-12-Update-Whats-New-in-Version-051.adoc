@@ -94,11 +94,16 @@ image::https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b
 
 == Includes
 
-NOTE: Add an image and explain includes
+You can now use includes in your AsciiDoc content:
+
+image::https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba-11e6-8df4-01b26737c82d.png[]
 
 == Gist
 
-NOTE: Add an image and explain gist
+Lot of developers use gist to store some snippets of their code, you can now use the gist macro to integrate those snippets in your post:
+
+image::https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png[]
+
 
 == Editor Validation for Blog Posts
 
