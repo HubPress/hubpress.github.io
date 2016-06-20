@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Update: What&#x27;s New in Version 0.5.1</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://blog.hubpress.io/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Open+Sans:400italic,700italic,700,400">
+    <link rel="stylesheet" type="text/css" href="//blog.hubpress.io/themes/roon/assets/css/screen.css?v=1466440762136" />
+
+    <link rel="canonical" href="http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="HubPress" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Update: What&#x27;s New in Version 0.5.1" />
+    <meta property="og:description" content="It&amp;#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1. If you&amp;#8217;re looking for more information, all new features are highlighted in the docs with 0.5.1. A &quot;What&amp;#8217;s New&quot; video is also coming where we&amp;" />
+    <meta property="og:url" content="http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html" />
+    <meta property="article:tag" content="release" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Update: What&#x27;s New in Version 0.5.1" />
+    <meta name="twitter:description" content="It&amp;#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1. If you&amp;#8217;re looking for more information, all new features are highlighted in the docs with 0.5.1. A &quot;What&amp;#8217;s New&quot; video is also coming where we&amp;" />
+    <meta name="twitter:url" content="http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="HubPress" href="http://blog.hubpress.io/rss/" />
+</head>
+<body class="post-template tag-release  noimage">
+
+    
+
+
+    <article role="main" class="">
+        <header>
+            <a href="http://blog.hubpress.io" id="home_link">«</a>
+            <div class="meta"><time datetime="2016-03-12"><a href="http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html">March 12, 2016</a></time> <span class="count" id="js-reading-time"></span></div>
+            <h1>Update: What&#x27;s New in Version 0.5.1</h1>
+        </header>
+
+        <div class="text" id="js-post-content">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1.</p>
+</div>
+<div class="paragraph">
+<p>If you&#8217;re looking for more information, all new features are highlighted in the docs with <code>0.5.1</code>.</p>
+</div>
+<div class="paragraph">
+<p>A <strong>"What&#8217;s New"</strong> video is also coming where we&#8217;ll show you quickly about the changes.
+Subscribe to our new <a href="https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA">YouTube Channel</a> for more updates.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+There are breaking changes in this release that affect themes.
+Make sure you read these Release Notes in their entirety before reporting any bugs.
+</td>
+</tr>
+</table>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_upgrade_your_instance">Upgrade your instance</a></li>
+<li><a href="#_themes">Themes</a></li>
+<li><a href="#_multi_user_support_for_post_attribution">Multi-user Support for Post Attribution</a></li>
+<li><a href="#_author_page">Author page</a></li>
+<li><a href="#_edit_and_delete_blog_posts">Edit and Delete Blog Posts</a></li>
+<li><a href="#_synchronization">Synchronization</a></li>
+<li><a href="#_solarized_theme">Solarized theme</a></li>
+<li><a href="#_includes">Includes</a></li>
+<li><a href="#_gist">Gist</a></li>
+<li><a href="#_editor_validation_for_blog_posts">Editor Validation for Blog Posts</a></li>
+<li><a href="#_documentation">Documentation</a></li>
+<li><a href="#_documentation_moving_to_gitbook">Documentation Moving to GitBook</a></li>
+<li><a href="#_donations">Donations</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_upgrade_your_instance">Upgrade your instance</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To upgrade your instance you have to create a pull request on your repository.
+Go to:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/&lt;username&gt;/&lt;repository-name&gt;/compare/&lt;branch&gt;...HubPress:&lt;branch&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example for our blog, the username is <strong>HubPress</strong>, the repository name is <strong>blog.hubpress.io</strong> and we use the branch <strong>gh-pages</strong>, so the url is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/HubPress/blog.hubpress.io/compare/gh-pages...HubPress:gh-pages</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you use the branch master like Jared does (his username is <strong>jaredmorgs</strong>, the repository name is <strong>jaredmorgs.github.io</strong>):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/jaredmorgs/jaredmorgs.github.io/compare/master...HubPress:master</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then you have to create a pull request with the listed changes and merge it.</p>
+</div>
+<div class="paragraph">
+<p>The last action is to log into your HubPress administration console.
+Go to the <strong>Settings</strong> page and <strong>Save</strong>.
+This action rebuilds all your blog posts with the improvements featured in this blog.</p>
+</div>
+<div class="paragraph">
+<p>And voilà!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_themes">Themes</h2>
+<div class="sectionbody">
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Breaking Change. Action required.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Release 0.4.0 added two new themese: ghostium and uno-zen.</p>
+</div>
+<div class="paragraph">
+<p>What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.</p>
+</div>
+<div class="paragraph">
+<p>In 0.5.1 <strong>all theme names have been changed to lowercase</strong>.
+This is breaking change, and you will need to check that the theme you&#8217;ve chosen in the Settings are lowercase.</p>
+</div>
+<div class="paragraph">
+<p>Refer to the folder names in the <code>/themes</code> folder in your repository, or in the <code>Administration.adoc</code> Admin Guide.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_multi_user_support_for_post_attribution">Multi-user Support for Post Attribution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Technically, HubPress already allowed to you set a collaborator on your repo so more than one user could write posts.</p>
+</div>
+<div class="paragraph">
+<p>What HubPress didn&#8217;t do was honour the post creator (author) if the settings were changed, and the site was regenerated.</p>
+</div>
+<div class="paragraph">
+<p>With 0.5.1, if you write a blog post, your GitHub user name will always be attached to the post.</p>
+</div>
+<div class="paragraph">
+<p>If you create a blog post, then another blogger on your team publishes it, the person who originally created the post is credited with writing the post.</p>
+</div>
+<div class="paragraph">
+<p>In a future release, we plan on enhancing how writer attribution is handled in the post, so stay tuned.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_author_page">Author page</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With the <strong>0.5.1</strong> release, the author page is now available!</p>
+</div>
+<div class="paragraph">
+<p>The author page regroups all the posts for a specific author.</p>
+</div>
+<div class="paragraph">
+<p>Here is an example from our blog:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png" alt="304c1ff8 3648 11e6 9928 e19aaba8423c.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_edit_and_delete_blog_posts">Edit and Delete Blog Posts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You no longer have to "delete" blogs posts by reusing an unwanted, unpublished blog post.</p>
+</div>
+<div class="paragraph">
+<p>The action overflow (three dots menu) next to each of your posts now has a <code>Delete</code> button.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a-11e6-8461-425fa0908f25.gif" alt="30283216 365a 11e6 8461 425fa0908f25.gif">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synchronization">Synchronization</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Previous releases required you to reauthenticate in the HubPress Administration Console to synchronize your local content.</p>
+</div>
+<div class="paragraph">
+<p>With the 0.5.1 release, we introduce the <strong>Synchronize button</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif" alt="e97d23e6 3661 11e6 8f6b e69de0026c51.gif">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solarized_theme">Solarized theme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Solarized is now the default theme for the editor, you can switch easily between light and dark with one button:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b-11e6-8551-470443375de8.gif" alt="8f0864d4 366b 11e6 8551 470443375de8.gif">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_includes">Includes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now use includes in your AsciiDoc content:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba-11e6-8df4-01b26737c82d.png" alt="4012ec6a 36ba 11e6 8df4 01b26737c82d.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gist">Gist</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Developers use gist to store code snippets, and with 0.5.1 you can now use the gist macro to integrate those snippets in your post.</p>
+</div>
+<div class="paragraph">
+<p>For example with the gist <a href="https://gist.github.com/anthonny/7786310" class="bare">https://gist.github.com/anthonny/7786310</a> the usage is as follows:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png" alt="bf71edac 36bb 11e6 8acc bcc779964fbc.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_editor_validation_for_blog_posts">Editor Validation for Blog Posts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In versions prior to 0.5.1, if you didn&#8217;t have a Level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.</p>
+</div>
+<div class="paragraph">
+<p>In 0.5.1, the editor now has basic validation built-in.
+If you don&#8217;t start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to check your blog structure.</p>
+</div>
+<div class="paragraph">
+<p>If you want some tips on writing successful blog posts with HubPress, check out the <em>Writers' Guide</em> in your repository.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation">Documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The documentation for HubPress has undergone further improvements to better align the content.</p>
+</div>
+<div class="paragraph">
+<p>The Administration guide has had a content shuffle to remove information that should have been in the Writer&#8217;s Guide.</p>
+</div>
+<div class="paragraph">
+<p>The Writer&#8217;s Guide had some stray Administration content in it, which has now been moved into it&#8217;s proper home.</p>
+</div>
+<div class="paragraph">
+<p>Check out the docs and let us know if you see room for improvement.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation_moving_to_gitbook">Documentation Moving to GitBook</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Look out for the HubPress docs you see in your forked repository on <a href="https://gitbook.com" class="bare">https://gitbook.com</a> in the very near future.</p>
+</div>
+<div class="paragraph">
+<p>GitBook are huge supporters of Open Source projects, and make managing documentation for your project or your organisation easy.
+The team has been very generous in offering HubPress an Open Source license to use for our GitHub organisation.</p>
+</div>
+<div class="paragraph">
+<p>This allows Jared to separate documentation updates from code releases, and allows you to make in-line comments directly on the hosted docs.
+No Pull Request required.
+It&#8217;s an easy way to provide quick feedback on the documentation, so the team can make improvements in rapid iteration.</p>
+</div>
+<div class="paragraph">
+<p>Jared will migrate the user guides currently in your repository over to <a href="https://www.gitbook.com/@hubpress/" class="bare">https://www.gitbook.com/@hubpress/</a> and will re-align the README.adoc with links to these new resources.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_donations">Donations</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HubPress is now on <a href="https://gratipay.com/hubpress/">Gratipay</a>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e.png">
+</div>
+</div>
+<div class="paragraph">
+<p>It&#8217;s not the only way you can help us, but it is certainly a welcome one.
+Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform for you.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184450/bf6fbcca-36bc-11e6-940f-c00e3ba170ec.png" alt="bf6fbcca 36bc 11e6 940f c00e3ba170ec.png">
+</div>
+</div>
+</div>
+</div>
+        </div>
+
+        <menu>
+            <a href="" id="btn_share" class="btn" title="Share">
+                <span aria-hidden="true" data-icon="S"></span>
+                <strong>Share</strong>
+            </a>
+            <a href="http://twitter.com/share?text=Update%3A%20What's%20New%20in%20Version%200.5.1&url=http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
+                <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
+            </a>
+        </menu>
+
+
+        <footer class="post-footer" role="contentinfo">
+
+            <div class="vcard">
+                <!-- <a href="http://blog.hubpress.io/rss" id="btn_feed" class="btn" title="Feed" target="_blank">
+                    <span aria-hidden="true" data-icon=")"></span>
+                    <strong>Feed</strong>
+                </a> -->
+
+                <a href="http://blog.hubpress.io/author/anthonny/" class="photo">
+                    <span style="background-image: url('https://avatars.githubusercontent.com/u/2006548?v&#x3D;3');">
+                        <img src="https://avatars.githubusercontent.com/u/2006548?v&#x3D;3" alt="Anthonny Quérouil">
+                    </span>
+                </a>
+
+                <div class="details">
+                    <h4><a href="http://blog.hubpress.io/author/anthonny/" class="url n">Anthonny Quérouil</a></h4>
+                    Nantes, France<br>
+                    <a href="http://www.anthonnyquerouil.fr" class="js-remove-domain-schema">http://www.anthonnyquerouil.fr</a>
+                </div>
+            </div>
+
+            <div id="user_bio">
+                <div class="inner">
+                    
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+    <section class="post-comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      var disqus_shortname = 'hubpress'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+
+
+    </article>
+
+    <div id="share_modal">
+        <div class="wrap">
+            <div class="inner">
+                <header>
+                    Share
+                    <a href="" class="close" title="Close">&times;</a>
+                </header>
+
+                <div class="roon-share-links">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                    <div id="fb-elems">
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=463438580397968";
+                        fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+                    </div>
+
+                    <div id="pinit-btn">
+                        <a href="//pinterest.com/pin/create/button/?url=http://blog.hubpress.io/2016/03/12/Update-Whats-New-in-Version-051.html&amp;description=Update%3A%20What's%20New%20in%20Version%200.5.1-HubPress " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
+                        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <a href="http://blog.hubpress.io" id="blog_badge">
+            <span style="background-image: url('http://hubpress.io/img/logo.png');">HubPress</span>
+        </a>
+
+
+    <script>
+
+            function get_text(el) {
+                ret = "";
+                var length = el.childNodes.length;
+                for(var i = 0; i < length; i++) {
+                    var node = el.childNodes[i];
+                    if(node.nodeType != 8) {
+                        ret += node.nodeType != 1 ? node.nodeValue : get_text(node);
+                    }
+                }
+                return ret;
+            }
+            function reading_time () {
+                var post_content = document.getElementById('js-post-content');
+                if (post_content) {
+                    var words = get_text(post_content),
+                        count = words.split(/\s+/).length,
+                        read_time = Math.ceil((count / 150)),
+                        read_time_node = document.createTextNode(read_time + ' min read');
+                    document.getElementById('js-reading-time').appendChild(read_time_node);
+                }
+            }
+
+        function no_schema_links () {
+            var links = document.querySelectorAll('.js-remove-domain-schema');
+            if (links) {
+                for (i = 0; i < links.length; ++i) {
+                    var link = links[i],
+                        text = link.innerHTML,
+                        no_schema = text.replace(/.*?:\/\//g, "");
+                    link.innerHTML = no_schema;
+                }
+            }
+        }
+
+        window.onload = function () {
+            no_schema_links();
+
+            reading_time();
+        }
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+        <script>
+            $(function(){
+                var share_modal = $("#share_modal"),
+                    update_social_links = true;
+
+                $("#btn_share").click(function(){
+                    var that = $(this);
+                    share_modal.fadeIn(200);
+                    return false;
+                });
+
+                share_modal.click(function(e){
+                    if (e.target.className == "wrap" || e.target.id == "share_modal") {
+                        share_modal.fadeOut(200);
+                    }
+                    return false;
+                });
+
+                share_modal.find("div.inner > header > a.close").click(function(){
+                    share_modal.fadeOut(200);
+                    return false;
+                });
+            });
+        </script>
+
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59472195-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
