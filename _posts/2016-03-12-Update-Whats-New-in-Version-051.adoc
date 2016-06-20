@@ -134,5 +134,5 @@ image::https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9
 It's not the only way you can help us, but it is certainly a welcome one. 
 Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform for you.
 
-image::https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png[]
+image::https://cloud.githubusercontent.com/assets/2006548/16184450/bf6fbcca-36bc-11e6-940f-c00e3ba170ec.png[]
 
