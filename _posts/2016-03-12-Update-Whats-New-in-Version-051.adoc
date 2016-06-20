@@ -10,6 +10,9 @@ If you're looking for more information, all new features are highlighted in the 
 A *"What's New"* video is also coming where we'll show you quickly about the changes.
 Subscribe to our new https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA[YouTube Channel] for more updates.
 
+IMPORTANT: There are breaking changes in this release that affect themes. 
+Make sure you read these Release Notes in their entirety before reporting any bugs.
+
 toc::[]
 
 == Upgrade your instance
@@ -35,7 +38,11 @@ https://github.com/jaredmorgs/jaredmorgs.github.io/compare/master...HubPress:mas
 
 Then you have to create a pull request with the listed changes and merge it.
 
-THe last action is to log in your HubPress administration, go to the *Settings* page and *Save*, it will rebuild all your blog with the last changes. And voilà!
+The last action is to log into your HubPress administration console. 
+Go to the *Settings* page and *Save*. 
+This action rebuilds all your blog posts with the improvements featured in this blog. 
+
+And voilà!
 
 == Themes
 
@@ -45,7 +52,8 @@ Release 0.4.0 added two new themese: ghostium and uno-zen.
 
 What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.
 
-In {release} *all theme names have been changed to lowercase*. This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
+In {release} *all theme names have been changed to lowercase*. 
+This is breaking change, and you will need to check that the theme you've chosen in the Settings are lowercase.
 
 Refer to the folder names in the `/themes` folder in your repository, or in the `Administration.adoc` Admin Guide. 
 
@@ -63,12 +71,13 @@ In a future release, we plan on enhancing how writer attribution is handled in t
 
 == Author page
 
-With the *{release}* the author page is now available!
+With the *{release}* release, the author page is now available!
 
-The author page regroups all the posts for a specific author, here is an example from our blog:
+The author page regroups all the posts for a specific author.
+
+Here is an example from our blog:
 
 image::https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png[]
-
 
 == Edit and Delete Blog Posts
 
@@ -80,9 +89,9 @@ image::https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a
 
 == Synchronization
 
-In the previous version, to synchronize your local content you had relog in the HubPress administration.
+Previous releases required you to reauthenticate in the HubPress Administration Console to synchronize your local content.
 
-With the {release} comes the *Synchronize button*:
+With the {release} release, we introduce the *Synchronize button*:
 
 image::https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif[]
 
@@ -100,18 +109,18 @@ image::https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba
 
 == Gist
 
-Lot of developers use gist to store some snippets of their code, you can now use the gist macro to integrate those snippets in your post.
+Developers use gist to store code snippets, and with {release} you can now use the gist macro to integrate those snippets in your post.
 
-For example with the gist https://gist.github.com/anthonny/7786310 the usage will be:
+For example with the gist https://gist.github.com/anthonny/7786310 the usage is as follows:
 
 image::https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png[]
 
-
 == Editor Validation for Blog Posts
 
-In versions prior to {release}, if you didn't have a level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
+In versions prior to {release}, if you didn't have a Level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.
 
-In {release}, the editor now has basic validation built into the editor, where if you don't start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to you to check your blog structure. 
+In {release}, the editor now has basic validation built-in.
+If you don't start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to check your blog structure. 
 
 If you want some tips on writing successful blog posts with HubPress, check out the _Writers' Guide_ in your repository.
 
@@ -124,6 +133,19 @@ The Administration guide has had a content shuffle to remove information that sh
 The Writer's Guide had some stray Administration content in it, which has now been moved into it's proper home.
 
 Check out the docs and let us know if you see room for improvement. 
+
+== Documentation Moving to GitBook
+
+Look out for the HubPress docs you see in your forked repository on https://gitbook.com in the very near future. 
+
+GitBook are huge supporters of Open Source projects, and make managing documentation for your project or your organisation easy. 
+The team has been very generous in offering HubPress an Open Source license to use for our GitHub organisation.
+
+This allows Jared to separate documentation updates from code releases, and allows you to make in-line comments directly on the hosted docs. 
+No Pull Request required.
+It's an easy way to provide quick feedback on the documentation, so the team can make improvements in rapid iteration.
+
+Jared will migrate the user guides currently in your repository over to https://www.gitbook.com/@hubpress/ and will re-align the README.adoc with links to these new resources.  
 
 == Donations
 
