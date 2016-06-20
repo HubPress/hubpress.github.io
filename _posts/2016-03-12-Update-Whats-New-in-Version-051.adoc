@@ -100,7 +100,9 @@ image::https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba
 
 == Gist
 
-Lot of developers use gist to store some snippets of their code, you can now use the gist macro to integrate those snippets in your post:
+Lot of developers use gist to store some snippets of their code, you can now use the gist macro to integrate those snippets in your post.
+
+For example with the gist https://gist.github.com/anthonny/7786310 the usage will be:
 
 image::https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png[]
 
