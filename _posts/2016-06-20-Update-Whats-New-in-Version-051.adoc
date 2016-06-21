@@ -18,6 +18,9 @@ toc::[]
 
 == Upgrade your instance
 
+First, make sure that you have saved all your blog posts.
+Every unsaved draft will be lost because we have changed the storage system in this version.
+
 To upgrade your instance you have to create a pull request on your repository.
 Go to:
 
