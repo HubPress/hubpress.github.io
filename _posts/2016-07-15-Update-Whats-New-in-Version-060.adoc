@@ -21,7 +21,7 @@ It is rebuild when:
 
 In the past we have removed the RSS link on each theme because RSS was not available, themes have been updated and links are here.
 
-== Upgrade are simpler with a link
+== Upgrades are simpler with a link
 
 You can find a new item in the main menu, *Check for upgrade*:
 
@@ -31,7 +31,11 @@ It will redirect you to {url_github}[GitHub] and you will be able to upgrade you
 
 We also have added the version add the bottom of the main menu:
 
-* feat(admin): add a link to check if an upgrade is available
-* fix(template): fix a bug with the pagination on gh-pages
-* fix(theme): fix the typo of the theme saga
-* fix(admin): add the version of the application and donation items
+image::https://cloud.githubusercontent.com/assets/2006548/16894220/3f13f908-4b50-11e6-8c28-bba06ab3ccd9.png[]
+
+== Bugs...
+
+We have fixed two bugs:
+
+* a problem with the pagination when you use the branch `gh-pages` without a CNAME,
+* a typo that broke the theme *Saga*
