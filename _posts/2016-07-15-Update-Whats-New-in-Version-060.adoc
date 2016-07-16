@@ -18,7 +18,7 @@ It is rebuild when:
 * you publish a post,
 * you change the content of a published post,
 * you unpublish a post,
-* you change your settings
+* you change your settings.
 
 In the past we have removed the RSS link on each theme because RSS was not available, themes have been updated and links are here.
 
@@ -41,4 +41,5 @@ We have fixed two bugs:
 * a problem with the pagination when you use the branch `gh-pages` without a CNAME,
 * a typo that broke the theme *Saga*
 
-We hope you will enjoy this new release, {url_issues}[feedbacks] are welcome!
+We hope you enjoy this new release. 
+If you have any ideas for features, or see a problem with this release, we would love your {url_issues}[feedback]!
