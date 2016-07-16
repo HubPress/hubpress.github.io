@@ -3,3 +3,26 @@
 :toc: macro
 :release: 0.6.0
 :published_at: 2016-07-15
+
+Here we go, the first release of Summer!
+
+toc::[]
+
+== HubPress supports RSS!
+
+RSS feed is now available at the url `<url_of_your_blog>/rss`!
+It is rebuild when:
+
+* you publish a post,
+* you change the content of a published post,
+* you unpublish a post,
+* you change your settings
+
+In the past we have removed the RSS link on each because it was not available, themes have been updated and links are here.
+
+== 
+
+* feat(admin): add a link to check if an upgrade is available
+* fix(template): fix a bug with the pagination on gh-pages
+* fix(theme): fix the typo of the theme saga
+* fix(admin): add the version of the application and donation items
