@@ -4,6 +4,7 @@
 :release: 0.6.0
 :published_at: 2016-07-15
 :url_github: https://github.com
+:url_issues: https://github.com/HubPress/hubpress.io/issues
 
 Here we go, the first release of Summer!
 
@@ -39,3 +40,5 @@ We have fixed two bugs:
 
 * a problem with the pagination when you use the branch `gh-pages` without a CNAME,
 * a typo that broke the theme *Saga*
+
+We hope you will enjoy this new release, {url_issues}[feedbacks] are welcome 
