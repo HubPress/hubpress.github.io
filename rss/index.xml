@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Jul 2016 00:13:38 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.5.1]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Jul 2016 22:40:54 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here we go, the first release of Summer!</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_hubpress_supports_rss">HubPress supports RSS!</a></li>
+<li><a href="#_upgrades_are_simpler_with_a_link">Upgrades are simpler with a link</a></li>
+<li><a href="#_bugs">Bugs&#8230;&#8203;</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hubpress_supports_rss">HubPress supports RSS!</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>RSS feed is now available at the url <code>&lt;url_of_your_blog&gt;/rss</code>!
+It is rebuild when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>you publish a post,</p>
+</li>
+<li>
+<p>you change the content of a published post,</p>
+</li>
+<li>
+<p>you unpublish a post,</p>
+</li>
+<li>
+<p>you change your settings.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In the past we have removed the RSS link on each theme because RSS was not available, themes have been updated and links are here.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_upgrades_are_simpler_with_a_link">Upgrades are simpler with a link</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can find a new item in the main menu, <strong>Check for upgrade</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894181/74d29dd4-4b4f-11e6-8cfd-a2b352d3a147.png" alt="74d29dd4 4b4f 11e6 8cfd a2b352d3a147.png">
+</div>
+</div>
+<div class="paragraph">
+<p>It will redirect you to <a href="https://github.com">GitHub</a> and you will be able to upgrade your instance in the right way.</p>
+</div>
+<div class="paragraph">
+<p>We also have added the version add the bottom of the main menu:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894220/3f13f908-4b50-11e6-8c28-bba06ab3ccd9.png" alt="3f13f908 4b50 11e6 8c28 bba06ab3ccd9.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bugs">Bugs&#8230;&#8203;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We have fixed two bugs:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>a problem with the pagination when you use the branch <code>gh-pages</code> without a CNAME,</p>
+</li>
+<li>
+<p>a typo that broke the theme <strong>Saga</strong></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>We hope you enjoy this new release.
+If you have any ideas for features, or see a problem with this release, we would love your <a href="https://github.com/HubPress/hubpress.io/issues">feedback</a>!</p>
+</div>
+</div>
+</div>]]></description><link>http://blog.hubpress.io/2016/07/15/Update-Whats-New-in-Version-060.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/07/15/Update-Whats-New-in-Version-060.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.5.1]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>It&#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1.</p>
