@@ -1,0 +1,51 @@
+= We Aren't Dead Yet: HubPress Roadmap
+:hp-tags: roadmap
+:toc: macro
+:release: 0.7.0
+:url_github: https://github.com
+:url_issues: https://github.com/HubPress/hubpress.io/issues
+:url_roadmap: https://github.com/HubPress/hubpress.io/projects/1
+
+In a {url_issues}/447[bug report] we triaged recently, a new HubPress adopter questioned the future of the project. 
+
+We have not released an platform update since June 2016. It's a fair question for the HubPress community to ask what the future of the project is, and whether they should perhaps begin looking for another AsciiDoc static site blogging platform. 
+
+Before we get to that, let's take stock of where the project currently stands:
+
+* We have a new plug-in architecture that modularises HubPress publishing components.
+* We have a brand new https://hubpress.gitbooks.io/hubpress-knowledgebase/content/[GitBook Documentation Portal] which supercedes the repo-hosted docs.
+* We have 2,700 forks of the project.
+* We have a lot of happy HubPressers (and some blog teams) pumping out posts on a platform originally conceived as a proof of concept. 
+
+This is a good place for any Open Source project to be in!
+
+As far as work goes however, we have no shortage of bugs and enhancements:
+
+* 12 Bugs
+* 9 docs improvements
+* 50 (yes, *50*) enhancement requests.
+* plus a few other miscellaneous bugs, but whatever: _50 Enhancements_!
+
+// Up to you if you want to put this line in, Anthonny. 
+// FOSS developers will understand the sense of duty to their community to deliver fixes, but not being able to because other more pressing things get in the way.
+
+With Anthonny being the only developer on the product, and his time spread between a paying developer job, a young family, and HubPress I felt it necessary to ask a tough question of him recently: "should we sunset HubPress?". 
+
+The answer to that question is still up for discussion. 
+I think before we can make that decision, we need to give the GitHub community a real chance to contribute to the project. Not just create enhancements or fix the occasional theme or docs tyop: but actually contribute to development of the platform.
+
+In other words, we need to start working *for* the project, not *on* the project for it to evolve and grow. We also need to create a Contribution Framework that allows motivated developers to contribute to the plug-in framework that HubPress is now built upon. This is *the key* to reinvigorating the project, because it will let the community create new features in a modular way. 
+
+It is far more motivating to work on small, achievable releases than looking at 90 issues and feeling overwhelmed. 
+Using a new feature in GitHub, we've created our first {url_roadmap}[roadmap]. 
+The idea behind each roadmap is to use them as release mileststones for us to group similar bugs and enhancements.
+
+If you want to help guide us as a team about what issues we should prioritise next, get voting. 
+We can filter on the number of reactions (thumbs-up) an issue gets, and prioritise these for action in a future milstone. 
+We're only filtering on thumbsup, so while smileys are nice they won't help in this case.
+
+If you want to talk more about this, you can join the discussion on https://hubpressio.slack.com
+
+So that's where we are at the moment. 
+Where we go next is up for discussion.
+Let's talk.
