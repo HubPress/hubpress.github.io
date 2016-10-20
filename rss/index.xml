@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Jul 2016 22:59:01 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 20 Oct 2016 07:08:56 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
+<p>In a <a href="https://github.com/HubPress/hubpress.io/issues/447">bug report</a> we triaged recently, a new HubPress adopter questioned the future of the project.</p>
+</div>
+<div class="paragraph">
+<p>We have not released a platform update since June 2016. It&#8217;s a fair question for the HubPress community to ask what the future of the project is, and whether they should perhaps begin looking for another AsciiDoc static site blogging platform.</p>
+</div>
+<div class="paragraph">
+<p>Before we get to that, let&#8217;s take stock of where the project currently stands:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>We have a new plug-in architecture that modularises HubPress publishing components.</p>
+</li>
+<li>
+<p>We have a brand new <a href="https://hubpress.gitbooks.io/hubpress-knowledgebase/content/">GitBook Documentation Portal</a> which supercedes the repo-hosted docs.</p>
+</li>
+<li>
+<p>We have 2,700 forks of the project.</p>
+</li>
+<li>
+<p>We have a lot of happy HubPressers (and some blog teams) pumping out posts on a platform originally conceived as a proof of concept.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This is a good place for any Open Source project to be in!</p>
+</div>
+<div class="paragraph">
+<p>As far as work goes however, we have no shortage of bugs and enhancements:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>12 Bugs</p>
+</li>
+<li>
+<p>9 docs improvements</p>
+</li>
+<li>
+<p>50 (yes, <strong>50</strong>) enhancement requests.</p>
+</li>
+<li>
+<p>plus a few other miscellaneous bugs, but whatever: <em>50 Enhancements</em>!</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>What Anthonny and I need to start doing is working <strong>on</strong> the project, not <strong>in</strong> the project for it to evolve and grow.
+We need to do the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Give the HubPress community a real chance to contribute to the project.</p>
+</li>
+<li>
+<p>Develop a Contribution Framework for developers and translators.</p>
+</li>
+<li>
+<p>Document the project architecture so developers can understand the product.</p>
+</li>
+<li>
+<p>Motivate developers to contribute to the plug-in framework that HubPress is now built upon.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This is <strong>the key</strong> to reinvigorating the project, because it will let the community create new features in a modular way.</p>
+</div>
+<div class="paragraph">
+<p>It is far more motivating to work on small, achievable releases than looking at 90 issues and feeling overwhelmed.
+Using a new feature in GitHub, we&#8217;ve created our first <a href="https://github.com/HubPress/hubpress.io/projects/1">roadmap</a>.
+The idea behind each roadmap is to use them as release mileststones for us to group similar bugs and enhancements.</p>
+</div>
+<div class="paragraph">
+<p>Milestones will not contain a lot of issues.
+We&#8217;ve agreed that about six issues is a good average number, with no more than 10 in total.
+Limiting a milestone to a low number of issues will help keep the team focused and keep the velocity up.</p>
+</div>
+<div class="paragraph">
+<p>The hard part for us is working out what issues to prioritise first. You can help us with this. It&#8217;s time to cast your vote.
+We can filter on the number of reactions (thumbs-up) an issue gets, and prioritise these for action in a future milstone.
+We&#8217;re only filtering on thumbsup, so while smileys are nice they won&#8217;t help in this case.</p>
+</div>
+<div class="paragraph">
+<p>If you want to talk more about this, you can join the discussion on <a href="https://hubpressio.slack.com" class="bare">https://hubpressio.slack.com</a></p>
+</div>
+<div class="paragraph">
+<p>So that&#8217;s where we are at the moment.</p>
+</div>
+<div class="paragraph">
+<p>Where we go next is up for discussion.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s talk.</p>
+</div>]]></description><link>http://blog.hubpress.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</guid><category><![CDATA[roadmap]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Tue, 11 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Here we go, the first release of Summer!</p>
