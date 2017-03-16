@@ -50,7 +50,7 @@ We've made some other changes that you'll see in 0.7.3, but these were done befo
 
 Here's a summary of those changes.
 
-== 0.7.0 
+=== 0.7.0 
 
 Anthonny made the decision to move away from a `React/Redux` and `material-ui` to https://vuejs.org/[Vue/VueX] and https://semantic-ui.com/[Semantic UI]. 
 This move allowed Anthonny to actually develop HubPress, not resolve dependency hell each time he tried to do development.
@@ -65,7 +65,7 @@ You access this through the Settings menu.
 In the Settings menu, you'll also find links to https://www.paypal.me/anthonny/5[PayPal] and https://gratipay.com/hubpress/[Gratipay] that let you send a quick thank-you in the form of a pre-paid beer or coffee (or Pizza if you're feeling super generous). 
 We'd really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.
 
-== 0.7.1 and 0.7.2
+=== 0.7.1 and 0.7.2
 
 This release was a maintenance release to fix up some early-adopter bugs discovered with HTTPS mixed content in themes and an ld+json bug. 
 We also added back in some themes that were excluded from the first release by accident.
