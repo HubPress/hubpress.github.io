@@ -35,8 +35,8 @@ The biggest addition to this release is the Gitter support chat integration.
 First-time users have told us they often have issues with logging onto HubPress after initially configuring the blog. 
 Anthonny wanted to support new users better, and we decided that https://gitter.im/[Gitter] was the best product fit for HubPress.
 
-You'll find the embedded Gitter client in the login screen. 
-Use it to reach out to Anthonny and I, and get support with HubPress.
+You'll find the embedded Gitter client in the login screen, and in the posts view. 
+Use it to reach out to Anthonny and I , and get support with HubPress.
 
 == How Are We Doing?
 
