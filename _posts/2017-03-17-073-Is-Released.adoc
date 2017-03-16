@@ -19,7 +19,7 @@ Perhaps you can use the feature to search for and update your old tech posts wit
 There is now a team page that explains a bit about the core team as well.
 You access this through the Settings slide-out pane. 
 
-You'll also find links to PayPal and Gratipay that let you support us financially (one-off or ongoing). 
+You'll also find links to https://www.paypal.me/anthonny/5[PayPal] and https://gratipay.com/hubpress/[Gratipay] that let you support us financially (one-off or ongoing). 
 We'd really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.
 
 == 0.7.1 and 0.7.2
@@ -46,7 +46,7 @@ A recent review of the fork statistics of HubPress revealed that a staggering  7
 There are 261 of you that have written at least 5 posts. Congratulations!
 
 If you love HubPress, we'd love to hear why you love it.
-Why not show your love by sharing this post, or perhaps consider donating to HubPress through the donate links in your Blog Settings pane. 
+Why not show your love by sharing this post, or perhaps consider donating through https://www.paypal.me/anthonny/5[PayPal] or https://gratipay.com/hubpress/[Gratipay] to HubPress. 
 
 And if there is something about HubPress you think we can do better, tell us! 
 We can only improve the tool if you open feature requests in GitHub. 
