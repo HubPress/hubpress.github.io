@@ -5,7 +5,50 @@
 :url_github: https://github.com
 :url_issues: https://github.com/HubPress/hubpress.io/issues
 
-We've been working on a new release for you with a lot of new features. It was soft-launched a month ago now, and we've received positive feedback about it so far.
+We've been working on a new release for you with a lot of new features. 
+It was soft-launched a month ago now, and we've received positive feedback about it so far.
+
+This post summarises the 0.7.0 to 0.7.2 changes as well, but I've put the 0.7.3 summary first in case you don't care about the other changes.
+
+toc::[]
+
+== 0.7.3
+
+The biggest addition to this release is the Gitter support chat integration, and dramatically improved posts synchronisation and publishing times.
+
+=== Gitter Chat
+
+First-time users have told us they often have issues with logging onto HubPress after initially configuring the blog. 
+Anthonny wanted to support new users better, and we decided that https://gitter.im/[Gitter] was the best product fit for HubPress.
+
+You'll find the embedded Gitter client in the bottom-right of each screen in the product. 
+Use it to reach out to Anthonny and I, and get support with HubPress.
+
+=== Synchronisation Improvements
+
+When you log onto your updated version of HubPress for the first time, you'll notice a slight delay as all your posts are synchronised over.
+
+After this process completes, you'll find subsequent logins to be much faster than on 0.6.0. 
+This is because subsequent logins do not trigger a resync, and rely on the local storage.
+Most HubPress users are solo bloggers, so synchronising posts each time you log in seemed like a waste of time.
+
+If you do share your blog instance with other bloggers, you can force a resync in the Posts view so posts written by your blogging team are synchronised over. 
+
+=== Publishing Speed
+
+The way we handle publishing has been reworked and has made publising times  for a 90 post blog reduce from 4 minutes to about 40 seconds in our tests.
+
+The bottleneck before was the way HubPress committed files to your blog's repository: each change was a separate commit.
+This caused excessive commit history in your blog and made large blogs struggle to publish quickly. 
+
+Post operations are now batched into logical groups. 
+There should only be about four commits per publish, not hundreds like some larger blogs were experiencing.
+
+== Cumulative Changes
+
+We've made some other changes that you'll see in 0.7.3, but these were done before this release. 
+
+Here's a summary of those changes.
 
 == 0.7.0 
 
@@ -28,15 +71,6 @@ This release was a maintenance release to fix up some early-adopter bugs discove
 We also added back in some themes that were excluded from the first release by accident.
 
 Our thanks go out to the early adopters who raised bugs and helped us identify some issues with themes and posts.
-
-== 0.7.3
-
-The biggest addition to this release is the Gitter support chat integration.
-First-time users have told us they often have issues with logging onto HubPress after initially configuring the blog. 
-Anthonny wanted to support new users better, and we decided that https://gitter.im/[Gitter] was the best product fit for HubPress.
-
-You'll find the embedded Gitter client in the login screen, and in the posts view. 
-Use it to reach out to Anthonny and I , and get support with HubPress.
 
 == How Are We Doing?
 
