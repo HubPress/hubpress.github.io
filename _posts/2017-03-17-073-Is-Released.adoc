@@ -1,0 +1,63 @@
+= 0.7.3 Is Released
+:hp-tags: roadmap
+:toc: macro
+:release: 0.7.0
+:url_github: https://github.com
+:url_issues: https://github.com/HubPress/hubpress.io/issues
+
+We've been working on a new release for you with a lot of new features. It was soft-launched a month ago now, and we've received positive feedback about it so far.
+
+== 0.7.0 
+
+Anthonny made the decision to move away from a `React/Redux` and `material-ui` to https://vuejs.org/[Vue/VueX] and https://semantic-ui.com/[Semantic UI]. 
+This move allowed Anthonny to actually develop HubPress, not resolve dependency hell each time he tried to do development.
+
+In the Posts view you'll find a new Filter function, which lets you search for keywords and textual strings in posts. 
+This will help bloggers with a large post list to find an old post or a post with keywords in it. 
+Perhaps you can use the feature to search for and update your old tech posts with new info? Let us know what you think about this addition.
+
+There is now a team page that explains a bit about the core team as well.
+You access this through the Settings slide-out pane. 
+
+You'll also find links to PayPal and Gratipay that let you support us financially (one-off or ongoing). 
+We'd really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.
+
+== 0.7.1 and 0.7.2
+
+This release was a maintenance release to fix up some early-adopter bugs discovered with HTTPS mixed content in themes and an ld+json bug. 
+We also omitted some themes from the first release, which were quickly added back into the product.
+
+Our thanks go out to the early adopters who raised bugs and help us identify some issues with themes and posts.
+
+== 0.7.3
+
+The biggest addition to this release is the Gitter support chat integration.
+We've seen through issue reports that folks often have issues with logging onto HubPress after initially configuring the blog. 
+Anthonny wanted to support new users better, and we decided that https://gitter.im/[Gitter] was the best product fit for HubPress.
+
+You'll find the Embedded Gitter client in the login screen. 
+Use it to reach out to Anthonny and I and get support with HubPress.
+
+== How Are We Doing?
+
+It's been two years since HubPress started as a proof of concept. It is now used by over 1000 users worldwide to maintain their blog presence on the internet.
+
+A recent review of the fork statistics of HubPress revealed that a staggering  764 users have set up the product and written at least two posts with our little tool. 
+There are 261 of you that have written at least 5 posts. Congratulations!
+
+If you love HubPress, we'd love to hear why you love it.
+Why not show your love by sharing this post, or perhaps consider donating to HubPress through the donate links in your Blog Settings pane. 
+
+And if there is something about HubPress you think we can do better, tell us! 
+We can only improve the tool if you open feature requests in GitHub. 
+
+Thanks for using HubPress, and keep sharing!
+
+
+
+
+
+
+
+
+You'll also see links to Gratipay and PayPal there as well
