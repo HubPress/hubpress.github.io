@@ -1,4 +1,173 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 20 Oct 2016 07:08:56 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Mar 2017 12:22:39 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>We&#8217;ve been working on a new release for you with a lot of new features.
+It was soft-launched a month ago now, and we&#8217;ve received positive feedback about it so far.</p>
+</div>
+<div class="paragraph">
+<p>This post summarises the 0.7.0 to 0.7.2 changes as well, but I&#8217;ve put the 0.7.3 summary first in case you don&#8217;t care about the other changes.</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_0_7_3">0.7.3</a>
+<ul class="sectlevel2">
+<li><a href="#_gitter_chat">Gitter Chat</a></li>
+<li><a href="#_synchronisation_improvements">Synchronisation Improvements</a></li>
+<li><a href="#_publishing_speed">Publishing Speed</a></li>
+</ul>
+</li>
+<li><a href="#_cumulative_changes">Cumulative Changes</a>
+<ul class="sectlevel2">
+<li><a href="#_0_7_0">0.7.0</a></li>
+<li><a href="#_0_7_1_and_0_7_2">0.7.1 and 0.7.2</a></li>
+</ul>
+</li>
+<li><a href="#_how_are_we_doing">How Are We Doing?</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_0_7_3">0.7.3</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The biggest addition to this release is the Gitter support chat integration, and dramatically improved posts synchronisation and publishing times.</p>
+</div>
+<div class="sect2">
+<h3 id="_gitter_chat">Gitter Chat</h3>
+<div class="paragraph">
+<p>First-time users have told us they often have issues with logging onto HubPress after initially configuring the blog.
+Anthonny wanted to support new users better, and we decided that <a href="https://gitter.im/">Gitter</a> was the best product fit for HubPress.</p>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll find the embedded Gitter client in the bottom-right of each screen in the product.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042438/347b7e12-0b12-11e7-99a2-85278ccef404.gif" alt="347b7e12 0b12 11e7 99a2 85278ccef404.gif">
+</div>
+</div>
+<div class="paragraph">
+<p>Use it to reach out to Anthonny and I, and get support with HubPress.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_synchronisation_improvements">Synchronisation Improvements</h3>
+<div class="paragraph">
+<p>When you log onto your updated version of HubPress for the first time, you&#8217;ll notice a slight delay as all your posts are synchronised over.</p>
+</div>
+<div class="paragraph">
+<p>After this process completes, you&#8217;ll find subsequent logins to be much faster than on 0.6.0.
+This is because subsequent logins do not trigger a resync, and rely on the local storage.
+Most HubPress users are solo bloggers, so synchronising posts each time you log in seemed like a waste of time.</p>
+</div>
+<div class="paragraph">
+<p>If you do share your blog instance with other bloggers, you can force a resync in the Posts view so posts written by your blogging team are synchronised over.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042910/6a5af2f4-0b14-11e7-8a3c-2af6b30ed6e0.gif" alt="6a5af2f4 0b14 11e7 8a3c 2af6b30ed6e0.gif">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_publishing_speed">Publishing Speed</h3>
+<div class="paragraph">
+<p>The way we handle publishing has been reworked and has made publising times  for a 90 post blog reduce from 4 minutes to about 40 seconds in our tests.</p>
+</div>
+<div class="paragraph">
+<p>The bottleneck before was the way HubPress committed files to your blog&#8217;s repository: each change was a separate commit.
+This caused excessive commit history in your blog and made large blogs struggle to publish quickly.</p>
+</div>
+<div class="paragraph">
+<p>Post operations are now batched into logical groups.
+There should only be about four commits per publish, not hundreds like some larger blogs were experiencing.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cumulative_changes">Cumulative Changes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We&#8217;ve made some other changes that you&#8217;ll see in 0.7.3, but these were done before this release.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a summary of those changes.</p>
+</div>
+<div class="sect2">
+<h3 id="_0_7_0">0.7.0</h3>
+<div class="paragraph">
+<p>Anthonny made the decision to move away from a <code>React/Redux</code> and <code>material-ui</code> to <a href="https://vuejs.org/">Vue/VueX</a> and <a href="https://semantic-ui.com/">Semantic UI</a>.
+This move allowed Anthonny to actually develop HubPress, not resolve dependency hell each time he tried to do development.</p>
+</div>
+<div class="paragraph">
+<p>In the Posts view you&#8217;ll find a new Filter function that lets you search for keywords and textual strings in posts.
+This will help those of you with large posts lists to find an old post or a post with keywords in it.
+Perhaps you can use the feature to search for and update your old tech posts with new info? Let us know what you think about this addition.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042658/39e85978-0b13-11e7-8838-4a224b4031c4.gif" alt="39e85978 0b13 11e7 8838 4a224b4031c4.gif">
+</div>
+</div>
+<div class="paragraph">
+<p>There is now a team page that explains a bit about us as well.
+You access this through the Navigation menu.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042816/f65ef5ee-0b13-11e7-9f0a-3c6b92eb4c7a.png" alt="f65ef5ee 0b13 11e7 9f0a 3c6b92eb4c7a.png">
+</div>
+</div>
+<div class="paragraph">
+<p>In the Navigation menu, you&#8217;ll also find links to <a href="https://www.paypal.me/anthonny/5">PayPal</a> and <a href="https://gratipay.com/hubpress/">Gratipay</a> that let you send a quick thank-you in the form of a pre-paid beer or coffee (or Pizza if you&#8217;re feeling super generous).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042807/e7f7e196-0b13-11e7-888c-f12b0e7eb4f1.png" alt="e7f7e196 0b13 11e7 888c f12b0e7eb4f1.png">
+</div>
+</div>
+<div class="paragraph">
+<p>We&#8217;d really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_0_7_1_and_0_7_2">0.7.1 and 0.7.2</h3>
+<div class="paragraph">
+<p>This release was a maintenance release to fix up some early-adopter bugs discovered with HTTPS mixed content in themes and an ld+json bug.
+We also added back in some themes that were excluded from the first release by accident.</p>
+</div>
+<div class="paragraph">
+<p>Our thanks go out to the early adopters who raised bugs and helped us identify some issues with themes and posts.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_are_we_doing">How Are We Doing?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s been two years since HubPress started as a proof of concept. It is now used by over 1000 users worldwide to maintain their blog presence on the internet.</p>
+</div>
+<div class="paragraph">
+<p>A recent review of the fork statistics of HubPress revealed that a staggering  764 users have set up the product and written at least two posts with our little tool.
+There are 261 of you that have written at least 5 posts. Congratulations!</p>
+</div>
+<div class="paragraph">
+<p>If you love HubPress, we&#8217;d love to hear why you love it.
+Why not show your love by sharing this post, or perhaps consider donating through <a href="https://www.paypal.me/anthonny/5">PayPal</a> or <a href="https://gratipay.com/hubpress/">Gratipay</a> to HubPress.</p>
+</div>
+<div class="paragraph">
+<p>And if there is something about HubPress you think we can do better, tell us!
+We can only improve the tool if you open feature requests in GitHub.</p>
+</div>
+<div class="paragraph">
+<p>Thanks for using HubPress, and keep sharing!</p>
+</div>
+</div>
+</div>]]></description><link>http://blog.hubpress.io/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">http://blog.hubpress.io/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
 <p>In a <a href="https://github.com/HubPress/hubpress.io/issues/447">bug report</a> we triaged recently, a new HubPress adopter questioned the future of the project.</p>
 </div>
 <div class="paragraph">
