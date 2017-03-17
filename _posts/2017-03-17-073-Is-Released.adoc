@@ -1,5 +1,5 @@
 = 0.7.3 Is Released
-:hp-tags: roadmap
+:hp-tags: roadmap, release
 :toc: macro
 :release: 0.7.0
 :url_github: https://github.com
