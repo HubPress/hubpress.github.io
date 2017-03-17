@@ -22,6 +22,9 @@ First-time users have told us they often have issues with logging onto HubPress 
 Anthonny wanted to support new users better, and we decided that https://gitter.im/[Gitter] was the best product fit for HubPress.
 
 You'll find the embedded Gitter client in the bottom-right of each screen in the product. 
+
+image::https://cloud.githubusercontent.com/assets/2006548/24042438/347b7e12-0b12-11e7-99a2-85278ccef404.gif[]
+
 Use it to reach out to Anthonny and I, and get support with HubPress.
 
 === Synchronisation Improvements
@@ -33,6 +36,8 @@ This is because subsequent logins do not trigger a resync, and rely on the local
 Most HubPress users are solo bloggers, so synchronising posts each time you log in seemed like a waste of time.
 
 If you do share your blog instance with other bloggers, you can force a resync in the Posts view so posts written by your blogging team are synchronised over. 
+
+image::https://cloud.githubusercontent.com/assets/2006548/24042910/6a5af2f4-0b14-11e7-8a3c-2af6b30ed6e0.gif[]
 
 === Publishing Speed
 
@@ -59,10 +64,17 @@ In the Posts view you'll find a new Filter function that lets you search for key
 This will help those of you with large posts lists to find an old post or a post with keywords in it. 
 Perhaps you can use the feature to search for and update your old tech posts with new info? Let us know what you think about this addition.
 
-There is now a team page that explains a bit about us as well.
-You access this through the Settings menu. 
+image::https://cloud.githubusercontent.com/assets/2006548/24042658/39e85978-0b13-11e7-8838-4a224b4031c4.gif[]
 
-In the Settings menu, you'll also find links to https://www.paypal.me/anthonny/5[PayPal] and https://gratipay.com/hubpress/[Gratipay] that let you send a quick thank-you in the form of a pre-paid beer or coffee (or Pizza if you're feeling super generous). 
+There is now a team page that explains a bit about us as well.
+You access this through the Navigation menu. 
+
+image::https://cloud.githubusercontent.com/assets/2006548/24042816/f65ef5ee-0b13-11e7-9f0a-3c6b92eb4c7a.png[]
+
+In the Navigation menu, you'll also find links to https://www.paypal.me/anthonny/5[PayPal] and https://gratipay.com/hubpress/[Gratipay] that let you send a quick thank-you in the form of a pre-paid beer or coffee (or Pizza if you're feeling super generous). 
+
+image::https://cloud.githubusercontent.com/assets/2006548/24042807/e7f7e196-0b13-11e7-888c-f12b0e7eb4f1.png[]
+
 We'd really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.
 
 === 0.7.1 and 0.7.2
