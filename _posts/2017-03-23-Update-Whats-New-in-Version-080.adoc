@@ -12,9 +12,8 @@ Then login and the configuration will be save on your repository.
 
 That's it!
 
-image::https://cloud.githubusercontent.com/assets/2006548/24248366/5e350f22-0fcf-11e7-8090-4d8b713505cb.png[]
+image::https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0-11e7-99a0-14e0e3779af7.gif[]
 
-feat(startup): add a panel to define the username, the repositoryName, the branch and the CNAME before login
 
 == A new theme is here: The Shell
 
