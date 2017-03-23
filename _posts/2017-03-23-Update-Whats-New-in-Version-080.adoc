@@ -3,6 +3,17 @@
 
 == The configuration form
 
+You do not need to change the *config.json* anymore, now you can do it with the *Configuration form*.
+This form appears when the configuration of your repository is not done.
+You have to set the mandatory fields (username, repository name and the branch) and the domain name if you have one.
+
+Click on the *Ok, let's go!* button and you will be redirect to the login form.
+Then login and the configuration will be save on your repository.
+
+That's it!
+
+image::https://cloud.githubusercontent.com/assets/2006548/24248366/5e350f22-0fcf-11e7-8090-4d8b713505cb.png[]
+
 feat(startup): add a panel to define the username, the repositoryName, the branch and the CNAME before login
 
 == A new theme is here: The Shell
@@ -12,3 +23,4 @@ feat(startup): add a panel to define the username, the repositoryName, the branc
 fix(tag): fix the tag generation by removing useless space with a trim
 
 fix(theme): add the highlightjs css and upgrade to the last version, fix all themes to have a correct rendering
+
