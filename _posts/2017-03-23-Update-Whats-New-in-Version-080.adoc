@@ -17,6 +17,11 @@ image::https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0
 
 == A new theme is here: The Shell
 
+Some of you wanted to have a dark theme so we added one.
+You can now use the theme *the-shell* in your settings, here is a sample of the result with my personal blog:
+
+image::https://cloud.githubusercontent.com/assets/2006548/24248939/bb3530ec-0fd1-11e7-93ae-8e8939f6aecd.png[]
+
 == Some fixes
 
 fix(tag): fix the tag generation by removing useless space with a trim
