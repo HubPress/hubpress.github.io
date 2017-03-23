@@ -1,2 +1,14 @@
 = Update: What's New in Version 0.8.0
 
+
+== The configuration form
+
+feat(startup): add a panel to define the username, the repositoryName, the branch and the CNAME before login
+
+== A new theme is here: The Shell
+
+== Some fixes
+
+fix(tag): fix the tag generation by removing useless space with a trim
+
+fix(theme): add the highlightjs css and upgrade to the last version, fix all themes to have a correct rendering
