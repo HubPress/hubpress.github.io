@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Mar 2017 12:25:58 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 Mar 2017 12:19:25 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_the_configuration_form">The configuration form</a></li>
+<li><a href="#_a_new_theme_is_here_the_shell">A new theme is here: The Shell</a></li>
+<li><a href="#_some_fixes">Some fixes</a></li>
+<li><a href="#_what_s_next">What&#8217;s next?</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_configuration_form">The configuration form</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You do not need to change the <strong>config.json</strong> anymore, now you can do it with the <strong>Configuration form</strong>.
+This form appears when the configuration of your repository is not done.
+You have to set the mandatory fields (username, repository name and the branch) and the domain name if you have one.</p>
+</div>
+<div class="paragraph">
+<p>Click on the <strong>Ok, let&#8217;s go!</strong> button and you will be redirect to the login form.
+Then login and the configuration will be save on your repository.</p>
+</div>
+<div class="paragraph">
+<p>That&#8217;s it!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0-11e7-99a0-14e0e3779af7.gif" alt="e63f9968 0fd0 11e7 99a0 14e0e3779af7.gif">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_new_theme_is_here_the_shell">A new theme is here: The Shell</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some of you wanted to have a dark theme so we added one.
+You can now use the theme <strong>the-shell</strong> in your settings, here is a sample of the result with my personal blog:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248939/bb3530ec-0fd1-11e7-93ae-8e8939f6aecd.png" alt="bb3530ec 0fd1 11e7 93ae 8e8939f6aecd.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_some_fixes">Some fixes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We have fixed a bug on the generation of tags, thanks to Krzysztof Zbiciński <a href="https://github.com/zbicin">@zbicin</a>.</p>
+</div>
+<div class="paragraph">
+<p>We have also fixed the highlighting of code blocks, here is a example with the theme <strong>casper</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24249156/7c4a3d68-0fd2-11e7-85c7-930bebb52ef9.png" alt="7c4a3d68 0fd2 11e7 85c7 930bebb52ef9.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_s_next">What&#8217;s next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For the next version, we hope to add the static page feature and why not the sitemap generation.</p>
+</div>
+<div class="paragraph">
+<p>As usual, if you love HubPress, we’d love to hear why you love it. Why not show your love by sharing this post, or perhaps consider donating through PayPal or Gratipay to HubPress.</p>
+</div>
+<div class="paragraph">
+<p>And if there is something about HubPress you think we can do better, tell us! We can only improve the tool if you open feature requests in GitHub.</p>
+</div>
+<div class="paragraph">
+<p>Thanks for using HubPress, and keep sharing!</p>
+</div>
+</div>
+</div>]]></description><link>http://blog.hubpress.io/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">http://blog.hubpress.io/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>We&#8217;ve been working on a new release for you with a lot of new features.
