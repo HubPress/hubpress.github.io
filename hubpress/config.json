@@ -3,20 +3,38 @@
     "username": "hubpress",
     "repositoryName": "blog",
     "branch": "gh-pages",
-    "delay": "500"
+    "delay": "500",
+    "cname": ""
   },
   "site": {
     "title": "HubPress",
     "logo": "http://hubpress.github.io/img/logo.png",
     "postsPerPage": "10",
     "googleAnalytics": "UA-59472195-1",
-    "disqus": "hubpress"
+    "disqus": "hubpress",
+    "description": "",
+    "cover": "",
+    "delay": "500"
   },
   "socialnetwork": {
     "twitter": "https://twitter.com/hubpressio",
-    "github": "https://github.com/hubpress"
+    "github": "https://github.com/hubpress",
+    "email": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
   },
   "theme": {
     "name": "roon"
+  },
+  "urls": {
+    "site": "https://hubpress.github.io/blog",
+    "hubpress": "http://hubpress.github.io/blog",
+    "theme": "//hubpress.github.io/blog/themes/roon",
+    "images": "https://hubpress.github.io/blog/images"
   }
 }
