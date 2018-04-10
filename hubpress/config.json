@@ -1,14 +1,13 @@
 {
   "meta": {
     "username": "hubpress",
-    "repositoryName": "blog.hubpress.io",
+    "repositoryName": "blog",
     "branch": "gh-pages",
-    "cname": "blog.hubpress.io",
     "delay": "500"
   },
   "site": {
     "title": "HubPress",
-    "logo": "http://hubpress.io/img/logo.png",
+    "logo": "http://hubpress.github.io/img/logo.png",
     "postsPerPage": "10",
     "googleAnalytics": "UA-59472195-1",
     "disqus": "hubpress"
