@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>http://blog.hubpress.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 Mar 2017 12:19:25 GMT</lastBuildDate><atom:link href="http://blog.hubpress.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>https://hubpress.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 10 Apr 2018 13:46:49 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
@@ -79,7 +79,7 @@ You can now use the theme <strong>the-shell</strong> in your settings, here is a
 <p>Thanks for using HubPress, and keep sharing!</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">http://blog.hubpress.io/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>We&#8217;ve been working on a new release for you with a lot of new features.
@@ -248,7 +248,7 @@ We can only improve the tool if you open feature requests in GitHub.</p>
 <p>Thanks for using HubPress, and keep sharing!</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">http://blog.hubpress.io/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
 <p>In a <a href="https://github.com/HubPress/hubpress.io/issues/447">bug report</a> we triaged recently, a new HubPress adopter questioned the future of the project.</p>
 </div>
 <div class="paragraph">
@@ -344,7 +344,7 @@ We&#8217;re only filtering on thumbsup, so while smileys are nice they won&#8217
 </div>
 <div class="paragraph">
 <p>Let&#8217;s talk.</p>
-</div>]]></description><link>http://blog.hubpress.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</guid><category><![CDATA[roadmap]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Tue, 11 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</guid><category><![CDATA[roadmap]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Tue, 11 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Here we go, the first release of Summer!</p>
@@ -432,7 +432,7 @@ It is rebuild when:</p>
 If you have any ideas for features, or see a problem with this release, we would love your <a href="https://github.com/HubPress/hubpress.io/issues">feedback</a>!</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2016/07/15/Update-Whats-New-in-Version-060.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/07/15/Update-Whats-New-in-Version-060.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.5.1]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2016/07/15/Update-Whats-New-in-Version-060.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2016/07/15/Update-Whats-New-in-Version-060.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.5.1]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>It&#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1.</p>
@@ -738,7 +738,7 @@ Donations are a great way to show your appreciation for the platform: it inspire
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2016/06/20/Update-Whats-New-in-Version-051.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/06/20/Update-Whats-New-in-Version-051.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 20 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.4.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2016/06/20/Update-Whats-New-in-Version-051.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2016/06/20/Update-Whats-New-in-Version-051.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 20 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.4.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>It&#8217;s been a year since HubPress launched. How time flies!</p>
@@ -953,7 +953,7 @@ We suggest naming the branch using the format <code>issue-nnn</code> to make it 
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2016/02/08/Update-Whats-New-in-Version-040.html</link><guid isPermaLink="true">http://blog.hubpress.io/2016/02/08/Update-Whats-New-in-Version-040.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 08 Feb 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.3.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2016/02/08/Update-Whats-New-in-Version-040.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2016/02/08/Update-Whats-New-in-Version-040.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 08 Feb 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.3.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>This release of HubPress implements user token changes made to the <a href="https://developer.github.com/changes/2015-02-20-migration-period-removing-authorizations-token/">GitHub Authorization API</a>, that require immediate action from all HubPress Bloggers.</p>
@@ -1006,7 +1006,7 @@ You must update your version of HubPress before the 20 April 2015.
 <p>A full list of other notable changes can be found in the <a href="https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc">CHANGELOG</a>.</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2015/04/18/Update-Whats-New-in-Version-030.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/04/18/Update-Whats-New-in-Version-030.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sat, 18 Apr 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Enhancing HubPress Documentation]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/04/18/Update-Whats-New-in-Version-030.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/04/18/Update-Whats-New-in-Version-030.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sat, 18 Apr 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Enhancing HubPress Documentation]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>It&#8217;s <a href="http://github.com/jaredmorgs/">The Docs Guy</a> here with some thoughts about the current HubPress Documentation and how it&#8217;s delivery and presentation can be improved.</p>
@@ -1128,7 +1128,7 @@ Based on this response, I was just going to assume that "silence is agreement" a
 <p>Now you&#8217;ve read my ideas, go ahead and give your feedback in <a href="https://github.com/HubPress/hubpress.io/issues/153">HubPress Issue 153</a>. This is a community effort, and no idea will be dismissed as long as it is constructive.</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2015/03/23/Enhancing-HubPress-Documentation.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/03/23/Enhancing-HubPress-Documentation.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 23 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Docs Guy]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 23 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Docs Guy]]></title><description><![CDATA[<div class="paragraph">
 <p><a href="http://github.com/jaredmorgs/">Jared Morgan</a> is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one <a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">README</a> at a time. In between, he uses his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.</p>
 </div>
 <div class="imageblock">
@@ -1145,10 +1145,10 @@ Based on this response, I was just going to assume that "silence is agreement" a
 </div>
 <div class="paragraph">
 <p>If you know of another project that needs great user documentation, take a leaf out of Jared&#8217;s book and create that Pull Request: who knows where it will lead you!</p>
-</div>]]></description><link>http://blog.hubpress.io/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>An updated version of <a href="https://hubpress.github.io/">HubPress</a> is now available with the following new features:</p>
+<p>An updated version of <a href="http://hubpress.io/">HubPress</a> is now available with the following new features:</p>
 </div>
 </div>
 </div>
@@ -1156,7 +1156,7 @@ Based on this response, I was just going to assume that "silence is agreement" a
 <h2 id="_new_feature_syntax_highlighting">New feature: Syntax Highlighting</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Most users of <a href="https://hubpress.github.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="https://hubpress.github.io/">HubPress</a>.</p>
+<p>Most users of <a href="http://hubpress.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="http://hubpress.io/">HubPress</a>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1211,7 +1211,7 @@ Tags pages are built when you publish a post and the site is re-paginated. It ma
 <p>You can find all changes in the <a href="https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc">CHANGELOG</a></p>
 </div>
 </div>
-</div>]]></description><link>http://blog.hubpress.io/2015/03/15/Update-Whats-new-in-Version-020.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/03/15/Update-Whats-new-in-Version-020.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sun, 15 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress loves Instagram !]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/03/15/Update-Whats-new-in-Version-020.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/15/Update-Whats-new-in-Version-020.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sun, 15 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress loves Instagram !]]></title><description><![CDATA[<div class="paragraph">
 <p>If you are an <a href="http://instagram.com">Instagram</a> user, you can easily put your photos in your blog post.</p>
 </div>
 <div class="paragraph">
@@ -1261,16 +1261,16 @@ put your embedded code here !
 </div>
 </div>
 <div class="paragraph">
-<p>Now go have fun with <a href="https://hubpress.github.io">HubPress</a>!</p>
-</div>]]></description><link>http://blog.hubpress.io/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[ tips]]></category><category><![CDATA[ video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
-<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="https://hubpress.github.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
+<p>Now go have fun with <a href="http://hubpress.io">HubPress</a>!</p>
+</div>]]></description><link>https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[ tips]]></category><category><![CDATA[ video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
+<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="http://hubpress.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
 </div>
 <div class="paragraph">
 <p>These tools are really great, but we wanted to provide a tool that is more <strong>user-friendly</strong> and <strong>accessible</strong> for the average person.
 Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc/userguide.html">Asciidoc</a> markup and we wanted a way to contribute to its development.</p>
 </div>
 <div class="paragraph">
-<p>That&#8217;s why we made <a href="https://hubpress.github.io/">HubPress</a>.</p>
+<p>That&#8217;s why we made <a href="http://hubpress.io/">HubPress</a>.</p>
 </div>
 <div class="paragraph">
 <p>With the usual tools building a blog on <a href="https://pages.github.com/">Github Pages</a> requires a decent amount of technical knowledge (you need to know git, to install ruby, to learn a build process &#8230;&#8203;).</p>
@@ -1283,7 +1283,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://hubpress.github.io/img/editor.png" alt="editor.png">
+<img src="http://hubpress.io/img/editor.png" alt="editor.png">
 </div>
 <div class="title">HubPress editor</div>
 </div>
@@ -1291,7 +1291,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p>To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://hubpress.github.io/">HubPress</a> is :</p>
+<p><a href="http://hubpress.io/">HubPress</a> is :</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1302,7 +1302,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p><strong>free</strong>: no subscription, you don&#8217;t have to pay rent for a server</p>
 </li>
 <li>
-<p><strong>yours</strong>: once <a href="https://hubpress.github.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
+<p><strong>yours</strong>: once <a href="http://hubpress.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
 </li>
 </ul>
 </div>
@@ -1320,4 +1320,4 @@ If you want to give it a try, you&#8217;re welcome to: <a href="https://github.c
 </div>
 <div class="paragraph">
 <p>Anthonny.</p>
-</div>]]></description><link>http://blog.hubpress.io/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</guid><category><![CDATA[news]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 06 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://hubpress.github.io/blog/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</guid><category><![CDATA[news]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 06 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
