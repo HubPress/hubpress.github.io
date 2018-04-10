@@ -3,7 +3,7 @@
 :toc:
 
 == O que é o Hubpress?
-image::http://hubpress.io/img/editor.png[]
+image::https://hubpress.github.io/img/editor.png[]
 
 HubPress é uma ferramenta de código aberto, que é usada para construir um blog, utilizando o GitHub Pages e o AsciiDoc.
 
@@ -24,7 +24,7 @@ Chrome Beta para Android será compatível em breve, não é totalmente suportad
 === Instalação
 
 ==== Faça um fork do repositório
-Clique no ícone de Fork image:http://hubpress.io/img/fork-icon.png[Fork,80] para criar uma cópia deste repositório com a sua conta do GitHub.
+Clique no ícone de Fork image:https://hubpress.github.io/img/fork-icon.png[Fork,80] para criar uma cópia deste repositório com a sua conta do GitHub.
 
 ==== Use o domínio github.io
 
@@ -36,7 +36,7 @@ IMPORTANTE: Se você está utilizando o seu domínio `usuario.github.io` GitHub 
 
 . Insira os valores no `hubpress/config.json`
 +
-image:http://hubpress.io/img/edit-config.png[Edit config]
+image:https://hubpress.github.io/img/edit-config.png[Edit config]
 +
 Os próximos parâmetros são obrigatórios :
 +
@@ -45,7 +45,7 @@ Os próximos parâmetros são obrigatórios :
 . Confirme as mudanças, e abra o domínio GitHub Pages: `http://<usuario>.github.io/`.
 . A seguinte tela indicará que você configurou corretamente o HubPress.
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 ==== Usar um domínio personalizado ou um domínio GitHub Page que está sendo usado.
 
@@ -53,14 +53,14 @@ Se você deseja ter o seu blog em um domínio personalizado, ou se você já est
 
 . Nas configurações do repositório, defina a branch padrão para `gh-pages`:
 +
-image:http://hubpress.io/img/settings-gh-pages.png[Settings gh-pages,400]
+image:https://hubpress.github.io/img/settings-gh-pages.png[Settings gh-pages,400]
 . Mude o seu repositório para a branch *gh-pages*. 
 +
-image:http://hubpress.io/img/switch-gh-pages.png[Install complete,300]
+image:https://hubpress.github.io/img/switch-gh-pages.png[Install complete,300]
 +
 . Defina os valores necessários no `hubpress/config.json
 +
-image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
+image:https://hubpress.github.io/img/edit-config-gh-pages.png[Edit config]
 +
 Os seguintes parâmetros são obrigatórios :
 +
@@ -69,7 +69,7 @@ Os seguintes parâmetros são obrigatórios :
 . Confirme as mudanças, e abra o domínio GitHub Pages: `http://<usuario>.github.io/`.
 . A seguinte tela indicará que você configurou corretamente o HubPress.
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 == Console de Administração
 
@@ -80,7 +80,7 @@ O Console de Administração está disponível no */hubpress*
 
 === Logando no Console de Administração
 
-image:http://hubpress.io/img/login.png[Install complete,300]
+image:https://hubpress.github.io/img/login.png[Install complete,300]
 
 Entre com as suas credenciais do GitHub para logar no HubPress Admin.
 

@@ -24,7 +24,7 @@ NOTE: If you are using a CNAME, you might need to access your Administration con
 
 == Log Into the Administration Console
 
-image:http://hubpress.io/img/login.png[Install complete,300]
+image:https://hubpress.github.io/img/login.png[Install complete,300]
 
 Enter your GitHub credentials to log into HubPress Admin.
 

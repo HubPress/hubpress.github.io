@@ -1148,7 +1148,7 @@ Based on this response, I was just going to assume that "silence is agreement" a
 </div>]]></description><link>http://blog.hubpress.io/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>An updated version of <a href="http://hubpress.io/">HubPress</a> is now available with the following new features:</p>
+<p>An updated version of <a href="https://hubpress.github.io/">HubPress</a> is now available with the following new features:</p>
 </div>
 </div>
 </div>
@@ -1156,7 +1156,7 @@ Based on this response, I was just going to assume that "silence is agreement" a
 <h2 id="_new_feature_syntax_highlighting">New feature: Syntax Highlighting</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Most users of <a href="http://hubpress.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="http://hubpress.io/">HubPress</a>.</p>
+<p>Most users of <a href="https://hubpress.github.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="https://hubpress.github.io/">HubPress</a>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1261,16 +1261,16 @@ put your embedded code here !
 </div>
 </div>
 <div class="paragraph">
-<p>Now go have fun with <a href="http://hubpress.io">HubPress</a>!</p>
+<p>Now go have fun with <a href="https://hubpress.github.io">HubPress</a>!</p>
 </div>]]></description><link>http://blog.hubpress.io/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">http://blog.hubpress.io/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[ tips]]></category><category><![CDATA[ video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
-<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="http://hubpress.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
+<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="https://hubpress.github.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
 </div>
 <div class="paragraph">
 <p>These tools are really great, but we wanted to provide a tool that is more <strong>user-friendly</strong> and <strong>accessible</strong> for the average person.
 Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc/userguide.html">Asciidoc</a> markup and we wanted a way to contribute to its development.</p>
 </div>
 <div class="paragraph">
-<p>That&#8217;s why we made <a href="http://hubpress.io/">HubPress</a>.</p>
+<p>That&#8217;s why we made <a href="https://hubpress.github.io/">HubPress</a>.</p>
 </div>
 <div class="paragraph">
 <p>With the usual tools building a blog on <a href="https://pages.github.com/">Github Pages</a> requires a decent amount of technical knowledge (you need to know git, to install ruby, to learn a build process &#8230;&#8203;).</p>
@@ -1283,7 +1283,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="http://hubpress.io/img/editor.png" alt="editor.png">
+<img src="https://hubpress.github.io/img/editor.png" alt="editor.png">
 </div>
 <div class="title">HubPress editor</div>
 </div>
@@ -1291,7 +1291,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p>To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.</p>
 </div>
 <div class="paragraph">
-<p><a href="http://hubpress.io/">HubPress</a> is :</p>
+<p><a href="https://hubpress.github.io/">HubPress</a> is :</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1302,7 +1302,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p><strong>free</strong>: no subscription, you don&#8217;t have to pay rent for a server</p>
 </li>
 <li>
-<p><strong>yours</strong>: once <a href="http://hubpress.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
+<p><strong>yours</strong>: once <a href="https://hubpress.github.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
 </li>
 </ul>
 </div>

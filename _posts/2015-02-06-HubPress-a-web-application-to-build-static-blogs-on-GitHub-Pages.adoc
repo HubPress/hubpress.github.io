@@ -2,7 +2,7 @@
 :figure-caption!:
 :published_at: 2015-02-06
 :hp-tags: news
-:url-hubpress: http://hubpress.io/
+:url-hubpress: https://hubpress.github.io/
 :url-jekyll: http://jekyllrb.com/
 :url-octopress: http://octopress.org/
 :url-awestruct: http://awestruct.org/
@@ -28,7 +28,7 @@ With HubPress all you need is an internet connection and a {url-github}[GitHub] 
 
 
 .HubPress editor
-image::http://hubpress.io/img/editor.png[]
+image::https://hubpress.github.io/img/editor.png[]
 
 To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.
 

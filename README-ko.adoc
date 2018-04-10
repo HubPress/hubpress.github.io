@@ -11,7 +11,7 @@ HubPress는 GitHub Pages와 http://asciidoctor.org/docs/user-manual/[AsciiDoc] �
 https://gratipay.com/hubpress/[HubPress] on Gratipay image:https://avatars1.githubusercontent.com/u/1744073?v=3&s=24[].
 
 == HubPress란?
-image::http://hubpress.io/img/editor.png[]
+image::https://hubpress.github.io/img/editor.png[]
 
 HubPress는 블로그를 쉽게 관리할 수 있도록 도와주는 웹 애플리케이션입니다. HubPress는 다음과 같은 기능들을 제공합니다:
 
@@ -36,7 +36,7 @@ HubPress는 Chrome Desktop, Firefox Desktop, 안드로이드용 Chrome과 호환
 
 === 저장소 Fork
 
-당신의 GitHub 계정 안에 이 저장소(repository)에 대한 복사본을 만들려면 Fork 아이콘 image:http://hubpress.io/img/fork-icon.png[Fork,80]을 클릭하세요.
+당신의 GitHub 계정 안에 이 저장소(repository)에 대한 복사본을 만들려면 Fork 아이콘 image:https://hubpress.github.io/img/fork-icon.png[Fork,80]을 클릭하세요.
 
 === github.io 도메인 사용
 
@@ -48,7 +48,7 @@ IMPORTANT: 만약 현재 다른 프로젝트를 위해 `username.github.io` GitH
 
 . `hubpress/config.json` 파일의 값들을 설정합니다.
 +
-image:http://hubpress.io/img/edit-config.png[Edit config]
+image:https://hubpress.github.io/img/edit-config.png[Edit config]
 +
 아래의 파라미터들은 필수 항목입니다 :
 +
@@ -57,7 +57,7 @@ image:http://hubpress.io/img/edit-config.png[Edit config]
 . 변경사항을 Commit 한 뒤, 브라우저에 아래의 GitHub Pages 도메인을 입력하세요 :  `https://<username>.github.io/`.
 . HubPress를 제대로 설정하였다면 아래의 화면이 나타날 것입니다.
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 === 커스텀 도메인 또는 이미 사용하고 있는 GitHub Page 도메인 사용
 
@@ -65,14 +65,14 @@ image:http://hubpress.io/img/home-install.png[Install complete,300]
 
 . 저장소(repository) 설정에서 default branch 를 `gh-pages`로 설정합니다. :
 +
-image:http://hubpress.io/img/settings-gh-pages.png[Settings gh-pages,400]
+image:https://hubpress.github.io/img/settings-gh-pages.png[Settings gh-pages,400]
 . 당신의 저장소 브랜치를 `gh-pages`로 변경합니다.
 +
-image:http://hubpress.io/img/switch-gh-pages.png[Install complete,300]
+image:https://hubpress.github.io/img/switch-gh-pages.png[Install complete,300]
 +
 . `hubpress/config.json` 파일을 설정합니다.
 +
-image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
+image:https://hubpress.github.io/img/edit-config-gh-pages.png[Edit config]
 +
 아래의 파라미터들은 필수 항목입니다 :
 +
@@ -82,7 +82,7 @@ image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
 `https://<username>.github.io/<repositoryName>/`.
 . HubPress를 제대로 설정하였다면 아래의 화면이 나타날 것입니다.
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 당신은 이제 HubPress를 성공적으로 설정하였으며, 소셜 네트워크 정보, 각종 테마 등을 적용하여 블로그를 커스터마이징함으로써 당신 고유의 블로그를 만들 수 있습니다.
 

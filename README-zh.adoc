@@ -3,7 +3,7 @@
 :toc:
 
 == 什么是HubPress?
-image::http://hubpress.io/img/editor.png[]
+image::https://hubpress.github.io/img/editor.png[]
 
 HubPress 是一款在Github 上基于 AsciiDoc 建立个人博客的优秀的开源工具。
 
@@ -24,7 +24,7 @@ Chrome Beta 的 Android 版将会很快兼容, 实际上是因为现在使用 In
 === 安装
 ==== Fork the repository
 
-点击Fork图标 image:http://hubpress.io/img/fork-icon.png[Fork,80] 复制这个 repository 到你的 Github 账号下.
+点击Fork图标 image:https://hubpress.github.io/img/fork-icon.png[Fork,80] 复制这个 repository 到你的 Github 账号下.
 
 ==== 使用github.io的域名
 
@@ -36,7 +36,7 @@ IMPORTANT: 如果你现在你的 `username.github.io` 的个人主页用于其�
 
 . 更改配置文件 `hubpress/config.json`
 +
-image:http://hubpress.io/img/edit-config.png[Edit config]
+image:https://hubpress.github.io/img/edit-config.png[Edit config]
 +
 以下的参数是必须的 :
 +
@@ -45,7 +45,7 @@ image:http://hubpress.io/img/edit-config.png[Edit config]
 . Commit所有更改, 然后打开你的GitHub主页:  `https://<username>.github.io/`.
 . 如果出现了这样的画面就说明你配置成功了。
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 ==== 使用其他域名或者当GitHub主页已被占用
 
@@ -53,14 +53,14 @@ image:http://hubpress.io/img/home-install.png[Install complete,300]
 
 . 在repository的settings选项中, 把默认branch设为 `gh-pages` :
 +
-image:http://hubpress.io/img/settings-gh-pages.png[Settings gh-pages,400]
+image:https://hubpress.github.io/img/settings-gh-pages.png[Settings gh-pages,400]
 . 现在设定当前repository的branch为 *gh-pages*
 +
-image:http://hubpress.io/img/switch-gh-pages.png[Install complete,300]
+image:https://hubpress.github.io/img/switch-gh-pages.png[Install complete,300]
 +
 . 更新配置文件 `hubpress/config.json`
 +
-image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
+image:https://hubpress.github.io/img/edit-config-gh-pages.png[Edit config]
 +
 以下的参数是必须的：
 +
@@ -69,7 +69,7 @@ image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
 . Commit所有更改, 然后打开你的GitHub主页:  `https://<username>.github.io/<repositoryName>`.
 . 如果出现了这样的画面就说明你配置成功了。
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 == 管理后台
 
@@ -80,7 +80,7 @@ image:http://hubpress.io/img/home-install.png[Install complete,300]
 
 === 登陆管理后台
 
-image:http://hubpress.io/img/login.png[Install complete,300]
+image:https://hubpress.github.io/img/login.png[Install complete,300]
 
 输入你的GitHub账号密码来登陆HubPress的后台.
 

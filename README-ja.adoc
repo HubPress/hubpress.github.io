@@ -4,7 +4,7 @@
 
 == HubPress とはなにか？
 
-image::http://hubpress.io/img/editor.png[]
+image::https://hubpress.github.io/img/editor.png[]
 
 HubPress は無料でブログを作るためのオープンソースツールです。AsciiDocで書けるすばらしいブログをGitHub Pagesを使って公開できます。
 
@@ -40,7 +40,7 @@ IMPORTANT: 「username.github.io ドメインを他プロジェクトで利用�
 . リポジトリ名を `<username>.github.io` に変更
 . `hubpress/config.json` の設定
 +
-image:http://hubpress.io/img/edit-config.png[Edit config]
+image:https://hubpress.github.io/img/edit-config.png[Edit config]
 +
 なお、以下のパラメータは必須です。
 +
@@ -49,7 +49,7 @@ image:http://hubpress.io/img/edit-config.png[Edit config]
 . 変更をコミットし, `https://<username>.github.io/` ドメインで GitHub Page を公開。
 . 以下のような画面が出れば、HubPressは正しくセットアップされています。
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 ==== 「username.github.io ドメインを他プロジェクトで利用済みである」あるいは「独自ドメインで HubPress を利用したい」場合
 
@@ -57,14 +57,14 @@ image:http://hubpress.io/img/home-install.png[Install complete,300]
 
 . リポジトリの設定からデフォルトのブランチを `gh-pages` に設定
 +
-image:http://hubpress.io/img/settings-gh-pages.png[Settings gh-pages,400]
+image:https://hubpress.github.io/img/settings-gh-pages.png[Settings gh-pages,400]
 . *gh-pages* ブランチに移動。
 +
-image:http://hubpress.io/img/switch-gh-pages.png[Install complete,300]
+image:https://hubpress.github.io/img/switch-gh-pages.png[Install complete,300]
 +
 . `hubpress/config.json` の設定
 +
-image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
+image:https://hubpress.github.io/img/edit-config-gh-pages.png[Edit config]
 +
 なお、以下のパラメータは必須です。
 +
@@ -73,7 +73,7 @@ image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
 . 変更をコミットし, `https://<username>.github.io/<repositoryName>/` で GitHub Page を公開。
 . 以下のような画面が出れば、HubPressは正しくセットアップされています。
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 == 管理画面
 
@@ -87,7 +87,7 @@ HubPressの管理画面は */hubpress* からアクセスできます。つま�
 
 === 管理画面へのログイン
 
-image:http://hubpress.io/img/login.png[Install complete,300]
+image:https://hubpress.github.io/img/login.png[Install complete,300]
 
 
 GitHub のログイン情報でログインできます。

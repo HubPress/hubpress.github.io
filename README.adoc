@@ -33,7 +33,7 @@ HubPress is compatible with Chrome Desktop, Firefox Desktop, and Chrome for Andr
 
 === Fork the repository
 
-Click the Fork icon image:http://hubpress.io/img/fork-icon.png[Fork,80] to create a copy of this repository within your GitHub account.
+Click the Fork icon image:https://hubpress.github.io/img/fork-icon.png[Fork,80] to create a copy of this repository within your GitHub account.
 
 === Configure the correct branch
 
@@ -53,7 +53,7 @@ IMPORTANT: If you are currently using your `[username].github.io` GitHub Pages d
 
 . Set values in `hubpress/config.json`
 +
-image:http://hubpress.io/img/edit-config.png[Edit config]
+image:https://hubpress.github.io/img/edit-config.png[Edit config]
 +
 The following parameters are mandatory:
 +
@@ -62,7 +62,7 @@ The following parameters are mandatory:
 . Commit the changes, and open the GitHub Pages domain:  `https://janesmith.github.io/`.
 . The following screen indicates you have correctly configured HubPress
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 ==== I am using my GitHub Pages domain already, or I want to use a custom domain
 
@@ -75,11 +75,11 @@ You need to set your blog up on a sub-domain of your GitHub Pages site.
 image::https://cloud.githubusercontent.com/assets/8563047/13872457/28d53c9a-ed2e-11e5-9d13-65f5bf2cbbf9.png[Settings gh-pages, 400]
 . Switch your repository to the `gh-pages` branch.
 +
-image:http://hubpress.io/img/switch-gh-pages.png[Install complete,300]
+image:https://hubpress.github.io/img/switch-gh-pages.png[Install complete,300]
 +
 . Set the required values in `hubpress/config.json`
 +
-image:http://hubpress.io/img/edit-config-gh-pages.png[Edit config]
+image:https://hubpress.github.io/img/edit-config-gh-pages.png[Edit config]
 +
 The following parameters are mandatory:
 +
@@ -88,7 +88,7 @@ The following parameters are mandatory:
 . Commit the changes, and open the GitHub Pages domain:  `https://janesmith.github.io/<repositoryName>/`.
 . The following screen indicates you have correctly configured HubPress
 +
-image:http://hubpress.io/img/home-install.png[Install complete,300]
+image:https://hubpress.github.io/img/home-install.png[Install complete,300]
 
 == Getting first-run help
 
