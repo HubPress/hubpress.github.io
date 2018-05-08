@@ -12,7 +12,7 @@
     "postsPerPage": "10",
     "googleAnalytics": "UA-59472195-1",
     "disqus": "hubpress",
-    "description": "A web application to build your Blog on GitHub",
+    "description": "HubPress: a web application to build your Blog on GitHub",
     "cover": "",
     "delay": "500",
     "blogPath": ""
