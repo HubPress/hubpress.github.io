@@ -1,0 +1,149 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+= Home page
+:hp-type: page
+:hp-alt-title: index
+
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-grid.min.css" integrity="sha256-Q8nNKcntju0t1uAHHUxonugW0axeUnGCDzYut4AdH3c=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+<style>
+    /* hide shadow on post content */
+	.post-full-content:before, .post-full-content:after {
+      left: inherit;
+      right: inherit;
+      transform: none;
+  	}
+    .home-container {
+    	color: #999999;
+    	font-family: 'Lato', sans-serif;
+    }
+    .home-container h1, .home-container h2, .home-container h3, .home-container h4 {
+    	text-align: center;
+    	color: #666666;
+    	font-weight: 400;
+    	line-height: 1.1;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .points {
+    	font-size: 17px;
+    }
+    .item {
+    	text-align: center;
+    }
+    .points .fa-2x {
+    	text-align: center;
+    	border: 2px solid #e74c3c;
+    	color: #e74c3c;
+        border-radius: 50%;
+        padding: 20px;
+    }
+    
+    h2 {
+      display: inline-block;
+      font-size: 55px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .home-container .divider:after {
+        background: #e74c3c;
+        content: "";
+        position: relative;
+        height: 4px;
+        width: 60px;
+        display: block;
+        text-align: center;
+        margin: 13px auto;
+        -webkit-border-radius: 5em;
+        -moz-border-radius: 5em;
+        -ms-border-radius: 5em;
+        -o-border-radius: 5em;
+        border-radius: 5em;
+    }
+</style>
+
+<div class="home-container">
+	<div class="item">
+        <h1>About Us</h1>
+        <div class="divider"></div>
+        <p>A web application to build your Blog on GitHub</p>
+    </div>
+
+    <div class="row points">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-ticket-alt fa-2x"></i>
+                <h3>It's free</h3>
+                <p>All you need is a free GitHub account, no server costs to pay, no subscription.</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-download fa-2x"></i>
+                <h3>Easy setup</h3>
+                <p>Fork the hubpress.io repository, update the config file and it's done, your Blog is ready.</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-comments fa-2x"></i>
+                <h3>Start conversations</h3>
+                <p>We integrated Disqus, all you need to start conversations with your readers is a Disqus shortname.</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-chart-line fa-2x"></i>
+                <h3>Analytics</h3>
+                <p>Learn more about your readers with Google Analytics, you just have to set your tracking id in the HubPress'
+                    configuration.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <section id="getApp">
+            <div class="container-fluid">
+                <div class="section-heading inverse scrollpoint sp-effect3 active animated fadeInDown">
+                    <h1>Get App</h1>
+                    <div class="divider"></div>
+                    <p>Fork the <strong>hubpress.io</strong> repository and get started!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="platforms">
+                            <a href="https://github.com/HubPress/hubpress.io/fork" target="_blank" class="btn btn-primary inverse scrollpoint sp-effect1">
+                                <i class="fa fa-github fa-3x pull-left"></i>
+                                <span>Fork on</span><br>
+                                <b>GitHub</b>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="platforms">
+                          <div class="deploy">
+                            <a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/HubPress/hubpress.io" alt="Deploy to Netlify" title="Deploy to Netlify">
+                              <img src="https://d33wubrfki0l68.cloudfront.net/c510760f6dc36099a4e4fb01ec12ede8f58d155b/c2bcf/images/deploy-btn-wire-large.svg" title="Deploy to Netlify" style="width: 100%;">
+                            </a>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+</div>
+++++
