@@ -5,40 +5,22 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>HubPress</title>
+    <title>Home page</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="//hubpress.github.io/blog/themes/casper/assets/built/screen.css?v=1525786530814" />
+    <link rel="stylesheet" type="text/css" href="//hubpress.github.io/themes/casper/assets/built/screen.css?v=1525806099196" />
 
-    <link rel="canonical" href="https://hubpress.github.io/blog/" />
+    <link rel="canonical" href="https://hubpress.github.io/index.html" />
     <meta name="referrer" content="origin" />
-    
-    <meta property="og:site_name" content="HubPress" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="HubPress" />
-    <meta property="og:url" content="https://hubpress.github.io/blog/" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="HubPress" />
-    <meta name="twitter:url" content="https://hubpress.github.io/blog/" />
-    
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "HubPress",
-    "url": "https://hubpress.github.io/blog/"
-}
-    </script>
-
     <meta name="generator" content="HubPress" />
-    <link rel="alternate" type="application/rss+xml" title="HubPress" href="https://hubpress.github.io/blog/rss/" />
+    <link rel="alternate" type="application/rss+xml" title="HubPress" href="https://hubpress.github.io/rss/" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism-okaidia.min.css">
     
         <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 </head>
-<body class="home-template">
+<body class="post-template">
 
     <div class="site-wrapper">
 
@@ -53,7 +35,7 @@
         </div>
         <nav class="site-nav">
             <div class="site-nav-left">
-                        <a class="site-nav-logo" href="https://hubpress.github.io/blog"><img src="http://hubpress.github.io/img/logo.png" alt="HubPress" /></a>
+                        <a class="site-nav-logo" href="https://hubpress.github.io"><img src="http://hubpress.github.io/img/logo.png" alt="HubPress" /></a>
             </div>
             <div class="site-nav-right">
                 <div class="social-links">
@@ -67,7 +49,7 @@
         </svg>
         </a>
                 </div>
-                    <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://hubpress.github.io/blog/rss/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+                    <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://hubpress.github.io/rss/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
         </a>
             </div>
         </nav>
@@ -76,328 +58,189 @@
 
 <main id="site-main" class="site-main outer">
     <div class="inner">
+      <article class="post-full">
+          <section class="post-full-content">
+              <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-grid.min.css" integrity="sha256-Q8nNKcntju0t1uAHHUxonugW0axeUnGCDzYut4AdH3c=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+<style>
+    /* hide shadow on post content */
+	.post-full-content:before, .post-full-content:after {
+      left: inherit;
+      right: inherit;
+      transform: none;
+  	}
+    .home-container {
+    	color: #999999;
+    	font-family: 'Lato', sans-serif;
+    }
+    .home-container h1, .home-container h2, .home-container h3, .home-container h4 {
+    	text-align: center;
+    	color: #666666;
+    	font-weight: 400;
+    	line-height: 1.1;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .points {
+    	font-size: 17px;
+    }
+    .item {
+    	text-align: center;
+    }
+    .points .fa-2x {
+    	text-align: center;
+    	border: 2px solid #e74c3c;
+    	color: #e74c3c;
+        border-radius: 50%;
+        padding: 20px;
+    }
 
-        <div class="post-feed">
+    h2 {
+      display: inline-block;
+      font-size: 55px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .home-container .divider:after {
+        background: #e74c3c;
+        content: "";
+        position: relative;
+        height: 4px;
+        width: 60px;
+        display: block;
+        text-align: center;
+        margin: 13px auto;
+        -webkit-border-radius: 5em;
+        -moz-border-radius: 5em;
+        -ms-border-radius: 5em;
+        -o-border-radius: 5em;
+        border-radius: 5em;
+    }
+    .deploy {
+        display: block;
+        margin: auto;
+        width: 300px;
+    }
+    section#getApp strong {
+    	color: #666666;
+    }
+    section#getApp .platforms .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 3px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        color: #666666;
+        font-size: 14px;
+        text-decoration: none;
+        box-shadow: none;
+    }
+</style>
 
-                <article class="post-card post tag-roadmap tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">roadmap</span>
-                                <h2 class="post-card-title">Update: What&#x27;s New in Version 0.8.0</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>Table of Contents The configuration form A new theme is here: The Shell Some fixes What&#8217;s next? The configuration form You do not need to change the config.json anymore, now</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
+<div class="home-container">
+	<div class="item">
+        <h1>About Us</h1>
+        <div class="divider"></div>
+        <p>A web application to build your Blog on GitHub</p>
+    </div>
 
-
-                <article class="post-card post tag-roadmap tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">roadmap</span>
-                                <h2 class="post-card-title">0.7.3 Is Released</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>We&#8217;ve been working on a new release for you with a lot of new features. It was soft-launched a month ago now, and we&#8217;ve received positive feedback about it</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Jared Morgan
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/952793?v&#x3D;4" alt="Jared Morgan" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-roadmap no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">roadmap</span>
-                                <h2 class="post-card-title">We Aren&#x27;t Dead Yet: HubPress Roadmap</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>In a bug report we triaged recently, a new HubPress adopter questioned the future of the project. We have not released a platform update since June 2016. It&#8217;s a fair question</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Jared Morgan
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/952793?v&#x3D;4" alt="Jared Morgan" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2016/07/15/Update-Whats-New-in-Version-060.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">release</span>
-                                <h2 class="post-card-title">Update: What&#x27;s New in Version 0.6.0</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>Here we go, the first release of Summer! Table of Contents HubPress supports RSS! Upgrades are simpler with a link Bugs&#8230;&#8203; HubPress supports RSS! RSS feed is now available at the</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2016/06/20/Update-Whats-New-in-Version-051.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">release</span>
-                                <h2 class="post-card-title">Update: What&#x27;s New in Version 0.5.1</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>It&#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1. If you&#8217;re looking for more information, all new features are highlighted in</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2016/02/08/Update-Whats-New-in-Version-040.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">release</span>
-                                <h2 class="post-card-title">Update: What&#x27;s New in Version 0.4.0</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>It&#8217;s been a year since HubPress launched. How time flies! 1,976 forks. 2,205 stars. An english README translated in spanish, chinese and japanese. Hundreds of progressive blogs using HubPress</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2015/04/18/Update-Whats-New-in-Version-030.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">release</span>
-                                <h2 class="post-card-title">Update: What&#x27;s New in Version 0.3.0</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>This release of HubPress implements user token changes made to the GitHub Authorization API, that require immediate action from all HubPress Bloggers. You must update your version of HubPress before the 20 April</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html">
-                            <header class="post-card-header">
-                                <h2 class="post-card-title">Enhancing HubPress Documentation</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>It&#8217;s The Docs Guy here with some thoughts about the current HubPress Documentation and how it&#8217;s delivery and presentation can be improved. Through amazing community support, HubPress has grown</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-team tag-presentation no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">team</span>
-                                <h2 class="post-card-title">The Docs Guy</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>Jared Morgan is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
-
-                <article class="post-card post tag-release no-image">
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="https://hubpress.github.io/blog/2015/03/15/Update-Whats-new-in-Version-020.html">
-                            <header class="post-card-header">
-                                    <span class="post-card-tags">release</span>
-                                <h2 class="post-card-title">Update: What&#x27;s new in Version 0.2.0</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>An updated version of HubPress is now available with the following new features: New feature: Syntax Highlighting Most users of HubPress are tech bloggers and find themselves writing many command-line examples in the</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
-
+    <div class="row points">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-ticket-alt fa-2x"></i>
+                <h3>It's free</h3>
+                <p>All you need is a free GitHub account, no server costs to pay, no subscription.</p>
+            </div>
         </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-download fa-2x"></i>
+                <h3>Easy setup</h3>
+                <p>Fork the hubpress.io repository, update the config file and it's done, your Blog is ready.</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-comments fa-2x"></i>
+                <h3>Start conversations</h3>
+                <p>We integrated Disqus, all you need to start conversations with your readers is a Disqus shortname.</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="item">
+                <i class="fa fa-chart-line fa-2x"></i>
+                <h3>Analytics</h3>
+                <p>Learn more about your readers with Google Analytics, you just have to set your tracking id in the HubPress'
+                    configuration.</p>
+            </div>
+        </div>
+    </div>
 
+
+    <section id="getApp" class="item">
+            <div class="container-fluid">
+                <div class="section-heading inverse scrollpoint sp-effect3 active animated fadeInDown">
+                    <h1>Get App</h1>
+                    <div class="divider"></div>
+                    <p>Fork the <strong>hubpress.io</strong> repository and get started!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="platforms">
+                            <a href="https://github.com/HubPress/hubpress.io/fork" target="_blank" class="btn btn-primary inverse scrollpoint sp-effect1">
+                                <i class="fab fa-github fa-3x pull-left"></i>
+                                <span>Fork on</span> <b>GitHub</b>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="platforms">
+                          <div class="deploy">
+                            <a class="deploy-btn" href="https://app.netlify.com/start/deploy?repository=https://github.com/HubPress/hubpress.io" alt="Deploy to Netlify" title="Deploy to Netlify">
+                              <img src="https://d33wubrfki0l68.cloudfront.net/c510760f6dc36099a4e4fb01ec12ede8f58d155b/c2bcf/images/deploy-btn-wire-large.svg" title="Deploy to Netlify" style="width: 100%;">
+                            </a>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+</div>
+          </section>
+
+      </article>
     </div>
 </main>
 
 
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://hubpress.github.io/blog">HubPress</a> &copy; 2018</section>
+                <section class="copyright"><a href="https://hubpress.github.io">HubPress</a> &copy; 2018</section>
                 <nav class="site-footer-nav">
-                    <a href="https://hubpress.github.io/blog">Latest Posts</a>
+                    <a href="https://hubpress.github.io">Latest Posts</a>
                     
                     <a href="https://twitter.com/hubpressio" target="_blank" rel="noopener">Twitter</a>
                     <a href="https://github.com/hubpress" target="_blank" rel="noopener">GitHub</a>
@@ -416,15 +259,8 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="//hubpress.github.io/blog/themes/casper/assets/js/jquery.fitvids.js?v=1525786530814"></script>
+    <script type="text/javascript" src="//hubpress.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1525806099196"></script>
 
-    <script>
-        // maxPages is a global variable that is needed to determine
-        // if we need to load more pages for the infinitescroll, or if
-        // we reached the last page already.
-        var maxPages = parseInt('2');
-    </script>
-    <script src="//hubpress.github.io/blog/themes/casper/assets/js/infinitescroll.js?v=1525786530814"></script>
 
     
 
