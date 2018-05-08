@@ -66,6 +66,39 @@
         -o-border-radius: 5em;
         border-radius: 5em;
     }
+    .deploy {
+        display: block;
+        margin: auto;
+        width: 300px;
+    }
+    section#getApp strong {
+    	color: #666666;
+    }
+    section#getApp .platforms .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 3px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        color: #666666;
+        font-size: 14px;
+        text-decoration: none;
+        box-shadow: none;
+    }
 </style>
 
 <div class="home-container">
@@ -108,7 +141,7 @@
     </div>
     
     
-    <section id="getApp">
+    <section id="getApp" class="item">
             <div class="container-fluid">
                 <div class="section-heading inverse scrollpoint sp-effect3 active animated fadeInDown">
                     <h1>Get App</h1>
@@ -120,9 +153,8 @@
                     <div class="col-md-12">
                         <div class="platforms">
                             <a href="https://github.com/HubPress/hubpress.io/fork" target="_blank" class="btn btn-primary inverse scrollpoint sp-effect1">
-                                <i class="fa fa-github fa-3x pull-left"></i>
-                                <span>Fork on</span><br>
-                                <b>GitHub</b>
+                                <i class="fab fa-github fa-3x pull-left"></i>
+                                <span>Fork on</span> <b>GitHub</b>
                             </a>
                         </div>
 
@@ -145,5 +177,6 @@
 
             </div>
         </section>
+        
 </div>
 ++++
