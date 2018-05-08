@@ -1,7 +1,7 @@
 {
   "meta": {
     "username": "hubpress",
-    "repositoryName": "hubpress.github.io",
+    "repositoryName": "blog",
     "branch": "gh-pages",
     "delay": "500",
     "cname": ""
@@ -36,7 +36,7 @@
   },
   "urls": {
     "site": "https://hubpress.github.io/blog",
-    "hubpress": "https://hubpress.github.io/blog",
+    "hubpress": "http://hubpress.github.io/blog",
     "theme": "//hubpress.github.io/blog/themes/casper",
     "images": "https://hubpress.github.io/blog/images"
   },
