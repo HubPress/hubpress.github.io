@@ -1,7 +1,7 @@
 {
   "meta": {
     "username": "hubpress",
-    "repositoryName": "blog",
+    "repositoryName": "hubpress.github.io",
     "branch": "gh-pages",
     "delay": "500",
     "cname": ""
