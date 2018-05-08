@@ -69,7 +69,7 @@
     .deploy {
         display: block;
         margin: auto;
-        width: 300px;
+        width: 180px;
     }
     section#getApp strong {
     	color: #666666;
