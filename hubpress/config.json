@@ -14,7 +14,8 @@
     "disqus": "hubpress",
     "description": "",
     "cover": "",
-    "delay": "500"
+    "delay": "500",
+    "blogPath": ""
   },
   "socialnetwork": {
     "twitter": "https://twitter.com/hubpressio",
@@ -26,15 +27,32 @@
     "pinterest": "",
     "flickr": "",
     "linkedin": "",
-    "stackoverflow": ""
+    "stackoverflow": "",
+    "paypalme": "",
+    "opencollective": ""
   },
   "theme": {
-    "name": "roon"
+    "name": "casper"
   },
   "urls": {
     "site": "https://hubpress.github.io/blog",
-    "hubpress": "http://hubpress.github.io/blog",
+    "hubpress": "https://hubpress.github.io/blog",
     "theme": "//hubpress.github.io/blog/themes/roon",
     "images": "https://hubpress.github.io/blog/images"
-  }
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ],
+    "_compiled": true,
+    "beforeCreate": [
+      null
+    ]
+  },
+  "navigation": []
 }
