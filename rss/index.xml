@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>https://hubpress.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 10 Apr 2018 13:47:58 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress]]></description><link>https://hubpress.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 May 2018 13:27:49 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
@@ -28,7 +28,7 @@ Then login and the configuration will be save on your repository.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0-11e7-99a0-14e0e3779af7.gif" alt="e63f9968 0fd0 11e7 99a0 14e0e3779af7.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0-11e7-99a0-14e0e3779af7.gif" alt="e63f9968 0fd0 11e7 99a0 14e0e3779af7">
 </div>
 </div>
 </div>
@@ -42,7 +42,7 @@ You can now use the theme <strong>the-shell</strong> in your settings, here is a
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24248939/bb3530ec-0fd1-11e7-93ae-8e8939f6aecd.png" alt="bb3530ec 0fd1 11e7 93ae 8e8939f6aecd.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248939/bb3530ec-0fd1-11e7-93ae-8e8939f6aecd.png" alt="bb3530ec 0fd1 11e7 93ae 8e8939f6aecd">
 </div>
 </div>
 </div>
@@ -58,7 +58,7 @@ You can now use the theme <strong>the-shell</strong> in your settings, here is a
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24249156/7c4a3d68-0fd2-11e7-85c7-930bebb52ef9.png" alt="7c4a3d68 0fd2 11e7 85c7 930bebb52ef9.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24249156/7c4a3d68-0fd2-11e7-85c7-930bebb52ef9.png" alt="7c4a3d68 0fd2 11e7 85c7 930bebb52ef9">
 </div>
 </div>
 </div>
@@ -79,7 +79,7 @@ You can now use the theme <strong>the-shell</strong> in your settings, here is a
 <p>Thanks for using HubPress, and keep sharing!</p>
 </div>
 </div>
-</div>]]></description><link>https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>We&#8217;ve been working on a new release for you with a lot of new features.
@@ -126,7 +126,7 @@ Anthonny wanted to support new users better, and we decided that <a href="https:
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24042438/347b7e12-0b12-11e7-99a2-85278ccef404.gif" alt="347b7e12 0b12 11e7 99a2 85278ccef404.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042438/347b7e12-0b12-11e7-99a2-85278ccef404.gif" alt="347b7e12 0b12 11e7 99a2 85278ccef404">
 </div>
 </div>
 <div class="paragraph">
@@ -148,7 +148,7 @@ Most HubPress users are solo bloggers, so synchronising posts each time you log 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24042910/6a5af2f4-0b14-11e7-8a3c-2af6b30ed6e0.gif" alt="6a5af2f4 0b14 11e7 8a3c 2af6b30ed6e0.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042910/6a5af2f4-0b14-11e7-8a3c-2af6b30ed6e0.gif" alt="6a5af2f4 0b14 11e7 8a3c 2af6b30ed6e0">
 </div>
 </div>
 </div>
@@ -190,7 +190,7 @@ Perhaps you can use the feature to search for and update your old tech posts wit
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24042658/39e85978-0b13-11e7-8838-4a224b4031c4.gif" alt="39e85978 0b13 11e7 8838 4a224b4031c4.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042658/39e85978-0b13-11e7-8838-4a224b4031c4.gif" alt="39e85978 0b13 11e7 8838 4a224b4031c4">
 </div>
 </div>
 <div class="paragraph">
@@ -199,7 +199,7 @@ You access this through the Navigation menu.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24042816/f65ef5ee-0b13-11e7-9f0a-3c6b92eb4c7a.png" alt="f65ef5ee 0b13 11e7 9f0a 3c6b92eb4c7a.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042816/f65ef5ee-0b13-11e7-9f0a-3c6b92eb4c7a.png" alt="f65ef5ee 0b13 11e7 9f0a 3c6b92eb4c7a">
 </div>
 </div>
 <div class="paragraph">
@@ -207,7 +207,7 @@ You access this through the Navigation menu.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/24042807/e7f7e196-0b13-11e7-888c-f12b0e7eb4f1.png" alt="e7f7e196 0b13 11e7 888c f12b0e7eb4f1.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042807/e7f7e196-0b13-11e7-888c-f12b0e7eb4f1.png" alt="e7f7e196 0b13 11e7 888c f12b0e7eb4f1">
 </div>
 </div>
 <div class="paragraph">
@@ -248,7 +248,7 @@ We can only improve the tool if you open feature requests in GitHub.</p>
 <p>Thanks for using HubPress, and keep sharing!</p>
 </div>
 </div>
-</div>]]></description><link>https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[ release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
 <p>In a <a href="https://github.com/HubPress/hubpress.io/issues/447">bug report</a> we triaged recently, a new HubPress adopter questioned the future of the project.</p>
 </div>
 <div class="paragraph">
@@ -395,7 +395,7 @@ It is rebuild when:</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16894181/74d29dd4-4b4f-11e6-8cfd-a2b352d3a147.png" alt="74d29dd4 4b4f 11e6 8cfd a2b352d3a147.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894181/74d29dd4-4b4f-11e6-8cfd-a2b352d3a147.png" alt="74d29dd4 4b4f 11e6 8cfd a2b352d3a147">
 </div>
 </div>
 <div class="paragraph">
@@ -406,7 +406,7 @@ It is rebuild when:</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16894220/3f13f908-4b50-11e6-8c28-bba06ab3ccd9.png" alt="3f13f908 4b50 11e6 8c28 bba06ab3ccd9.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894220/3f13f908-4b50-11e6-8c28-bba06ab3ccd9.png" alt="3f13f908 4b50 11e6 8c28 bba06ab3ccd9">
 </div>
 </div>
 </div>
@@ -586,7 +586,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png" alt="304c1ff8 3648 11e6 9928 e19aaba8423c.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png" alt="304c1ff8 3648 11e6 9928 e19aaba8423c">
 </div>
 </div>
 </div>
@@ -602,7 +602,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a-11e6-8461-425fa0908f25.gif" alt="30283216 365a 11e6 8461 425fa0908f25.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a-11e6-8461-425fa0908f25.gif" alt="30283216 365a 11e6 8461 425fa0908f25">
 </div>
 </div>
 </div>
@@ -618,7 +618,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif" alt="e97d23e6 3661 11e6 8f6b e69de0026c51.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif" alt="e97d23e6 3661 11e6 8f6b e69de0026c51">
 </div>
 </div>
 </div>
@@ -631,7 +631,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b-11e6-8551-470443375de8.gif" alt="8f0864d4 366b 11e6 8551 470443375de8.gif">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b-11e6-8551-470443375de8.gif" alt="8f0864d4 366b 11e6 8551 470443375de8">
 </div>
 </div>
 </div>
@@ -644,7 +644,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba-11e6-8df4-01b26737c82d.png" alt="4012ec6a 36ba 11e6 8df4 01b26737c82d.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba-11e6-8df4-01b26737c82d.png" alt="4012ec6a 36ba 11e6 8df4 01b26737c82d">
 </div>
 </div>
 </div>
@@ -660,7 +660,7 @@ This is breaking change, and you will need to check that the theme you&#8217;ve 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png" alt="bf71edac 36bb 11e6 8acc bcc779964fbc.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png" alt="bf71edac 36bb 11e6 8acc bcc779964fbc">
 </div>
 </div>
 </div>
@@ -725,7 +725,7 @@ It&#8217;s an easy way to provide quick feedback on the documentation, so the te
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e">
 </div>
 </div>
 <div class="paragraph">
@@ -734,7 +734,7 @@ Donations are a great way to show your appreciation for the platform: it inspire
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/16184450/bf6fbcca-36bc-11e6-940f-c00e3ba170ec.png" alt="bf6fbcca 36bc 11e6 940f c00e3ba170ec.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184450/bf6fbcca-36bc-11e6-940f-c00e3ba170ec.png" alt="bf6fbcca 36bc 11e6 940f c00e3ba170ec">
 </div>
 </div>
 </div>
@@ -768,7 +768,7 @@ Donations are a great way to show your appreciation for the platform: it inspire
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12898068/189d3fb8-ceab-11e5-874c-1cdfb64925ab.png" alt="189d3fb8 ceab 11e5 874c 1cdfb64925ab.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12898068/189d3fb8-ceab-11e5-874c-1cdfb64925ab.png" alt="189d3fb8 ceab 11e5 874c 1cdfb64925ab">
 </div>
 </div>
 <div class="paragraph">
@@ -776,7 +776,7 @@ Donations are a great way to show your appreciation for the platform: it inspire
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png" alt="562cfba2 ceab 11e5 9a7f 9b62c6304fb9.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png" alt="562cfba2 ceab 11e5 9a7f 9b62c6304fb9">
 </div>
 </div>
 </div>
@@ -859,7 +859,7 @@ We suggest naming the branch using the format <code>issue-nnn</code> to make it 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97-11e5-8a55-192608c40af1.jpeg" alt="3ee3d5c4 ce97 11e5 8a55 192608c40af1.jpeg">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97-11e5-8a55-192608c40af1.jpeg" alt="3ee3d5c4 ce97 11e5 8a55 192608c40af1">
 </div>
 </div>
 <div class="dlist">
@@ -882,7 +882,7 @@ We suggest naming the branch using the format <code>issue-nnn</code> to make it 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png" alt="356ba1ac ce97 11e5 849e f5d2a4bff1b6.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png" alt="356ba1ac ce97 11e5 849e f5d2a4bff1b6">
 </div>
 </div>
 </div>
@@ -941,7 +941,7 @@ We suggest naming the branch using the format <code>issue-nnn</code> to make it 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e">
 </div>
 </div>
 <div class="paragraph">
@@ -949,7 +949,7 @@ We suggest naming the branch using the format <code>issue-nnn</code> to make it 
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png" alt="cc5ee908 ceb9 11e5 9d8b c526f081f1e9.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png" alt="cc5ee908 ceb9 11e5 9d8b c526f081f1e9">
 </div>
 </div>
 </div>
@@ -980,7 +980,7 @@ You must update your version of HubPress before the 20 April 2015.
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/7214902/703f6770-e5c0-11e4-86cb-679dc4b1cd9a.png" alt="703f6770 e5c0 11e4 86cb 679dc4b1cd9a.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/7214902/703f6770-e5c0-11e4-86cb-679dc4b1cd9a.png" alt="703f6770 e5c0 11e4 86cb 679dc4b1cd9a">
 </div>
 </div>
 <div class="paragraph">
@@ -1128,12 +1128,12 @@ Based on this response, I was just going to assume that "silence is agreement" a
 <p>Now you&#8217;ve read my ideas, go ahead and give your feedback in <a href="https://github.com/HubPress/hubpress.io/issues/153">HubPress Issue 153</a>. This is a community effort, and no idea will be dismissed as long as it is constructive.</p>
 </div>
 </div>
-</div>]]></description><link>https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 23 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Docs Guy]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/23/Enhancing-HubPress-Documentation.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 23 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Docs Guy]]></title><description><![CDATA[<div class="paragraph">
 <p><a href="http://github.com/jaredmorgs/">Jared Morgan</a> is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one <a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">README</a> at a time. In between, he uses his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="http://jaredmorgs.github.io/"><img src="https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg" alt="f3cd999e cdbb 11e4 94fc b7aed239452c.jpg"></a>
+<a class="image" href="http://jaredmorgs.github.io/"><img src="https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg" alt="f3cd999e cdbb 11e4 94fc b7aed239452c"></a>
 </div>
 <div class="title">Jared Morgan - The Docs Guy</div>
 </div>
@@ -1145,10 +1145,10 @@ Based on this response, I was just going to assume that "silence is agreement" a
 </div>
 <div class="paragraph">
 <p>If you know of another project that needs great user documentation, take a leaf out of Jared&#8217;s book and create that Pull Request: who knows where it will lead you!</p>
-</div>]]></description><link>https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[ presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>An updated version of <a href="http://hubpress.io/">HubPress</a> is now available with the following new features:</p>
+<p>An updated version of <a href="https://hubpress.github.io/">HubPress</a> is now available with the following new features:</p>
 </div>
 </div>
 </div>
@@ -1156,7 +1156,7 @@ Based on this response, I was just going to assume that "silence is agreement" a
 <h2 id="_new_feature_syntax_highlighting">New feature: Syntax Highlighting</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Most users of <a href="http://hubpress.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="http://hubpress.io/">HubPress</a>.</p>
+<p>Most users of <a href="https://hubpress.github.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="https://hubpress.github.io/">HubPress</a>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1219,7 +1219,7 @@ Tags pages are built when you publish a post and the site is re-paginated. It ma
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://cloud.githubusercontent.com/assets/2006548/6183616/3fb62d0a-b357-11e4-9998-235d0b55ac92.png" alt="3fb62d0a b357 11e4 9998 235d0b55ac92.png">
+<img src="https://cloud.githubusercontent.com/assets/2006548/6183616/3fb62d0a-b357-11e4-9998-235d0b55ac92.png" alt="3fb62d0a b357 11e4 9998 235d0b55ac92">
 </div>
 </div>
 <div class="paragraph">
@@ -1261,16 +1261,16 @@ put your embedded code here !
 </div>
 </div>
 <div class="paragraph">
-<p>Now go have fun with <a href="http://hubpress.io">HubPress</a>!</p>
-</div>]]></description><link>https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[ tips]]></category><category><![CDATA[ video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
-<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="http://hubpress.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
+<p>Now go have fun with <a href="https://hubpress.github.io">HubPress</a>!</p>
+</div>]]></description><link>https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">https://hubpress.github.io/blog/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[tips]]></category><category><![CDATA[video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
+<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="https://hubpress.github.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
 </div>
 <div class="paragraph">
 <p>These tools are really great, but we wanted to provide a tool that is more <strong>user-friendly</strong> and <strong>accessible</strong> for the average person.
 Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc/userguide.html">Asciidoc</a> markup and we wanted a way to contribute to its development.</p>
 </div>
 <div class="paragraph">
-<p>That&#8217;s why we made <a href="http://hubpress.io/">HubPress</a>.</p>
+<p>That&#8217;s why we made <a href="https://hubpress.github.io/">HubPress</a>.</p>
 </div>
 <div class="paragraph">
 <p>With the usual tools building a blog on <a href="https://pages.github.com/">Github Pages</a> requires a decent amount of technical knowledge (you need to know git, to install ruby, to learn a build process &#8230;&#8203;).</p>
@@ -1283,7 +1283,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="http://hubpress.io/img/editor.png" alt="editor.png">
+<img src="https://hubpress.github.io/img/editor.png" alt="editor">
 </div>
 <div class="title">HubPress editor</div>
 </div>
@@ -1291,7 +1291,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p>To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.</p>
 </div>
 <div class="paragraph">
-<p><a href="http://hubpress.io/">HubPress</a> is :</p>
+<p><a href="https://hubpress.github.io/">HubPress</a> is :</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1302,7 +1302,7 @@ Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc
 <p><strong>free</strong>: no subscription, you don&#8217;t have to pay rent for a server</p>
 </li>
 <li>
-<p><strong>yours</strong>: once <a href="http://hubpress.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
+<p><strong>yours</strong>: once <a href="https://hubpress.github.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
 </li>
 </ul>
 </div>
