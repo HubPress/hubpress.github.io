@@ -12,7 +12,7 @@
     "postsPerPage": "10",
     "googleAnalytics": "UA-59472195-1",
     "disqus": "hubpress",
-    "description": "",
+    "description": "A web application to build your Blog on GitHub",
     "cover": "",
     "delay": "500",
     "blogPath": ""
@@ -37,7 +37,7 @@
   "urls": {
     "site": "https://hubpress.github.io/blog",
     "hubpress": "https://hubpress.github.io/blog",
-    "theme": "//hubpress.github.io/blog/themes/roon",
+    "theme": "//hubpress.github.io/blog/themes/casper",
     "images": "https://hubpress.github.io/blog/images"
   },
   "initialisationConfigComponent": {
