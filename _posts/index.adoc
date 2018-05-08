@@ -105,7 +105,7 @@
 	<div class="item">
         <h1>About Us</h1>
         <div class="divider"></div>
-        <p>A web application to build your Blog on GitHub</p>
+        <p></p>
     </div>
 
     <div class="row points">
