@@ -54,5 +54,14 @@
       null
     ]
   },
-  "navigation": []
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "https://hubpress.github.io"
+    },
+    {
+      "label": "Blog",
+      "url": "https://hubpress.github.io/blog"
+    }
+  ]
 }
