@@ -15,7 +15,7 @@
     "description": "HubPress: a web application to build your Blog on GitHub",
     "cover": "",
     "delay": "500",
-    "blogPath": "/blog/"
+    "blogPath": "blog/"
   },
   "socialnetwork": {
     "twitter": "https://twitter.com/hubpressio",
