@@ -35,10 +35,10 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://hubpress.github.io/blog",
-    "hubpress": "http://hubpress.github.io/blog",
-    "theme": "//hubpress.github.io/blog/themes/casper",
-    "images": "https://hubpress.github.io/blog/images"
+    "site": "https://hubpress.github.io",
+    "hubpress": "http://hubpress.github.io",
+    "theme": "//hubpress.github.io/themes/casper",
+    "images": "https://hubpress.github.io/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
