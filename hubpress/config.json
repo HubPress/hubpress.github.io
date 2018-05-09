@@ -36,7 +36,7 @@
   },
   "urls": {
     "site": "https://hubpress.github.io",
-    "hubpress": "http://hubpress.github.io",
+    "hubpress": "https://hubpress.github.io",
     "theme": "//hubpress.github.io/themes/casper",
     "images": "https://hubpress.github.io/images"
   },
