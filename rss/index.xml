@@ -1,4 +1,212 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress: a web application to build your Blog on GitHub]]></description><link>https://hubpress.github.io</link><image><url>https://hubpress.github.io/images/bk-freeze-or.jpg</url><title>HubPress</title><link>https://hubpress.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 08 May 2018 22:43:06 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress: a web application to build your Blog on GitHub]]></description><link>https://hubpress.github.io</link><image><url>https://hubpress.github.io/images/bk-freeze-or.jpg</url><title>HubPress</title><link>https://hubpress.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Wed, 09 May 2018 02:15:14 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.9.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_static_pages">Static pages</a></li>
+<li><a href="#_the_navigation_form">The navigation form</a></li>
+<li><a href="#_the_new_preview">The new preview</a></li>
+<li><a href="#_the_blog_path">The Blog path</a></li>
+<li><a href="#_social_network">Social network</a></li>
+<li><a href="#_theme_casper">Theme Casper</a></li>
+<li><a href="#_major_technical_changes">Major technical changes</a></li>
+<li><a href="#_contributing">Contributing</a></li>
+<li><a href="#_thanks">Thanks</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_static_pages">Static pages</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now create static pages by adding the attributes <code>:hp-type: page</code> in your post.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790191-dba24d5e-5334-11e8-88c6-3356700f284b.png" alt="39790191 dba24d5e 5334 11e8 88c6 3356700f284b">
+</div>
+</div>
+<div class="paragraph">
+<p>After saving, it will generate a file in the folder <strong>_posts/{title-slugify}.adoc</strong> or <strong>_posts/{hp-alt-title-slugify}.adoc</strong> if you use the attribute <code>:hp-alt-title:</code>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790238-264712fe-5335-11e8-8474-2e5213b30842.png" alt="39790238 264712fe 5335 11e8 8474 2e5213b30842">
+</div>
+</div>
+<div class="paragraph">
+<p>After publishing, it will generate an html file at the root of the repository.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790256-4878183c-5335-11e8-8912-231f00982452.png" alt="39790256 4878183c 5335 11e8 8912 231f00982452">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_navigation_form">The navigation form</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now add entries in the navigation of your blog.
+In the <strong>Settings</strong> panel, there is a new tab <strong>Navigation</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png" alt="39790335 b9f7c4bc 5335 11e8 82a8 babc688f76ac">
+</div>
+</div>
+<div class="paragraph">
+<p>Then entries will be available in the published documents:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790360-ea297d10-5335-11e8-9615-ede195c484ae.png" alt="39790360 ea297d10 5335 11e8 9615 ede195c484ae">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_new_preview">The new preview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We added a new preview with the content of the generated HTML document for the selected theme:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790418-4b22d436-5336-11e8-8e6b-c3922b789c7d.png" alt="39790418 4b22d436 5336 11e8 8e6b c3922b789c7d">
+</div>
+</div>
+<div class="paragraph">
+<p>And you can display it in full size with the button:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790501-d80e98f8-5336-11e8-83bf-073264317b58.gif" alt="39790501 d80e98f8 5336 11e8 83bf 073264317b58">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_blog_path">The Blog path</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>There is a new field in the <strong>HubPress</strong> tab of the <strong>Settings</strong> page name <strong>Blog path</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790582-37ac7dfc-5337-11e8-8ee3-b58744c25f6a.png" alt="39790582 37ac7dfc 5337 11e8 8ee3 b58744c25f6a">
+</div>
+</div>
+<div class="paragraph">
+<p>With this field you can specify the path where the pagination of your posts will be generate.
+So you can now create a page with the title <strong>index</strong> (or <code>:hp-alt-title: index</code>) that will be the home of your website.
+Then you can create an entry in the navigation that will be link on the pagination path.</p>
+</div>
+<div class="paragraph">
+<p>Here is the navigation for our website:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790747-09fb15c0-5338-11e8-82aa-4e26f6f30ad0.png" alt="39790747 09fb15c0 5338 11e8 82aa 4e26f6f30ad0">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png" alt="39790335 b9f7c4bc 5335 11e8 82a8 babc688f76ac">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_social_network">Social network</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We added two new entries in the <strong>Social network</strong> tab:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790826-6a18518e-5338-11e8-87d1-5703267a0885.png" alt="39790826 6a18518e 5338 11e8 87d1 5703267a0885">
+</div>
+</div>
+<div class="paragraph">
+<p>Actually these entries are only available in themes <strong>Casper</strong> and <strong>Ghostium</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_theme_casper">Theme Casper</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The theme <strong>Casper</strong> has been updated.
+This version is really beautiful and really comfortable for reading.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791445-0c860954-533c-11e8-82be-31af80d5d155.png" alt="39791445 0c860954 533c 11e8 82be 31af80d5d155">
+</div>
+</div>
+<div class="paragraph">
+<p>This theme is developed by the team of <a href="http://ghost.io/">Ghost</a> and sources are available here <a href="https://github.com/TryGhost/Casper" class="bare">https://github.com/TryGhost/Casper</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_major_technical_changes">Major technical changes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Now HubPress use <a href="https://nuxtjs.org">Nuxt.js</a> instead of using an homemade build. It will increase the stability of the build and certainly make contributions easier.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791660-2f53284e-533d-11e8-9f56-5bdca8138336.png" alt="39791660 2f53284e 533d 11e8 9f56 5bdca8138336">
+</div>
+</div>
+<div class="paragraph">
+<p>We have also integrated <a href="http://lokijs.org/#/">Loki.js</a> in our stack to replace <a href="https://pouchdb.com">PouchDB</a></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791717-79777448-533d-11e8-97ab-3e98543d4077.png" alt="39791717 79777448 533d 11e8 97ab 3e98543d4077">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contributing">Contributing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Because donation is not the only way to help an opensource project, we made a page which list some kind of contribution:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://hubpress.github.io/contributing.html" class="bare">https://hubpress.github.io/contributing.html</a></p>
+</div>
+<div class="paragraph">
+<p>Also we are now on <a href="https://opencollective.com/hubpressio">Open Collective</a>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791356-796b500c-533b-11e8-8b4a-1862ee1587cb.png" alt="39791356 796b500c 533b 11e8 8b4a 1862ee1587cb">
+</div>
+</div>
+<div class="paragraph">
+<p>We still have to define tiers, but if you want to help us with donations and become one of our backers or sponsors, <a href="https://opencollective.com/hubpressio">Open Collective</a> is the right place to go.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_thanks">Thanks</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We wish to thank all those who have supported us since the beginning of the project.</p>
+</div>
+<div class="paragraph">
+<p>A big thank to <a href="https://twitter.com/peterlawrey/">Peter Lawrey</a> for having backed us.</p>
+</div>
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/1Z02vuppxP1Pa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/the-office-thank-you-michael-scott-1Z02vuppxP1Pa">via GIPHY</a></p>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2018/05/09/Update-Whats-New-in-Version-090.html</link><guid isPermaLink="true">https://hubpress.github.io/2018/05/09/Update-Whats-New-in-Version-090.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 09 May 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
