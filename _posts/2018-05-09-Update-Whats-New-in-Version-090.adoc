@@ -1,0 +1,99 @@
+= Update: What's New in Version 0.9.0
+:hp-tags: roadmap, release
+:toc: macro
+:release: 0.9.0
+:url_oc: https://opencollective.com/hubpressio
+
+toc::[]
+
+== Static pages
+You can now create static pages by adding the attributes `:hp-type: page` in your post.
+
+image::https://user-images.githubusercontent.com/2006548/39790191-dba24d5e-5334-11e8-88c6-3356700f284b.png[]
+
+After saving, it will generate a file in the folder *_posts/{title-slugify}.adoc* or *_posts/{hp-alt-title-slugify}.adoc* if you use the attribute `:hp-alt-title:`.
+
+image::https://user-images.githubusercontent.com/2006548/39790238-264712fe-5335-11e8-8474-2e5213b30842.png[]
+
+After publishing, it will generate an html file at the root of the repository.
+
+image::https://user-images.githubusercontent.com/2006548/39790256-4878183c-5335-11e8-8912-231f00982452.png[]
+
+== The navigation form
+You can now add entries in the navigation of your blog.
+In the *Settings* panel, there is a new tab *Navigation*:
+
+image::https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png[]
+
+Then entries will be available in the published documents:
+
+image::https://user-images.githubusercontent.com/2006548/39790360-ea297d10-5335-11e8-9615-ede195c484ae.png[]
+
+== The new preview
+We added a new preview with the content of the generated HTML document for the selected theme:
+
+image::https://user-images.githubusercontent.com/2006548/39790418-4b22d436-5336-11e8-8e6b-c3922b789c7d.png[]
+
+And you can display it in full size with the button:
+
+image::https://user-images.githubusercontent.com/2006548/39790501-d80e98f8-5336-11e8-83bf-073264317b58.gif[]
+
+== The Blog path
+There is a new field in the *HubPress* tab of the *Settings* page name *Blog path*:
+
+image::https://user-images.githubusercontent.com/2006548/39790582-37ac7dfc-5337-11e8-8ee3-b58744c25f6a.png[]
+
+With this field you can specify the path where the pagination of your posts will be generate. 
+So you can now create a page with the title *index* (or `:hp-alt-title: index`) that will be the home of your website.
+Then you can create an entry in the navigation that will be link on the pagination path.
+
+Here is the navigation for our website:
+
+image::https://user-images.githubusercontent.com/2006548/39790747-09fb15c0-5338-11e8-82aa-4e26f6f30ad0.png[]
+
+image::https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png[]
+
+== Social network
+We added two new entries in the *Social network* tab:
+
+image::https://user-images.githubusercontent.com/2006548/39790826-6a18518e-5338-11e8-87d1-5703267a0885.png[]
+
+Actually these entries are only available in themes *Casper* and *Ghostium*
+
+== Theme Casper
+The theme *Casper* has been updated.
+This version is really beautiful and really comfortable for reading.
+
+image::https://user-images.githubusercontent.com/2006548/39791445-0c860954-533c-11e8-82be-31af80d5d155.png[]
+
+This theme is developed by the team of http://ghost.io/[Ghost] and sources are available here https://github.com/TryGhost/Casper
+
+== Major technical changes
+Now HubPress use https://nuxtjs.org[Nuxt.js] instead of using an homemade build. It will increase the stability of the build and certainly make contributions easier. 
+
+image::https://user-images.githubusercontent.com/2006548/39791660-2f53284e-533d-11e8-9f56-5bdca8138336.png[]
+
+We have also integrated http://lokijs.org/#/[Loki.js] in our stack to replace https://pouchdb.com[PouchDB]
+
+image::https://user-images.githubusercontent.com/2006548/39791717-79777448-533d-11e8-97ab-3e98543d4077.png[]
+
+== Contributing
+Because donation is not the only way to help an opensource project, we made a page which list some kind of contribution:
+
+https://hubpress.github.io/contributing.html
+
+Also we are now on {url_oc}[Open Collective]!
+
+image::https://user-images.githubusercontent.com/2006548/39791356-796b500c-533b-11e8-8b4a-1862ee1587cb.png[]
+
+We still have to define tiers, but if you want to help us with donations and become one of our backers or sponsors, {url_oc}[Open Collective] is the right place to go.
+
+== Thanks
+We wish to thank all those who have supported us since the beginning of the project.
+
+A big thank to https://twitter.com/peterlawrey/[Peter Lawrey] for having backed us.
+
+++++
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/1Z02vuppxP1Pa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/the-office-thank-you-michael-scott-1Z02vuppxP1Pa">via GIPHY</a></p>
+++++
+
