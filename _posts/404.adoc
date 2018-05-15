@@ -9,4 +9,4 @@
 :hp-alt-title: 404
 :hp-type: page
 
-Awesome!
+You seems to be lost :(
