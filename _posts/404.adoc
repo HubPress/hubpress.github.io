@@ -7,5 +7,6 @@
 
 = My 404 page
 :hp-alt-title: 404
+:hp-type: page
 
 Awesome!
