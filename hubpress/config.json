@@ -15,7 +15,8 @@
     "description": "HubPress: a web application to build your Blog on GitHub",
     "cover": "https://hubpress.github.io/images/bk-freeze-or.jpg",
     "delay": "500",
-    "blogPath": "blog/"
+    "blogPath": "blog/",
+    "googleAnalytics": ""
   },
   "socialnetwork": {
     "twitter": "https://twitter.com/hubpressio",
