@@ -10,7 +10,7 @@
     "title": "HubPress",
     "logo": "http://hubpress.github.io/img/logo.png",
     "postsPerPage": "10",
-    "googleAnalytics": "UA-56705709-1",
+    "fathomAnalytics": "HYWCEFZV",
     "disqus": "hubpress",
     "description": "HubPress: a web application to build your Blog on GitHub",
     "cover": "https://hubpress.github.io/images/bk-freeze-or.jpg",
@@ -36,7 +36,7 @@
   },
   "urls": {
     "site": "https://hubpress.github.io",
-    "hubpress": "https://hubpress.github.io",
+    "hubpress": "http://localhost:3000",
     "theme": "//hubpress.github.io/themes/casper",
     "images": "https://hubpress.github.io/images"
   },
@@ -51,6 +51,11 @@
     ],
     "_compiled": true,
     "beforeCreate": [
+      null,
+      null
+    ],
+    "__file": "hubpress-plugins/hubpress-github/components/InitConfig.vue",
+    "beforeDestroy": [
       null
     ]
   },
