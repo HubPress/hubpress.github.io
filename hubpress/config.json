@@ -10,7 +10,7 @@
     "title": "HubPress",
     "logo": "http://hubpress.github.io/img/logo.png",
     "postsPerPage": "10",
-    "googleAnalytics": "UA-59472195-1",
+    "fathomAnalytics": "HYWCEFZV",
     "disqus": "hubpress",
     "description": "HubPress: a web application to build your Blog on GitHub",
     "cover": "",
@@ -35,10 +35,10 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://hubpress.github.io",
-    "hubpress": "http://hubpress.github.io",
-    "theme": "//hubpress.github.io/themes/casper",
-    "images": "https://hubpress.github.io/images"
+    "site": "https://hubpress.github.io/blog",
+    "hubpress": "http://localhost:3000",
+    "theme": "//hubpress.github.io/blog/themes/casper",
+    "images": "https://hubpress.github.io/blog/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
@@ -51,6 +51,11 @@
     ],
     "_compiled": true,
     "beforeCreate": [
+      null,
+      null
+    ],
+    "__file": "hubpress-plugins/hubpress-github/components/InitConfig.vue",
+    "beforeDestroy": [
       null
     ]
   },
