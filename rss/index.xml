@@ -1,1 +1,1531 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress: a web application to build your Blog on GitHub]]></description><link>https://hubpress.github.io</link><image><url>https://hubpress.github.io/images/bk-freeze-or.jpg</url><title>HubPress</title><link>https://hubpress.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Apr 2020 19:07:26 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HubPress]]></title><description><![CDATA[HubPress: a web application to build your Blog on GitHub]]></description><link>https://hubpress.github.io</link><image><url>https://hubpress.github.io/images/bk-freeze-or.jpg</url><title>HubPress</title><link>https://hubpress.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Apr 2020 19:08:15 GMT</lastBuildDate><atom:link href="https://hubpress.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Update: What's New in Version 0.9.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_static_pages">Static pages</a></li>
+<li><a href="#_the_navigation_form">The navigation form</a></li>
+<li><a href="#_the_new_preview">The new preview</a></li>
+<li><a href="#_the_blog_path">The Blog path</a></li>
+<li><a href="#_social_network">Social network</a></li>
+<li><a href="#_theme_casper">Theme Casper</a></li>
+<li><a href="#_major_technical_changes">Major technical changes</a></li>
+<li><a href="#_contributing">Contributing</a></li>
+<li><a href="#_thanks">Thanks</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_static_pages">Static pages</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now create static pages by adding the attributes <code>:hp-type: page</code> in your post.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790191-dba24d5e-5334-11e8-88c6-3356700f284b.png" alt="39790191 dba24d5e 5334 11e8 88c6 3356700f284b">
+</div>
+</div>
+<div class="paragraph">
+<p>After saving, it will generate a file in the folder <strong>_posts/{title-slugify}.adoc</strong> or <strong>_posts/{hp-alt-title-slugify}.adoc</strong> if you use the attribute <code>:hp-alt-title:</code>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790238-264712fe-5335-11e8-8474-2e5213b30842.png" alt="39790238 264712fe 5335 11e8 8474 2e5213b30842">
+</div>
+</div>
+<div class="paragraph">
+<p>After publishing, it will generate an html file at the root of the repository.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790256-4878183c-5335-11e8-8912-231f00982452.png" alt="39790256 4878183c 5335 11e8 8912 231f00982452">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_navigation_form">The navigation form</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now add entries in the navigation of your blog.
+In the <strong>Settings</strong> panel, there is a new tab <strong>Navigation</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png" alt="39790335 b9f7c4bc 5335 11e8 82a8 babc688f76ac">
+</div>
+</div>
+<div class="paragraph">
+<p>Then entries will be available in the published documents:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790360-ea297d10-5335-11e8-9615-ede195c484ae.png" alt="39790360 ea297d10 5335 11e8 9615 ede195c484ae">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_new_preview">The new preview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We added a new preview with the content of the generated HTML document for the selected theme:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790418-4b22d436-5336-11e8-8e6b-c3922b789c7d.png" alt="39790418 4b22d436 5336 11e8 8e6b c3922b789c7d">
+</div>
+</div>
+<div class="paragraph">
+<p>And you can display it in full size with the button:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790501-d80e98f8-5336-11e8-83bf-073264317b58.gif" alt="39790501 d80e98f8 5336 11e8 83bf 073264317b58">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_blog_path">The Blog path</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>There is a new field in the <strong>HubPress</strong> tab of the <strong>Settings</strong> page name <strong>Blog path</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790582-37ac7dfc-5337-11e8-8ee3-b58744c25f6a.png" alt="39790582 37ac7dfc 5337 11e8 8ee3 b58744c25f6a">
+</div>
+</div>
+<div class="paragraph">
+<p>With this field you can specify the path where the pagination of your posts will be generate.
+So you can now create a page with the title <strong>index</strong> (or <code>:hp-alt-title: index</code>) that will be the home of your website.
+Then you can create an entry in the navigation that will be link on the pagination path.</p>
+</div>
+<div class="paragraph">
+<p>Here is the navigation for our website:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790747-09fb15c0-5338-11e8-82aa-4e26f6f30ad0.png" alt="39790747 09fb15c0 5338 11e8 82aa 4e26f6f30ad0">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790335-b9f7c4bc-5335-11e8-82a8-babc688f76ac.png" alt="39790335 b9f7c4bc 5335 11e8 82a8 babc688f76ac">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_social_network">Social network</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We added two new entries in the <strong>Social network</strong> tab:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39790826-6a18518e-5338-11e8-87d1-5703267a0885.png" alt="39790826 6a18518e 5338 11e8 87d1 5703267a0885">
+</div>
+</div>
+<div class="paragraph">
+<p>Actually these entries are only available in themes <strong>Casper</strong> and <strong>Ghostium</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_theme_casper">Theme Casper</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The theme <strong>Casper</strong> has been updated.
+This version is really beautiful and really comfortable for reading.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791445-0c860954-533c-11e8-82be-31af80d5d155.png" alt="39791445 0c860954 533c 11e8 82be 31af80d5d155">
+</div>
+</div>
+<div class="paragraph">
+<p>This theme is developed by the team of <a href="http://ghost.io/">Ghost</a> and sources are available here <a href="https://github.com/TryGhost/Casper" class="bare">https://github.com/TryGhost/Casper</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_major_technical_changes">Major technical changes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Now HubPress use <a href="https://nuxtjs.org">Nuxt.js</a> instead of using an homemade build. It will increase the stability of the build and certainly make contributions easier.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791660-2f53284e-533d-11e8-9f56-5bdca8138336.png" alt="39791660 2f53284e 533d 11e8 9f56 5bdca8138336">
+</div>
+</div>
+<div class="paragraph">
+<p>We have also integrated <a href="http://lokijs.org/#/">Loki.js</a> in our stack to replace <a href="https://pouchdb.com">PouchDB</a></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791717-79777448-533d-11e8-97ab-3e98543d4077.png" alt="39791717 79777448 533d 11e8 97ab 3e98543d4077">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contributing">Contributing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Because donation is not the only way to help an opensource project, we made a page which list some kind of contribution:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://hubpress.github.io/contributing.html" class="bare">https://hubpress.github.io/contributing.html</a></p>
+</div>
+<div class="paragraph">
+<p>Also we are now on <a href="https://opencollective.com/hubpressio">Open Collective</a>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://user-images.githubusercontent.com/2006548/39791356-796b500c-533b-11e8-8b4a-1862ee1587cb.png" alt="39791356 796b500c 533b 11e8 8b4a 1862ee1587cb">
+</div>
+</div>
+<div class="paragraph">
+<p>We still have to define tiers, but if you want to help us with donations and become one of our backers or sponsors, <a href="https://opencollective.com/hubpressio">Open Collective</a> is the right place to go.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_thanks">Thanks</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We wish to thank all those who have supported us since the beginning of the project.</p>
+</div>
+<div class="paragraph">
+<p>A big thank to <a href="https://twitter.com/peterlawrey/">Peter Lawrey</a> for having backed us.</p>
+</div>
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/1Z02vuppxP1Pa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/the-office-thank-you-michael-scott-1Z02vuppxP1Pa">via GIPHY</a></p>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2018/05/09/Update-Whats-New-in-Version-090.html</link><guid isPermaLink="true">https://hubpress.github.io/2018/05/09/Update-Whats-New-in-Version-090.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 09 May 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.8.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_the_configuration_form">The configuration form</a></li>
+<li><a href="#_a_new_theme_is_here_the_shell">A new theme is here: The Shell</a></li>
+<li><a href="#_some_fixes">Some fixes</a></li>
+<li><a href="#_what_s_next">What&#8217;s next?</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_configuration_form">The configuration form</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You do not need to change the <strong>config.json</strong> anymore, now you can do it with the <strong>Configuration form</strong>.
+This form appears when the configuration of your repository is not done.
+You have to set the mandatory fields (username, repository name and the branch) and the domain name if you have one.</p>
+</div>
+<div class="paragraph">
+<p>Click on the <strong>Ok, let&#8217;s go!</strong> button and you will be redirect to the login form.
+Then login and the configuration will be save on your repository.</p>
+</div>
+<div class="paragraph">
+<p>That&#8217;s it!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248743/e63f9968-0fd0-11e7-99a0-14e0e3779af7.gif" alt="e63f9968 0fd0 11e7 99a0 14e0e3779af7">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_new_theme_is_here_the_shell">A new theme is here: The Shell</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some of you wanted to have a dark theme so we added one.
+You can now use the theme <strong>the-shell</strong> in your settings, here is a sample of the result with my personal blog:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24248939/bb3530ec-0fd1-11e7-93ae-8e8939f6aecd.png" alt="bb3530ec 0fd1 11e7 93ae 8e8939f6aecd">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_some_fixes">Some fixes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We have fixed a bug on the generation of tags, thanks to Krzysztof Zbiciński <a href="https://github.com/zbicin">@zbicin</a>.</p>
+</div>
+<div class="paragraph">
+<p>We have also fixed the highlighting of code blocks, here is a example with the theme <strong>casper</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24249156/7c4a3d68-0fd2-11e7-85c7-930bebb52ef9.png" alt="7c4a3d68 0fd2 11e7 85c7 930bebb52ef9">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_s_next">What&#8217;s next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For the next version, we hope to add the static page feature and why not the sitemap generation.</p>
+</div>
+<div class="paragraph">
+<p>As usual, if you love HubPress, we’d love to hear why you love it. Why not show your love by sharing this post, or perhaps consider donating through PayPal or Gratipay to HubPress.</p>
+</div>
+<div class="paragraph">
+<p>And if there is something about HubPress you think we can do better, tell us! We can only improve the tool if you open feature requests in GitHub.</p>
+</div>
+<div class="paragraph">
+<p>Thanks for using HubPress, and keep sharing!</p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2017/03/23/Update-Whats-New-in-Version-080.html</link><guid isPermaLink="true">https://hubpress.github.io/2017/03/23/Update-Whats-New-in-Version-080.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[0.7.3 Is Released]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>We&#8217;ve been working on a new release for you with a lot of new features.
+It was soft-launched a month ago now, and we&#8217;ve received positive feedback about it so far.</p>
+</div>
+<div class="paragraph">
+<p>This post summarises the 0.7.0 to 0.7.2 changes as well, but I&#8217;ve put the 0.7.3 summary first in case you don&#8217;t care about the other changes.</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_0_7_3">0.7.3</a>
+<ul class="sectlevel2">
+<li><a href="#_gitter_chat">Gitter Chat</a></li>
+<li><a href="#_synchronisation_improvements">Synchronisation Improvements</a></li>
+<li><a href="#_publishing_speed">Publishing Speed</a></li>
+</ul>
+</li>
+<li><a href="#_cumulative_changes">Cumulative Changes</a>
+<ul class="sectlevel2">
+<li><a href="#_0_7_0">0.7.0</a></li>
+<li><a href="#_0_7_1_and_0_7_2">0.7.1 and 0.7.2</a></li>
+</ul>
+</li>
+<li><a href="#_how_are_we_doing">How Are We Doing?</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_0_7_3">0.7.3</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The biggest addition to this release is the Gitter support chat integration, and dramatically improved posts synchronisation and publishing times.</p>
+</div>
+<div class="sect2">
+<h3 id="_gitter_chat">Gitter Chat</h3>
+<div class="paragraph">
+<p>First-time users have told us they often have issues with logging onto HubPress after initially configuring the blog.
+Anthonny wanted to support new users better, and we decided that <a href="https://gitter.im/">Gitter</a> was the best product fit for HubPress.</p>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll find the embedded Gitter client in the bottom-right of each screen in the product.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042438/347b7e12-0b12-11e7-99a2-85278ccef404.gif" alt="347b7e12 0b12 11e7 99a2 85278ccef404">
+</div>
+</div>
+<div class="paragraph">
+<p>Use it to reach out to Anthonny and I, and get support with HubPress.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_synchronisation_improvements">Synchronisation Improvements</h3>
+<div class="paragraph">
+<p>When you log onto your updated version of HubPress for the first time, you&#8217;ll notice a slight delay as all your posts are synchronised over.</p>
+</div>
+<div class="paragraph">
+<p>After this process completes, you&#8217;ll find subsequent logins to be much faster than on 0.6.0.
+This is because subsequent logins do not trigger a resync, and rely on the local storage.
+Most HubPress users are solo bloggers, so synchronising posts each time you log in seemed like a waste of time.</p>
+</div>
+<div class="paragraph">
+<p>If you do share your blog instance with other bloggers, you can force a resync in the Posts view so posts written by your blogging team are synchronised over.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042910/6a5af2f4-0b14-11e7-8a3c-2af6b30ed6e0.gif" alt="6a5af2f4 0b14 11e7 8a3c 2af6b30ed6e0">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_publishing_speed">Publishing Speed</h3>
+<div class="paragraph">
+<p>The way we handle publishing has been reworked and has made publising times  for a 90 post blog reduce from 4 minutes to about 40 seconds in our tests.</p>
+</div>
+<div class="paragraph">
+<p>The bottleneck before was the way HubPress committed files to your blog&#8217;s repository: each change was a separate commit.
+This caused excessive commit history in your blog and made large blogs struggle to publish quickly.</p>
+</div>
+<div class="paragraph">
+<p>Post operations are now batched into logical groups.
+There should only be about four commits per publish, not hundreds like some larger blogs were experiencing.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cumulative_changes">Cumulative Changes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We&#8217;ve made some other changes that you&#8217;ll see in 0.7.3, but these were done before this release.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a summary of those changes.</p>
+</div>
+<div class="sect2">
+<h3 id="_0_7_0">0.7.0</h3>
+<div class="paragraph">
+<p>Anthonny made the decision to move away from a <code>React/Redux</code> and <code>material-ui</code> to <a href="https://vuejs.org/">Vue/VueX</a> and <a href="https://semantic-ui.com/">Semantic UI</a>.
+This move allowed Anthonny to actually develop HubPress, not resolve dependency hell each time he tried to do development.</p>
+</div>
+<div class="paragraph">
+<p>In the Posts view you&#8217;ll find a new Filter function that lets you search for keywords and textual strings in posts.
+This will help those of you with large posts lists to find an old post or a post with keywords in it.
+Perhaps you can use the feature to search for and update your old tech posts with new info? Let us know what you think about this addition.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042658/39e85978-0b13-11e7-8838-4a224b4031c4.gif" alt="39e85978 0b13 11e7 8838 4a224b4031c4">
+</div>
+</div>
+<div class="paragraph">
+<p>There is now a team page that explains a bit about us as well.
+You access this through the Navigation menu.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042816/f65ef5ee-0b13-11e7-9f0a-3c6b92eb4c7a.png" alt="f65ef5ee 0b13 11e7 9f0a 3c6b92eb4c7a">
+</div>
+</div>
+<div class="paragraph">
+<p>In the Navigation menu, you&#8217;ll also find links to <a href="https://www.paypal.me/anthonny/5">PayPal</a> and <a href="https://gratipay.com/hubpress/">Gratipay</a> that let you send a quick thank-you in the form of a pre-paid beer or coffee (or Pizza if you&#8217;re feeling super generous).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/24042807/e7f7e196-0b13-11e7-888c-f12b0e7eb4f1.png" alt="e7f7e196 0b13 11e7 888c f12b0e7eb4f1">
+</div>
+</div>
+<div class="paragraph">
+<p>We&#8217;d really appreciate you giving this some thought and taking action if you can: it only takes a few minutes.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_0_7_1_and_0_7_2">0.7.1 and 0.7.2</h3>
+<div class="paragraph">
+<p>This release was a maintenance release to fix up some early-adopter bugs discovered with HTTPS mixed content in themes and an ld+json bug.
+We also added back in some themes that were excluded from the first release by accident.</p>
+</div>
+<div class="paragraph">
+<p>Our thanks go out to the early adopters who raised bugs and helped us identify some issues with themes and posts.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_are_we_doing">How Are We Doing?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s been two years since HubPress started as a proof of concept. It is now used by over 1000 users worldwide to maintain their blog presence on the internet.</p>
+</div>
+<div class="paragraph">
+<p>A recent review of the fork statistics of HubPress revealed that a staggering  764 users have set up the product and written at least two posts with our little tool.
+There are 261 of you that have written at least 5 posts. Congratulations!</p>
+</div>
+<div class="paragraph">
+<p>If you love HubPress, we&#8217;d love to hear why you love it.
+Why not show your love by sharing this post, or perhaps consider donating through <a href="https://www.paypal.me/anthonny/5">PayPal</a> or <a href="https://gratipay.com/hubpress/">Gratipay</a> to HubPress.</p>
+</div>
+<div class="paragraph">
+<p>And if there is something about HubPress you think we can do better, tell us!
+We can only improve the tool if you open feature requests in GitHub.</p>
+</div>
+<div class="paragraph">
+<p>Thanks for using HubPress, and keep sharing!</p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2017/03/17/073-Is-Released.html</link><guid isPermaLink="true">https://hubpress.github.io/2017/03/17/073-Is-Released.html</guid><category><![CDATA[roadmap]]></category><category><![CDATA[release]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[We Aren't Dead Yet: HubPress Roadmap]]></title><description><![CDATA[<div class="paragraph">
+<p>In a <a href="https://github.com/HubPress/hubpress.io/issues/447">bug report</a> we triaged recently, a new HubPress adopter questioned the future of the project.</p>
+</div>
+<div class="paragraph">
+<p>We have not released a platform update since June 2016. It&#8217;s a fair question for the HubPress community to ask what the future of the project is, and whether they should perhaps begin looking for another AsciiDoc static site blogging platform.</p>
+</div>
+<div class="paragraph">
+<p>Before we get to that, let&#8217;s take stock of where the project currently stands:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>We have a new plug-in architecture that modularises HubPress publishing components.</p>
+</li>
+<li>
+<p>We have a brand new <a href="https://hubpress.gitbooks.io/hubpress-knowledgebase/content/">GitBook Documentation Portal</a> which supercedes the repo-hosted docs.</p>
+</li>
+<li>
+<p>We have 2,700 forks of the project.</p>
+</li>
+<li>
+<p>We have a lot of happy HubPressers (and some blog teams) pumping out posts on a platform originally conceived as a proof of concept.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This is a good place for any Open Source project to be in!</p>
+</div>
+<div class="paragraph">
+<p>As far as work goes however, we have no shortage of bugs and enhancements:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>12 Bugs</p>
+</li>
+<li>
+<p>9 docs improvements</p>
+</li>
+<li>
+<p>50 (yes, <strong>50</strong>) enhancement requests.</p>
+</li>
+<li>
+<p>plus a few other miscellaneous bugs, but whatever: <em>50 Enhancements</em>!</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>What Anthonny and I need to start doing is working <strong>on</strong> the project, not <strong>in</strong> the project for it to evolve and grow.
+We need to do the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Give the HubPress community a real chance to contribute to the project.</p>
+</li>
+<li>
+<p>Develop a Contribution Framework for developers and translators.</p>
+</li>
+<li>
+<p>Document the project architecture so developers can understand the product.</p>
+</li>
+<li>
+<p>Motivate developers to contribute to the plug-in framework that HubPress is now built upon.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This is <strong>the key</strong> to reinvigorating the project, because it will let the community create new features in a modular way.</p>
+</div>
+<div class="paragraph">
+<p>It is far more motivating to work on small, achievable releases than looking at 90 issues and feeling overwhelmed.
+Using a new feature in GitHub, we&#8217;ve created our first <a href="https://github.com/HubPress/hubpress.io/projects/1">roadmap</a>.
+The idea behind each roadmap is to use them as release mileststones for us to group similar bugs and enhancements.</p>
+</div>
+<div class="paragraph">
+<p>Milestones will not contain a lot of issues.
+We&#8217;ve agreed that about six issues is a good average number, with no more than 10 in total.
+Limiting a milestone to a low number of issues will help keep the team focused and keep the velocity up.</p>
+</div>
+<div class="paragraph">
+<p>The hard part for us is working out what issues to prioritise first. You can help us with this. It&#8217;s time to cast your vote.
+We can filter on the number of reactions (thumbs-up) an issue gets, and prioritise these for action in a future milstone.
+We&#8217;re only filtering on thumbsup, so while smileys are nice they won&#8217;t help in this case.</p>
+</div>
+<div class="paragraph">
+<p>If you want to talk more about this, you can join the discussion on <a href="https://hubpressio.slack.com" class="bare">https://hubpressio.slack.com</a></p>
+</div>
+<div class="paragraph">
+<p>So that&#8217;s where we are at the moment.</p>
+</div>
+<div class="paragraph">
+<p>Where we go next is up for discussion.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s talk.</p>
+</div>]]></description><link>https://hubpress.github.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</link><guid isPermaLink="true">https://hubpress.github.io/2016/10/11/We-Arent-Dead-Yet-Hub-Press-Roadmap.html</guid><category><![CDATA[roadmap]]></category><dc:creator><![CDATA[Jared Morgan]]></dc:creator><pubDate>Tue, 11 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.6.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here we go, the first release of Summer!</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_hubpress_supports_rss">HubPress supports RSS!</a></li>
+<li><a href="#_upgrades_are_simpler_with_a_link">Upgrades are simpler with a link</a></li>
+<li><a href="#_bugs">Bugs&#8230;&#8203;</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hubpress_supports_rss">HubPress supports RSS!</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>RSS feed is now available at the url <code>&lt;url_of_your_blog&gt;/rss</code>!
+It is rebuild when:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>you publish a post,</p>
+</li>
+<li>
+<p>you change the content of a published post,</p>
+</li>
+<li>
+<p>you unpublish a post,</p>
+</li>
+<li>
+<p>you change your settings.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In the past we have removed the RSS link on each theme because RSS was not available, themes have been updated and links are here.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_upgrades_are_simpler_with_a_link">Upgrades are simpler with a link</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can find a new item in the main menu, <strong>Check for upgrade</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894181/74d29dd4-4b4f-11e6-8cfd-a2b352d3a147.png" alt="74d29dd4 4b4f 11e6 8cfd a2b352d3a147">
+</div>
+</div>
+<div class="paragraph">
+<p>It will redirect you to <a href="https://github.com">GitHub</a> and you will be able to upgrade your instance in the right way.</p>
+</div>
+<div class="paragraph">
+<p>We also have added the version add the bottom of the main menu:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16894220/3f13f908-4b50-11e6-8c28-bba06ab3ccd9.png" alt="3f13f908 4b50 11e6 8c28 bba06ab3ccd9">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bugs">Bugs&#8230;&#8203;</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We have fixed two bugs:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>a problem with the pagination when you use the branch <code>gh-pages</code> without a CNAME,</p>
+</li>
+<li>
+<p>a typo that broke the theme <strong>Saga</strong></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>We hope you enjoy this new release.
+If you have any ideas for features, or see a problem with this release, we would love your <a href="https://github.com/HubPress/hubpress.io/issues">feedback</a>!</p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2016/07/15/Update-Whats-New-in-Version-060.html</link><guid isPermaLink="true">https://hubpress.github.io/2016/07/15/Update-Whats-New-in-Version-060.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.5.1]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s time for a new release of HubPress, which bumps the version up to 0.5.1.</p>
+</div>
+<div class="paragraph">
+<p>If you&#8217;re looking for more information, all new features are highlighted in the docs with <code>0.5.1</code>.</p>
+</div>
+<div class="paragraph">
+<p>A <strong>"What&#8217;s New"</strong> video is also coming where we&#8217;ll show you quickly about the changes.
+Subscribe to our new <a href="https://www.youtube.com/channel/UCNsNq3EoNCHGAD_h7eXlGrA">YouTube Channel</a> for more updates.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+There are breaking changes in this release that affect themes.
+Make sure you read these Release Notes in their entirety before reporting any bugs.
+</td>
+</tr>
+</table>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_upgrade_your_instance">Upgrade your instance</a></li>
+<li><a href="#_themes">Themes</a></li>
+<li><a href="#_multi_user_support_for_post_attribution">Multi-user Support for Post Attribution</a></li>
+<li><a href="#_author_page">Author page</a></li>
+<li><a href="#_edit_and_delete_blog_posts">Edit and Delete Blog Posts</a></li>
+<li><a href="#_synchronization">Synchronization</a></li>
+<li><a href="#_solarized_theme">Solarized theme</a></li>
+<li><a href="#_includes">Includes</a></li>
+<li><a href="#_gist">Gist</a></li>
+<li><a href="#_editor_validation_for_blog_posts">Editor Validation for Blog Posts</a></li>
+<li><a href="#_documentation">Documentation</a></li>
+<li><a href="#_documentation_moving_to_gitbook">Documentation Moving to GitBook</a></li>
+<li><a href="#_donations">Donations</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_upgrade_your_instance">Upgrade your instance</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>First, make sure that you have saved all your blog posts.
+Every unsaved draft will be lost because we have changed the storage system in this version.</p>
+</div>
+<div class="paragraph">
+<p>To upgrade your instance you have to create a pull request on your repository.
+Go to:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/&lt;username&gt;/&lt;repository-name&gt;/compare/&lt;branch&gt;...HubPress:&lt;branch&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example for our blog, the username is <strong>HubPress</strong>, the repository name is <strong>blog.hubpress.io</strong> and we use the branch <strong>gh-pages</strong>, so the url is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/HubPress/blog.hubpress.io/compare/gh-pages...HubPress:gh-pages</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you use the branch master like Jared does (his username is <strong>jaredmorgs</strong>, the repository name is <strong>jaredmorgs.github.io</strong>):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-shell" data-lang="shell">https://github.com/jaredmorgs/jaredmorgs.github.io/compare/master...HubPress:master</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then you have to create a pull request with the listed changes and merge it.</p>
+</div>
+<div class="paragraph">
+<p>The last action is to log into your HubPress administration console.
+Go to the <strong>Settings</strong> page and <strong>Save</strong>.
+This action rebuilds all your blog posts with the improvements featured in this blog.</p>
+</div>
+<div class="paragraph">
+<p>And voilà!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_themes">Themes</h2>
+<div class="sectionbody">
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Breaking Change. Action required.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Release 0.4.0 added two new themese: ghostium and uno-zen.</p>
+</div>
+<div class="paragraph">
+<p>What we noticed is that the theme folders used a mixture of upper and lower case, which made it tricky to set the theme correctly in the Admin console.</p>
+</div>
+<div class="paragraph">
+<p>In 0.5.1 <strong>all theme names have been changed to lowercase</strong>.
+This is breaking change, and you will need to check that the theme you&#8217;ve chosen in the Settings are lowercase.</p>
+</div>
+<div class="paragraph">
+<p>Refer to the folder names in the <code>/themes</code> folder in your repository, or in the <code>Administration.adoc</code> Admin Guide.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_multi_user_support_for_post_attribution">Multi-user Support for Post Attribution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Technically, HubPress already allowed to you set a collaborator on your repo so more than one user could write posts.</p>
+</div>
+<div class="paragraph">
+<p>What HubPress didn&#8217;t do was honour the post creator (author) if the settings were changed, and the site was regenerated.</p>
+</div>
+<div class="paragraph">
+<p>With 0.5.1, if you write a blog post, your GitHub user name will always be attached to the post.</p>
+</div>
+<div class="paragraph">
+<p>If you create a blog post, then another blogger on your team publishes it, the person who originally created the post is credited with writing the post.</p>
+</div>
+<div class="paragraph">
+<p>In a future release, we plan on enhancing how writer attribution is handled in the post, so stay tuned.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_author_page">Author page</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With the <strong>0.5.1</strong> release, the author page is now available!</p>
+</div>
+<div class="paragraph">
+<p>The author page regroups all the posts for a specific author.</p>
+</div>
+<div class="paragraph">
+<p>Here is an example from our blog:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16178446/304c1ff8-3648-11e6-9928-e19aaba8423c.png" alt="304c1ff8 3648 11e6 9928 e19aaba8423c">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_edit_and_delete_blog_posts">Edit and Delete Blog Posts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You no longer have to "delete" blogs posts by reusing an unwanted, unpublished blog post.</p>
+</div>
+<div class="paragraph">
+<p>The action overflow (three dots menu) next to each of your posts now has a <code>Delete</code> button.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179033/30283216-365a-11e6-8461-425fa0908f25.gif" alt="30283216 365a 11e6 8461 425fa0908f25">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synchronization">Synchronization</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Previous releases required you to reauthenticate in the HubPress Administration Console to synchronize your local content.</p>
+</div>
+<div class="paragraph">
+<p>With the 0.5.1 release, we introduce the <strong>Synchronize button</strong>:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179319/e97d23e6-3661-11e6-8f6b-e69de0026c51.gif" alt="e97d23e6 3661 11e6 8f6b e69de0026c51">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solarized_theme">Solarized theme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Solarized is now the default theme for the editor, you can switch easily between light and dark with one button:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16179640/8f0864d4-366b-11e6-8551-470443375de8.gif" alt="8f0864d4 366b 11e6 8551 470443375de8">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_includes">Includes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can now use includes in your AsciiDoc content:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184165/4012ec6a-36ba-11e6-8df4-01b26737c82d.png" alt="4012ec6a 36ba 11e6 8df4 01b26737c82d">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gist">Gist</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Developers use gist to store code snippets, and with 0.5.1 you can now use the gist macro to integrate those snippets in your post.</p>
+</div>
+<div class="paragraph">
+<p>For example with the gist <a href="https://gist.github.com/anthonny/7786310" class="bare">https://gist.github.com/anthonny/7786310</a> the usage is as follows:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184313/bf71edac-36bb-11e6-8acc-bcc779964fbc.png" alt="bf71edac 36bb 11e6 8acc bcc779964fbc">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_editor_validation_for_blog_posts">Editor Validation for Blog Posts</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In versions prior to 0.5.1, if you didn&#8217;t have a Level 1 heading starting your blog post, you were not able to save your blog post. The error that displayed as a result of this was not clear, which caused frustration for some users.</p>
+</div>
+<div class="paragraph">
+<p>In 0.5.1, the editor now has basic validation built-in.
+If you don&#8217;t start your blog with a Level 1 heading, there are no Preview or Save buttons in the editor. This is a visual clue to check your blog structure.</p>
+</div>
+<div class="paragraph">
+<p>If you want some tips on writing successful blog posts with HubPress, check out the <em>Writers' Guide</em> in your repository.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation">Documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The documentation for HubPress has undergone further improvements to better align the content.</p>
+</div>
+<div class="paragraph">
+<p>The Administration guide has had a content shuffle to remove information that should have been in the Writer&#8217;s Guide.</p>
+</div>
+<div class="paragraph">
+<p>The Writer&#8217;s Guide had some stray Administration content in it, which has now been moved into it&#8217;s proper home.</p>
+</div>
+<div class="paragraph">
+<p>Check out the docs and let us know if you see room for improvement.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation_moving_to_gitbook">Documentation Moving to GitBook</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Look out for the HubPress docs you see in your forked repository on <a href="https://gitbook.com" class="bare">https://gitbook.com</a> in the very near future.</p>
+</div>
+<div class="paragraph">
+<p>GitBook are huge supporters of Open Source projects, and make managing documentation for your project or your organisation easy.
+The team has been very generous in offering HubPress an Open Source license to use for our GitHub organisation.</p>
+</div>
+<div class="paragraph">
+<p>This allows Jared to separate documentation updates from code releases, and allows you to make in-line comments directly on the hosted docs.
+No Pull Request required.
+It&#8217;s an easy way to provide quick feedback on the documentation, so the team can make improvements in rapid iteration.</p>
+</div>
+<div class="paragraph">
+<p>Jared will migrate the user guides currently in your repository over to <a href="https://www.gitbook.com/@hubpress/" class="bare">https://www.gitbook.com/@hubpress/</a> and will re-align the README.adoc with links to these new resources.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_donations">Donations</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HubPress is now on <a href="https://gratipay.com/hubpress/">Gratipay</a>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e">
+</div>
+</div>
+<div class="paragraph">
+<p>It&#8217;s not the only way you can help us, but it is certainly a welcome one.
+Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform for you.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/16184450/bf6fbcca-36bc-11e6-940f-c00e3ba170ec.png" alt="bf6fbcca 36bc 11e6 940f c00e3ba170ec">
+</div>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2016/06/20/Update-Whats-New-in-Version-051.html</link><guid isPermaLink="true">https://hubpress.github.io/2016/06/20/Update-Whats-New-in-Version-051.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 20 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.4.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s been a year since HubPress launched. How time flies!</p>
+</div>
+<div class="paragraph">
+<p>1,976 forks.</p>
+</div>
+<div class="paragraph">
+<p>2,205 stars.</p>
+</div>
+<div class="paragraph">
+<p>An <a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">english</a> README translated in <a href="https://github.com/HubPress/hubpress.io/blob/master/README-es.adoc">spanish</a>, <a href="https://github.com/HubPress/hubpress.io/blob/master/README-zh.adoc">chinese</a> and <a href="https://github.com/HubPress/hubpress.io/blob/master/README-ja.adoc">japanese</a>.</p>
+</div>
+<div class="paragraph">
+<p>Hundreds of progressive blogs using HubPress and Asciidoctor to write scaleable content, in an easy-to-use product.</p>
+</div>
+<div class="paragraph">
+<p>Best of all, it&#8217;s totally free!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_material_design">Material design</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To give HubPress a modern, progressive User Interface, we&#8217;ve redesigned it using the Material design template.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12898068/189d3fb8-ceab-11e5-874c-1cdfb64925ab.png" alt="189d3fb8 ceab 11e5 874c 1cdfb64925ab">
+</div>
+</div>
+<div class="paragraph">
+<p>This provides an even better responsive design for mobile users, and provides a clean interface for new and existing bloggers.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12898111/562cfba2-ceab-11e5-9a7f-9b62c6304fb9.png" alt="562cfba2 ceab 11e5 9a7f 9b62c6304fb9">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Development">Development process</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HubPress is moving away from developing in the <a href="https://github.com/HubPress/hubpress.io">hubpress.io</a> repository.
+To ensure the hubpress.io repository remains clean for new adopters, development has shifted to <a href="https://github.com/HubPress/dev.hubpress.io">dev.hubpress.io</a>.</p>
+</div>
+<div class="paragraph">
+<p>The process to commit a change to HubPress is changed to the following:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create an issue on the <a href="https://github.com/HubPress/hubpress.io/issues">HubPress/hubpress.io</a> repository describing the change you propose.</p>
+</li>
+<li>
+<p>Fork <a href="https://github.com/HubPress/dev.hubpress.io" class="bare">https://github.com/HubPress/dev.hubpress.io</a> to make changes in the new development repository.</p>
+</li>
+<li>
+<p>Switch to the <code>/development</code> branch.</p>
+</li>
+<li>
+<p>Create a branch from <code>/development</code> in your forked repo.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+We suggest naming the branch using the format <code>issue-nnn</code> to make it easy to refer to the issue.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Open a Pull Request (PR), and summarise your changes, linking to the issue you created.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Once we receive your PR, we&#8217;ll review your changes and then either accept them or ask for further changes before final acceptance.</p>
+</div>
+<div class="paragraph">
+<p>The new repository is backed by Continuous Integration tasks provisioned through Travis-CI, which trigger automatically once a change to <code>/development</code> is detected.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s a more scalable way to manage HubPress moving forward.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_themes">Themes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HubPress uses the professional-looking Ghost themes to allow you to personalise your Blog. It&#8217;s been a year since release, so it&#8217;s time for a couple of new looks.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">uno-zen</dt>
+<dd>
+<p>This theme, created by <a href="https://twitter.com/kikobeats">Kiko Beats</a>, is a simplified theme you can use for a more "docs-site" looking blog:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Great for long-form blogs,</p>
+</li>
+<li>
+<p>Looks great with pinned posts.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12894487/3ee3d5c4-ce97-11e5-8a55-192608c40af1.jpeg" alt="3ee3d5c4 ce97 11e5 8a55 192608c40af1">
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">ghostium</dt>
+<dd>
+<p>This theme, created by <a href="https://twitter.com/oswaldoacauan">Oswaldo Acauan</a>, is focused on content and based on Medium:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Makes your content the star of the page,</p>
+</li>
+<li>
+<p>Fully responsive.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12894474/356ba1ac-ce97-11e5-849e-f5d2a4bff1b6.png" alt="356ba1ac ce97 11e5 849e f5d2a4bff1b6">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation">Documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The documentation for HubPress has undergone a bit of a face-lift as well.</p>
+</div>
+<div class="paragraph">
+<p>The README.adoc was becoming more of a User&#8217;s Guide and less a terse overview about getting started with the product.</p>
+</div>
+<div class="paragraph">
+<p>For this reason, the documentation has been separated out into the following documents:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">README.adoc</a></dt>
+<dd>
+<p>Just the basics of getting HubPress forked, and set up. Nothing else.</p>
+</dd>
+<dt class="hdlist1"><a href="https://github.com/HubPress/hubpress.io/blob/master/Administration.adoc">Administration.adoc</a></dt>
+<dd>
+<p>This guide helps you get your blog customised to your individual requirements.</p>
+</dd>
+<dt class="hdlist1"><a href="https://github.com/HubPress/hubpress.io/blob/master/Writers_Guide.adoc">Writers_Guide.adoc</a></dt>
+<dd>
+<p>If you are new to HubPress or AsciiDoc, this guide will help you write your first post like a professional.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Further improvements to the HubPress documentation set are planned, including:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>a Contributors guide to help theme developers and other contributors successfully develop for the platform.</p>
+</li>
+<li>
+<p>improvements to the documentation, including incorporating community feedback.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If you see an improvement to documentation that requires action, follow the <a href="#Development">Development process</a> steps above.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_donations">Donations</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>HubPress is now on <a href="https://gratipay.com/hubpress/">Gratipay</a>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901016/7b09da22-ceb9-11e5-93f7-16ab135b2e2e.png" alt="7b09da22 ceb9 11e5 93f7 16ab135b2e2e">
+</div>
+</div>
+<div class="paragraph">
+<p>It&#8217;s not the only way you can help us, but it is certainly a welcome one. Donations are a great way to show your appreciation for the platform: it inspires us to dedicate extra time away from our families and day jobs to make HubPress an awesome blogging platform for you.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png" alt="cc5ee908 ceb9 11e5 9d8b c526f081f1e9">
+</div>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2016/02/08/Update-Whats-New-in-Version-040.html</link><guid isPermaLink="true">https://hubpress.github.io/2016/02/08/Update-Whats-New-in-Version-040.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 08 Feb 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's New in Version 0.3.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This release of HubPress implements user token changes made to the <a href="https://developer.github.com/changes/2015-02-20-migration-period-removing-authorizations-token/">GitHub Authorization API</a>, that require immediate action from all HubPress Bloggers.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+You must update your version of HubPress before the 20 April 2015.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_does_the_new_api_affect_hubpress">How Does the New API Affect HubPress?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>When you logon to HubPress, a personal token is created in your GitHub account. With version 0.3.0, the personal token is now generated according to the environment (Browser and Operating System), and is deleted at each login:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/7214902/703f6770-e5c0-11e4-86cb-679dc4b1cd9a.png" alt="703f6770 e5c0 11e4 86cb 679dc4b1cd9a">
+</div>
+</div>
+<div class="paragraph">
+<p>The consequence is that you can no longer have multiple tabs in the <strong>same browser</strong> open to work on your HubPress blog instance. You can work around this issue by starting two instances of HubPress in different browsers, or by accessing your posts through the GitHub user interface in your blog repository.</p>
+</div>
+<div class="paragraph">
+<p>If you have never upgraded your instance of HubPress before, follow this tutorial to update your version before 20 April 2015.</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/KCylB780zSM?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_known_issues_in_this_release">Known Issues In This Release</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>While testing the release, The Docs Guy found what appeared to be a rogue commit on config.json on 12 March 2015 by hanwengchen (one of the community translators) that appears in the /master branch. There&#8217;s nothing to worry about: the change was reverted later in the commit for the release. You can upgrade with confidence.</p>
+</div>
+<div class="paragraph">
+<p>A full list of other notable changes can be found in the <a href="https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc">CHANGELOG</a>.</p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2015/04/18/Update-Whats-New-in-Version-030.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/04/18/Update-Whats-New-in-Version-030.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sat, 18 Apr 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Enhancing HubPress Documentation]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s <a href="http://github.com/jaredmorgs/">The Docs Guy</a> here with some thoughts about the current HubPress Documentation and how it&#8217;s delivery and presentation can be improved.</p>
+</div>
+<div class="paragraph">
+<p>Through amazing community support, HubPress has grown considerably in popularity and features. Since starting as The Docs Guy shortly after HubPress was released, it has both surprised and delighted me just how willing community members are to contribute their time and energy translating the <a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">README.adoc</a>. At the time of writing this post, HubPress is available in English, Simplified Chinese, Japanese, and Spanish thanks to the power of the HubPress User Community.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_challenge">The Challenge</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As the README has grown with HubPress, I&#8217;ve noticed that some content (embedded videos in particular) in the README just can not be displayed nicely. This is due to some limitations in the way GitHub presents Asciidoc rendered content. To be honest, README files are really only designed to contain the most basic of instructions, which can help a new user become familiar with the resources available to them in a project. To fix this problem, HubPress needs to present the documentation in a format that is better suited to more traditional user documentation, and leave the README as a launch pad for new users.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jekyll_asciidoc_quickstart_jaq">Jekyll Asciidoc Quickstart (JAQ)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve been experimenting with <a href="https://github.com/asciidoctor/jekyll-asciidoc-quickstart">JAQ</a>, which is a continuous docs build system <a href="https://github.com/johncarl81">John Ericksen</a> and members of the <a href="http://asciidoctor.org">Asciidoctor Project</a> created. This forkable repository was originally created to be a quick way to set up an Asciidoc Blog without all the complexity of Jekyll. Of course, when the Asciidoctor team saw just how amazing HubPress was, we needed a way to repurpose the project. I approached John because I was looking for a way to easily host Asciidoc User Guides on GitHub, without having to use a PC (I am always on an Android tablet, but only use a PC for work). John made some changes to <a href="https://github.com/asciidoctor/jekyll-asciidoc-quickstart">JAQ</a> which allowed the project to be used as a continuous build system for Documentation. To show you that it works, here is the <a href="http://goo.gl/8zGMFd">Asciidoc guide</a> I created voluntarily for FarSight Studios <em>The Pinball Arcade</em> on Android.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jaq_for_hubpress_docs">JAQ for HubPress Docs</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As you can see, the presentation you get with <a href="https://github.com/asciidoctor/jekyll-asciidoc-quickstart">JAQ</a> looks professional and is mobile-friendly. Furthermore, as a docs contributor you don&#8217;t need to install anything to update a user guide except for a web browser. This is because <a href="https://github.com/asciidoctor/jekyll-asciidoc-quickstart">JAQ</a> uses <a href="https://travis-ci.org/jaredmorgs/Pinball_Arcade_Users_Guide_Android">Travis CI</a> to build the book every time a commit is detected on /master.</p>
+</div>
+<div class="sect2">
+<h3 id="_proposed_plan">Proposed Plan</h3>
+<div class="paragraph">
+<p>I originally captured my ideas in <a href="https://github.com/HubPress/hubpress.io/issues/153">HubPress Issue 153</a> but didn&#8217;t see a huge response to the issue.
+Based on this response, I was just going to assume that "silence is agreement" and make the changes, but that still didn&#8217;t seem right to me. Even though nobody responded initially, it would have been disrespectful of me to drop this change on the community and just have them adapt: that is poor change management, and not in the interests of Open Source collaboration.</p>
+</div>
+<div class="paragraph">
+<p>Therefore, here is the proposed plan for discussion:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Provision a JAQ Repo.</p>
+</li>
+<li>
+<p>Import the README.</p>
+</li>
+<li>
+<p>Make relevant Ascidoc book structural changes:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Chunk the chapters into separate files</p>
+</li>
+<li>
+<p>Include chapters in the root book file as "includes"</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Set up Travis.</p>
+</li>
+<li>
+<p>Initiate the first build.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_jaq_2_0">JAQ 2.0</h3>
+<div class="paragraph">
+<p>The way JAQ is set up now, I would need to create a separate repository for each language and manually curate a landing page linking to the generated HTML for each book in each repository. I really <strong>don&#8217;t</strong> like this structure. What I want to achieve for HubPress is to take JAQ from a static docs hub for one book to a static docs <strong>site</strong> for <strong>multiple</strong> books:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Enable JAQ to support multiple docs folders as books:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Each book root folder has a folder node for:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>en-US,</p>
+</li>
+<li>
+<p>other languages as they are added.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Make the build script recurse down a <code>source</code> folder tree finding all the books and publishing each one when a commit is detected.</p>
+</li>
+<li>
+<p>Regenerate the docs landing page.</p>
+</li>
+<li>
+<p>Generate a changelog for the book from the GitHub PRs (nice to have).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Not only will this allow HubPress to have a dynamic docs site, it will allow small to medium enterprises to quickly create a docs site for their customers using the flexibility of Asciidoc and Asciidoctor.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_feedback">Feedback</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Now you&#8217;ve read my ideas, go ahead and give your feedback in <a href="https://github.com/HubPress/hubpress.io/issues/153">HubPress Issue 153</a>. This is a community effort, and no idea will be dismissed as long as it is constructive.</p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2015/03/23/Enhancing-HubPress-Documentation.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/03/23/Enhancing-HubPress-Documentation.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 23 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Docs Guy]]></title><description><![CDATA[<div class="paragraph">
+<p><a href="http://github.com/jaredmorgs/">Jared Morgan</a> is a Technical Writer for Red Hat, Ltd in Brisbane, Australia. By day, he produces open source user assistance for Red Hat JBoss Middleware. By night, he uses his craft to improve open source software products one <a href="https://github.com/HubPress/hubpress.io/blob/master/README.adoc">README</a> at a time. In between, he uses his expertise in Pinball machines and knowledge of Android beta testing to improve digital pinball apps.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="http://jaredmorgs.github.io/"><img src="https://cloud.githubusercontent.com/assets/2006548/6719598/f3cd999e-cdbb-11e4-94fc-b7aed239452c.jpg" alt="f3cd999e cdbb 11e4 94fc b7aed239452c"></a>
+</div>
+<div class="title">Jared Morgan - The Docs Guy</div>
+</div>
+<div class="paragraph">
+<p>The story behind how I contacted Jared and how he became the docs guy is a testament to why "Defaulting to Open" when you develop software should be how all software is created. Read more about this journey in Jared&#8217;s active <a href="http://jaredmorgs.github.io/">HubPress blog</a>. He has also created HubPress video tutorials on his <a href="https://youtu.be/KoaGU91qJv8">YouTube channel</a>, so check those out.</p>
+</div>
+<div class="paragraph">
+<p>You might be surprised to learn that helping out on an Open Source software project like HubPress does not necessarily require coding experience. Developers just like me are desperate for people with excellent writing skills (not just English). Translation is <strong>so</strong> important for software products, and helps sole-developers like me penetrate new markets and lower the barrier of entry to new audiences.</p>
+</div>
+<div class="paragraph">
+<p>If you know of another project that needs great user documentation, take a leaf out of Jared&#8217;s book and create that Pull Request: who knows where it will lead you!</p>
+</div>]]></description><link>https://hubpress.github.io/2015/03/18/The-Docs-Guy.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/03/18/The-Docs-Guy.html</guid><category><![CDATA[team]]></category><category><![CDATA[presentation]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Update: What's new in Version 0.2.0]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>An updated version of <a href="https://hubpress.github.io/">HubPress</a> is now available with the following new features:</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_feature_syntax_highlighting">New feature: Syntax Highlighting</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Most users of <a href="https://hubpress.github.io/">HubPress</a> are tech bloggers and find themselves writing many command-line examples in the blog posts they write. Code Highlighting is now implemented in  <a href="https://hubpress.github.io/">HubPress</a>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">function copyit(theField) {
+  var selectedText = document.selection;
+  if (selectedText.type == 'Text') {
+    var newRange = selectedText.createRange();
+    theField.focus();
+    theField.value = newRange.text;
+  }
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_feature_alternative_title">New feature: Alternative Title</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If your native language does not use latin characters, you can now specify an alternative title that is used to build the URL of your blog post.</p>
+</div>
+<div class="paragraph">
+<p>This feature is enabled through a new attribute <strong>hp-alt-title</strong>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">= テストをしてください
+:hp-alt-title: Please test it</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The URL format of the post is <strong><a href="http://myblog.com/2015/03/15/please-test-it.html" class="bare">http://myblog.com/2015/03/15/please-test-it.html</a></strong> and the title in the blog post remains as <strong>テストをしてください</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_feature_tags_generation">New feature: Tags generation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No more 404 on the tags link! Tag page generation is now available.
+Tags pages are built when you publish a post and the site is re-paginated. It may take a short while for the tag cloud to update on your site.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_documentation">Documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Our documentation is now available in Chinese and Spanish: thanks to our dedicated community contributors!</p>
+</div>
+<div class="paragraph">
+<p>You can find all changes in the <a href="https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc">CHANGELOG</a></p>
+</div>
+</div>
+</div>]]></description><link>https://hubpress.github.io/2015/03/15/Update-Whats-new-in-Version-020.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/03/15/Update-Whats-new-in-Version-020.html</guid><category><![CDATA[release]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Sun, 15 Mar 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress loves Instagram !]]></title><description><![CDATA[<div class="paragraph">
+<p>If you are an <a href="http://instagram.com">Instagram</a> user, you can easily put your photos in your blog post.</p>
+</div>
+<div class="paragraph">
+<p>You just have to get your photo&#8217;s embed code:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://cloud.githubusercontent.com/assets/2006548/6183616/3fb62d0a-b357-11e4-9998-235d0b55ac92.png" alt="3fb62d0a b357 11e4 9998 235d0b55ac92">
+</div>
+</div>
+<div class="paragraph">
+<p>And then paste it in HubPress and surround it with 4 +'s as shown below.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">++++
+
+put your embedded code here !
+
+++++</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">++++
+
+&lt;blockquote class="instagram-media" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://instagram.com/p/zCBfwCtfMW/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_top"&gt;Une photo publiée par @anthonny.querouil&lt;/a&gt; le &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-13T06:39:41+00:00"&gt;12 Févr. 2015 à 22h39 PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+
+++++</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>That&#8217;s it!</p>
+</div>
+<blockquote class="instagram-media" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/zCBfwCtfMW/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_top">Une photo publiée par @anthonny.querouil</a> le <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-13T06:39:41+00:00">12 Févr. 2015 à 22h39 PST</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<div class="paragraph">
+<p>Attached below is a "how to" video which shows you the simplicity of publishing your instagram photos in a HubPress blog post:</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/JRwuhusiJ6Y?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="paragraph">
+<p>Now go have fun with <a href="https://hubpress.github.io">HubPress</a>!</p>
+</div>]]></description><link>https://hubpress.github.io/2015/02/13/HubPress-loves-Instagram.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/02/13/HubPress-loves-Instagram.html</guid><category><![CDATA[instagram]]></category><category><![CDATA[tips]]></category><category><![CDATA[video]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 13 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress: a web application to build static blogs on GitHub Pages.]]></title><description><![CDATA[<div class="paragraph">
+<p>As <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://octopress.org/">Octopress</a> or <a href="http://awestruct.org/">Awestruct</a>, the goal of <a href="https://hubpress.github.io/">HubPress</a> is to build static content on <a href="https://pages.github.com/">Github Pages</a>.</p>
+</div>
+<div class="paragraph">
+<p>These tools are really great, but we wanted to provide a tool that is more <strong>user-friendly</strong> and <strong>accessible</strong> for the average person.
+Another reason is because we love the <a href="http://www.methods.co.nz/asciidoc/userguide.html">Asciidoc</a> markup and we wanted a way to contribute to its development.</p>
+</div>
+<div class="paragraph">
+<p>That&#8217;s why we made <a href="https://hubpress.github.io/">HubPress</a>.</p>
+</div>
+<div class="paragraph">
+<p>With the usual tools building a blog on <a href="https://pages.github.com/">Github Pages</a> requires a decent amount of technical knowledge (you need to know git, to install ruby, to learn a build process &#8230;&#8203;).</p>
+</div>
+<div class="paragraph">
+<p>To provide a better user experience, we made a web interface based on <a href="http://asciidoctor.org/">Asciidoctor</a> with the <a href="https://github.com/asciidoctor/asciidoctor.js">javascript</a> version.</p>
+</div>
+<div class="paragraph">
+<p>With HubPress all you need is an internet connection and a <a href="https://github.com/">GitHub</a> account, <strong>that&#8217;s it</strong>!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://hubpress.github.io/img/editor.png" alt="editor">
+</div>
+<div class="title">HubPress editor</div>
+</div>
+<div class="paragraph">
+<p>To save or publish a post, just one click is necessary. We focus on accessibility, you just have to focus on writing.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://hubpress.github.io/">HubPress</a> is :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>easy to use</strong>: no technical skills required</p>
+</li>
+<li>
+<p><strong>free</strong>: no subscription, you don&#8217;t have to pay rent for a server</p>
+</li>
+<li>
+<p><strong>yours</strong>: once <a href="https://hubpress.github.io/">HubPress</a> is installed in your repository <a href="https://github.com/">GitHub</a>, you can live alone if you want.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Please find here attached an "how to" video which shows you the simplicity of publishing your own blog post with HubPress.</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/7gP3i4tHlRM?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="paragraph">
+<p>Reminder: HubPress is still in its testing stages. So your feedback is more than welcome.
+If you want to give it a try, you&#8217;re welcome to: <a href="https://github.com/HubPress/hubpress.io" class="bare">https://github.com/HubPress/hubpress.io</a></p>
+</div>
+<div class="paragraph">
+<p>Anthonny.</p>
+</div>]]></description><link>https://hubpress.github.io/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</link><guid isPermaLink="true">https://hubpress.github.io/2015/02/06/HubPress-a-web-application-to-build-static-blogs-on-GitHub-Pages.html</guid><category><![CDATA[news]]></category><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 06 Feb 2015 00:00:00 GMT</pubDate></item></channel></rss>
