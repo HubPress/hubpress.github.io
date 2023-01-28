@@ -80,7 +80,7 @@ image::https://user-images.githubusercontent.com/2006548/39791717-79777448-533d-
 == Contributing
 Because donation is not the only way to help an opensource project, we made a page which list some kind of contribution:
 
-https://hubpress.github.io/contributing.html
+https://hubpress.dev/contributing.html
 
 Also we are now on {url_oc}[Open Collective]!
 

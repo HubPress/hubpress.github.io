@@ -1,7 +1,7 @@
 = Update: What's new in Version 0.2.0
 :hp-tags: release
 :published_at: 2015-03-15
-:url-hubpress: https://hubpress.github.io/
+:url-hubpress: https://hubpress.dev/
 :url-changelog: https://github.com/HubPress/hubpress.io/blob/master/CHANGELOG.adoc
 
 An updated version of {url-hubpress}[HubPress] is now available with the following new features:

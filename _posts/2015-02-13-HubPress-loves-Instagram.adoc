@@ -43,4 +43,4 @@ Attached below is a "how to" video which shows you the simplicity of publishing 
 
 video::JRwuhusiJ6Y[youtube]
 
-Now go have fun with https://hubpress.github.io[HubPress]!
+Now go have fun with https://hubpress.dev[HubPress]!

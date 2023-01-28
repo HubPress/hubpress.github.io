@@ -8,12 +8,12 @@
   },
   "site": {
     "title": "HubPress",
-    "logo": "http://hubpress.github.io/img/logo.png",
+    "logo": "http://hubpress.dev/img/logo.png",
     "postsPerPage": "10",
     "fathomAnalytics": "HYWCEFZV",
     "disqus": "hubpress",
     "description": "HubPress: a web application to build your Blog on GitHub",
-    "cover": "https://hubpress.github.io/images/bk-freeze-or.jpg",
+    "cover": "https://hubpress.dev/images/bk-freeze-or.jpg",
     "delay": "500",
     "blogPath": "blog/",
     "googleAnalytics": ""
@@ -36,42 +36,33 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://hubpress.github.io",
+    "site": "https://hubpress.dev",
     "hubpress": "http://localhost:3000",
-    "theme": "//hubpress.github.io/themes/casper",
-    "images": "https://hubpress.github.io/images"
+    "theme": "//hubpress.dev/themes/casper",
+    "images": "https://hubpress.dev/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
     "computed": {},
     "methods": {},
-    "staticRenderFns": [
-      null,
-      null,
-      null
-    ],
+    "staticRenderFns": [null, null, null],
     "_compiled": true,
-    "beforeCreate": [
-      null,
-      null
-    ],
+    "beforeCreate": [null, null],
     "__file": "hubpress-plugins/hubpress-github/components/InitConfig.vue",
-    "beforeDestroy": [
-      null
-    ]
+    "beforeDestroy": [null]
   },
   "navigation": [
     {
       "label": "Home",
-      "url": "https://hubpress.github.io"
+      "url": "https://hubpress.dev"
     },
     {
       "label": "Blog",
-      "url": "https://hubpress.github.io/blog"
+      "url": "https://hubpress.dev/blog"
     },
     {
       "label": "Contribute",
-      "url": "https://hubpress.github.io/contributing.html"
+      "url": "https://hubpress.dev/contributing.html"
     }
   ]
 }
